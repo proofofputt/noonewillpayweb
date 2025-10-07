@@ -45,15 +45,17 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             <h1 className="text-xl md:text-3xl font-bold text-black">
               Free • Fair • Decentralized
             </h1>
-            <p className="text-base md:text-xl text-grey max-w-2xl mx-auto">
+            <p className="text-sm md:text-base text-gray-600 max-w-4xl mx-auto">
               A Bitcoin education platform from the capital of the free world.
             </p>
-            <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
-              Please take this 3 question survey to help us research common knowledge. 
-            </p>
-            <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
-             Sign up at the end to take the full 21 point questionnaire, access educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
-            </p>
+            <div className="text-left max-w-3xl mx-auto mt-8 space-y-4">
+              <p className="text-base text-white leading-relaxed">
+                Please take this 3 question survey to help us research common knowledge.
+              </p>
+              <p className="text-base text-white leading-relaxed">
+                Sign up at the end to take the full 21 point questionnaire, access educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
+              </p>
+            </div>
           </motion.div>
 
           <motion.button
