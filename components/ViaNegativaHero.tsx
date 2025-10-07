@@ -8,9 +8,9 @@ interface ViaNegativaHeroProps {
 
 export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps) {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-steel-700">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-steel-700">
+      <div className="absolute inset-0 bg-gradient-to-br from-steel-700 to-steel-800">
         <div className="absolute inset-0 opacity-20">
           {[...Array(50)].map((_, i) => (
             <motion.div
@@ -35,7 +35,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        <div className="container-card p-12">
+        <div className="container-card p-12 bg-gradient-to-br from-orange via-orange-dark to-steel-800">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
