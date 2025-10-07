@@ -42,10 +42,10 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             transition={{ delay: 0.6, duration: 0.8 }}
             className="space-y-4 mb-12"
           >
-            <h1 className="text-3xl md:text-5xl font-bold text-black">
+            <h1 className="text-xl md:text-3xl font-bold text-black">
               Free • Fair • Decentralized
             </h1>
-            <p className="text-xl md:text-2xl text-grey max-w-2xl mx-auto">
+            <p className="text-base md:text-xl text-grey max-w-2xl mx-auto">
               A Bitcoin education platform from the capital of the free world.
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
