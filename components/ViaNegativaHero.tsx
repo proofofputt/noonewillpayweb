@@ -42,10 +42,10 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             transition={{ delay: 0.6, duration: 0.8 }}
             className="space-y-4 mb-12"
           >
-            <p className="text-lg text-steel-200">
+            <h1 className="text-3xl md:text-5xl font-bold text-white">
               Free • Fair • Decentralized
-            </p>
-            <p className="text-sm text-steel-300 max-w-2xl mx-auto">
+            </h1>
+            <p className="text-xl md:text-2xl text-white max-w-2xl mx-auto">
               A Bitcoin education platform from the capital of the free world.
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
@@ -67,29 +67,6 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
           >
             Begin Survey
           </motion.button>
-          <motion.h3
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="text-xl md:text-3xl font-bold mt-8 mb-4 text-white uppercase"
-          >
-            <span>No</span>
-            <span className="text-white mx-2">•</span>
-            <span>One</span>
-            <span className="text-white mx-2">•</span>
-            <span>Will</span>
-            <span className="text-white mx-2">•</span>
-            <span>Pay</span>
-          </motion.h3>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-base md:text-lg text-steel-200"
-          >
-            Speedrunning Bitcoin Via Negativa
-          </motion.p>
         </div>
       </div>
     </section>
