@@ -242,17 +242,29 @@ export default function SurveyForm() {
                   {q.difficulty.toUpperCase()}
                 </span>
                 <p className="mt-2 font-medium text-white">{q.question}</p>
-                {q.hint && (
-                  <p className="text-sm text-gray-200 mt-1">💡 {q.hint}</p>
-                )}
               </div>
             </div>
-            <input
-              {...answersForm.register(`answers.question${index + 1}` as 'answers.question1' | 'answers.question2' | 'answers.question3')}
-              type="text"
-              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-              placeholder="Your answer (numbers only)"
-            />
+
+            <div className="space-y-3">
+              {q.options?.map((option) => {
+                const optionLetter = option.charAt(0)
+                return (
+                  <label
+                    key={option}
+                    className="flex items-center p-3 bg-white/90 text-black border-2 border-white rounded-lg cursor-pointer hover:border-orange hover:bg-white transition-all"
+                  >
+                    <input
+                      {...answersForm.register(`answers.question${index + 1}` as 'answers.question1' | 'answers.question2' | 'answers.question3')}
+                      type="radio"
+                      value={optionLetter}
+                      className="mr-3 w-5 h-5 accent-orange"
+                    />
+                    <span className="font-medium">{option}</span>
+                  </label>
+                )
+              })}
+            </div>
+
             {answersForm.formState.errors.answers?.['question1'] && index === 0 && (
               <p className="text-red-500 text-sm mt-1">{answersForm.formState.errors.answers.question1.message}</p>
             )}
