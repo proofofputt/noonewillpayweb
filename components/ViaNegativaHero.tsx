@@ -49,10 +49,10 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
               A Bitcoin education platform for the capital of the Free World.
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
-              Please take this 3 question survey to test common knowledge. 
+              Please take this 3 question survey to help us research common knowledge. 
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
-             Sign up at the end to take the full 21 point questionnaire and sign up for free educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
+             Sign up at the end to take the full 21 point questionnaire, and for free educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
             </p>
           </motion.div>
 
