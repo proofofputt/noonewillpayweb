@@ -52,7 +52,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
               Please take this 3 question survey to help us research common knowledge. 
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
-             Sign up at the end to take the full 21 point questionnaire, and for free educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
+             Sign up at the end to take the full 21 point questionnaire, access educational resources on: Bitcoin, Energy, and innovative tools for human coordination.
             </p>
           </motion.div>
 
@@ -71,7 +71,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold mb-8 text-white"
+            className="text-xl md:text-3xl font-bold mt-8 mb-4 text-white"
           >
             <span>No</span>
             <span className="text-steel-500 mx-2">•</span>
@@ -86,7 +86,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-xl md:text-2xl mb-12 text-steel-200"
+            className="text-base md:text-lg text-steel-200"
           >
             Speedrunning Bitcoin Via Negativa
           </motion.p>
