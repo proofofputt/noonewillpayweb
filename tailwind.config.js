@@ -10,9 +10,10 @@ module.exports = {
       colors: {
         bitcoin: '#F7931A',
         orange: {
-          DEFAULT: '#FF6B35',
-          light: '#FF8C61',
-          dark: '#E04E1F',
+          DEFAULT: '#F7931A',
+          light: '#FFA940',
+          dark: '#C17612',
+          darker: '#8B5509',
         },
         steel: {
           50: '#F8F9FA',
@@ -22,8 +23,8 @@ module.exports = {
           400: '#ADB5BD',
           500: '#6C757D',
           600: '#495057',
-          700: '#343A40',
-          800: '#212529',
+          700: '#959898',
+          800: '#C18300',
           900: '#1A1D21',
         },
         ordinal: '#8B5CF6',

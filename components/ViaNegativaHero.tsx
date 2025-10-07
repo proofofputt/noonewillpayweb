@@ -10,7 +10,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-steel-700">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-steel-800 via-steel-700 to-steel-900">
+      <div className="absolute inset-0 bg-gradient-to-br from-steel-800 via-steel-800 to-steel-700">
         <div className="absolute inset-0 opacity-20">
           {[...Array(50)].map((_, i) => (
             <motion.div
@@ -46,7 +46,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
               Free • Fair • Decentralized
             </p>
             <p className="text-sm text-steel-300 max-w-2xl mx-auto">
-              A Bitcoin education platform for the capital of the Free World.
+              A Bitcoin education platform from the capital of the free world.
             </p>
             <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
               Please take this 3 question survey to help us research common knowledge. 
@@ -63,7 +63,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onBeginSurvey}
-            className="px-8 py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-light transition-colors shadow-lg border-2 border-orange-dark"
+            className="px-8 py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
           >
             Begin Survey
           </motion.button>
