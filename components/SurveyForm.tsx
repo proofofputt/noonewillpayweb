@@ -7,29 +7,39 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { getRandomQuestions } from '@/lib/questions'
 
-const surveySchema = z.object({
+const answersSchema = z.object({
+  answers: z.object({
+    question1: z.string().min(1, 'Answer is required'),
+    question2: z.string().min(1, 'Answer is required'),
+    question3: z.string().min(1, 'Answer is required'),
+  }),
+})
+
+const contactSchema = z.object({
   email: z.string().email('Invalid email address'),
   phone: z.string().min(10, 'Phone number must be at least 10 digits'),
   region: z.enum(['DC', 'MD', 'VA', 'OTHER'], {
     required_error: 'Please select your region'
   }),
   onCamera: z.boolean(),
-  answers: z.object({
-    question1: z.string().min(1, 'Answer is required'),
-    question2: z.string().min(1, 'Answer is required'),
-    question3: z.string().min(1, 'Answer is required'),
-  }),
   newsletter: z.boolean(),
 })
 
-type SurveyFormData = z.infer<typeof surveySchema>
+type AnswersFormData = z.infer<typeof answersSchema>
+type ContactFormData = z.infer<typeof contactSchema>
 
 export default function SurveyForm() {
   const [questions, setQuestions] = useState<any[]>([])
-  const [submitted, setSubmitted] = useState(false)
+  const [answersSubmitted, setAnswersSubmitted] = useState(false)
+  const [surveyAnswers, setSurveyAnswers] = useState<AnswersFormData | null>(null)
+  const [finalSubmitted, setFinalSubmitted] = useState(false)
 
-  const { register, handleSubmit, formState: { errors } } = useForm<SurveyFormData>({
-    resolver: zodResolver(surveySchema),
+  const answersForm = useForm<AnswersFormData>({
+    resolver: zodResolver(answersSchema),
+  })
+
+  const contactForm = useForm<ContactFormData>({
+    resolver: zodResolver(contactSchema),
     defaultValues: {
       onCamera: false,
       newsletter: true,
@@ -41,31 +51,37 @@ export default function SurveyForm() {
     setQuestions(getRandomQuestions())
   }, [])
 
-  const onSubmit = async (data: SurveyFormData) => {
+  const onAnswersSubmit = (data: AnswersFormData) => {
+    setSurveyAnswers(data)
+    setAnswersSubmitted(true)
+  }
+
+  const onContactSubmit = async (data: ContactFormData) => {
     try {
       const response = await fetch('/api/submit-survey', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...data,
+          answers: surveyAnswers?.answers,
           questions: questions.map((q, i) => ({
             id: q.id,
             question: q.question,
-            answer: data.answers[`question${i + 1}` as keyof typeof data.answers]
+            answer: surveyAnswers?.answers[`question${i + 1}` as keyof typeof surveyAnswers.answers]
           })),
           timestamp: new Date().toISOString(),
         }),
       })
 
       if (response.ok) {
-        setSubmitted(true)
+        setFinalSubmitted(true)
       }
     } catch (error) {
       console.error('Error submitting survey:', error)
     }
   }
 
-  if (submitted) {
+  if (finalSubmitted) {
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
@@ -94,81 +110,120 @@ export default function SurveyForm() {
     )
   }
 
+  // Show contact form after answers are submitted
+  if (answersSubmitted) {
+    return (
+      <motion.form
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        onSubmit={contactForm.handleSubmit(onContactSubmit)}
+        className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
+      >
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4 text-black">Join the Community</h2>
+          <p className="text-white">
+            Share your contact information to access educational resources
+          </p>
+        </div>
+
+        {/* Contact Information */}
+        <div className="space-y-6 p-6 bg-black/20 rounded-lg border border-white/30">
+          <h3 className="text-xl font-bold text-white">Contact Information</h3>
+
+          <div>
+            <label className="block text-sm font-medium mb-2 text-white">Email</label>
+            <input
+              {...contactForm.register('email')}
+              type="email"
+              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
+              placeholder="satoshi@example.com"
+            />
+            {contactForm.formState.errors.email && (
+              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.email.message}</p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2 text-white">Phone Number</label>
+            <input
+              {...contactForm.register('phone')}
+              type="tel"
+              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
+              placeholder="(202) 555-0123"
+            />
+            {contactForm.formState.errors.phone && (
+              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.phone.message}</p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2 text-white">Region</label>
+            <select
+              {...contactForm.register('region')}
+              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
+            >
+              <option value="">Select your region</option>
+              <option value="DC">Washington, DC</option>
+              <option value="MD">Maryland</option>
+              <option value="VA">Virginia</option>
+              <option value="OTHER">Tourist/Transplant</option>
+            </select>
+            {contactForm.formState.errors.region && (
+              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.region.message}</p>
+            )}
+          </div>
+
+          <div className="flex items-center">
+            <input
+              {...contactForm.register('onCamera')}
+              type="checkbox"
+              className="mr-2 w-4 h-4"
+            />
+            <label className="text-sm text-white">I consent to being recorded on camera (street interview)</label>
+          </div>
+        </div>
+
+        {/* Newsletter */}
+        <div className="p-6 bg-black/20 rounded-lg border border-white/30">
+          <div className="flex items-center">
+            <input
+              {...contactForm.register('newsletter')}
+              type="checkbox"
+              className="mr-2 w-4 h-4"
+            />
+            <label className="text-sm text-white">
+              Subscribe to our newsletter for Bitcoin education updates and community offers
+            </label>
+          </div>
+        </div>
+
+        <button
+          type="submit"
+          className="w-full py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
+        >
+          Complete Registration
+        </button>
+      </motion.form>
+    )
+  }
+
+  // Show questions form first
   return (
     <motion.form
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      onSubmit={handleSubmit(onSubmit)}
+      onSubmit={answersForm.handleSubmit(onAnswersSubmit)}
       className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
     >
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-black">Bitcoin Knowledge Survey</h2>
+        <h2 className="text-3xl font-bold mb-4 text-black">Common Knowledge Survey</h2>
         <p className="text-white">
-          Answer 3 questions to join the Bitcoin education community
+          Three things that aught to be, but often are not known.
         </p>
-      </div>
-
-      {/* Contact Information */}
-      <div className="space-y-6 p-6 bg-black/20 rounded-lg border border-white/30">
-        <h3 className="text-xl font-bold text-white">Contact Information</h3>
-
-        <div>
-          <label className="block text-sm font-medium mb-2 text-white">Email</label>
-          <input
-            {...register('email')}
-            type="email"
-            className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-            placeholder="satoshi@example.com"
-          />
-          {errors.email && (
-            <p className="text-red-300 text-sm mt-1">{errors.email.message}</p>
-          )}
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium mb-2 text-white">Phone Number</label>
-          <input
-            {...register('phone')}
-            type="tel"
-            className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-            placeholder="(202) 555-0123"
-          />
-          {errors.phone && (
-            <p className="text-red-300 text-sm mt-1">{errors.phone.message}</p>
-          )}
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium mb-2 text-white">Region</label>
-          <select
-            {...register('region')}
-            className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-          >
-            <option value="">Select your region</option>
-            <option value="DC">Washington, DC</option>
-            <option value="MD">Maryland</option>
-            <option value="VA">Virginia</option>
-            <option value="OTHER">Tourist/Transplant</option>
-          </select>
-          {errors.region && (
-            <p className="text-red-300 text-sm mt-1">{errors.region.message}</p>
-          )}
-        </div>
-
-        <div className="flex items-center">
-          <input
-            {...register('onCamera')}
-            type="checkbox"
-            className="mr-2 w-4 h-4"
-          />
-          <label className="text-sm text-white">I consent to being recorded on camera (street interview)</label>
-        </div>
       </div>
 
       {/* Questions */}
       <div className="space-y-6">
-        <h3 className="text-xl font-bold text-white">Your Questions</h3>
-
         {questions.map((q, index) => (
           <motion.div
             key={q.id}
@@ -193,36 +248,22 @@ export default function SurveyForm() {
               </div>
             </div>
             <input
-              {...register(`answers.question${index + 1}` as 'answers.question1' | 'answers.question2' | 'answers.question3')}
+              {...answersForm.register(`answers.question${index + 1}` as 'answers.question1' | 'answers.question2' | 'answers.question3')}
               type="text"
               className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
               placeholder="Your answer (numbers only)"
             />
-            {errors.answers?.['question1'] && index === 0 && (
-              <p className="text-red-500 text-sm mt-1">{errors.answers.question1.message}</p>
+            {answersForm.formState.errors.answers?.['question1'] && index === 0 && (
+              <p className="text-red-500 text-sm mt-1">{answersForm.formState.errors.answers.question1.message}</p>
             )}
-            {errors.answers?.['question2'] && index === 1 && (
-              <p className="text-red-500 text-sm mt-1">{errors.answers.question2.message}</p>
+            {answersForm.formState.errors.answers?.['question2'] && index === 1 && (
+              <p className="text-red-500 text-sm mt-1">{answersForm.formState.errors.answers.question2.message}</p>
             )}
-            {errors.answers?.['question3'] && index === 2 && (
-              <p className="text-red-500 text-sm mt-1">{errors.answers.question3.message}</p>
+            {answersForm.formState.errors.answers?.['question3'] && index === 2 && (
+              <p className="text-red-500 text-sm mt-1">{answersForm.formState.errors.answers.question3.message}</p>
             )}
           </motion.div>
         ))}
-      </div>
-
-      {/* Newsletter */}
-      <div className="p-6 bg-black/20 rounded-lg border border-white/30">
-        <div className="flex items-center">
-          <input
-            {...register('newsletter')}
-            type="checkbox"
-            className="mr-2 w-4 h-4"
-          />
-          <label className="text-sm text-white">
-            Subscribe to our newsletter for Bitcoin education updates and community offers
-          </label>
-        </div>
       </div>
 
       <button

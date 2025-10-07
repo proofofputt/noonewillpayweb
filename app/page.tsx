@@ -1,12 +1,19 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import SurveyForm from '@/components/SurveyForm'
 import ViaNegativaHero from '@/components/ViaNegativaHero'
 
 export default function Home() {
   const [showSurvey, setShowSurvey] = useState(false)
+  const surveyRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (showSurvey && surveyRef.current) {
+      surveyRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }
+  }, [showSurvey])
 
   return (
     <main className="min-h-screen">
@@ -14,6 +21,7 @@ export default function Home() {
 
       {showSurvey && (
         <motion.div
+          ref={surveyRef}
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
