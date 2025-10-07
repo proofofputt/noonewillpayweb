@@ -10,7 +10,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-steel-700">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-steel-700 via-steel-700 to-steel-800">
+      <div className="absolute inset-0 bg-steel-700">
         <div className="absolute inset-0 opacity-20">
           {[...Array(50)].map((_, i) => (
             <motion.div
