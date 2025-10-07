@@ -10,7 +10,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-steel-700">
       {/* Animated background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-steel-800 via-steel-700 to-steel-700">
+      <div className="absolute inset-0 bg-gradient-to-br from-steel-700 via-steel-700 to-steel-800">
         <div className="absolute inset-0 opacity-20">
           {[...Array(50)].map((_, i) => (
             <motion.div
@@ -71,14 +71,14 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-xl md:text-3xl font-bold mt-8 mb-4 text-white"
+            className="text-xl md:text-3xl font-bold mt-8 mb-4 text-white uppercase"
           >
             <span>No</span>
-            <span className="text-steel-500 mx-2">•</span>
+            <span className="text-white mx-2">•</span>
             <span>One</span>
-            <span className="text-steel-500 mx-2">•</span>
+            <span className="text-white mx-2">•</span>
             <span>Will</span>
-            <span className="text-steel-500 mx-2">•</span>
+            <span className="text-white mx-2">•</span>
             <span>Pay</span>
           </motion.h3>
 
