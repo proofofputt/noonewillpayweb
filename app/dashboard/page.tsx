@@ -29,8 +29,11 @@ export default function DashboardPage() {
   })
 
   const [copied, setCopied] = useState(false)
+  const [referralUrl, setReferralUrl] = useState('')
 
-  const referralUrl = `${window.location.origin}/?ref=${stats.referralCode}`
+  useEffect(() => {
+    setReferralUrl(`${window.location.origin}/?ref=${stats.referralCode}`)
+  }, [stats.referralCode])
 
   const copyReferralLink = () => {
     navigator.clipboard.writeText(referralUrl)

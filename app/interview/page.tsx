@@ -13,12 +13,14 @@ export default function StreetInterviewPage() {
   const [participantInfo, setParticipantInfo] = useState<any>(null)
   const [showQR, setShowQR] = useState(true)
   const [recording, setRecording] = useState(false)
+  const [qrCodeUrl, setQrCodeUrl] = useState('')
 
   useEffect(() => {
     // Generate unique session ID for surveyor
     const id = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`
     setSessionId(id)
     setQuestions(getRandomQuestions())
+    setQrCodeUrl(`${window.location.origin}/interview/join?session=${id}`)
   }, [])
 
   const startInterview = (info: any) => {
@@ -77,10 +79,12 @@ export default function StreetInterviewPage() {
           </h1>
 
           <div className="bg-white p-8 rounded-lg mb-6 inline-block">
-            <QRCodeSVG
-              value={`${window.location.origin}/interview/join?session=${sessionId}`}
-              size={300}
-            />
+            {qrCodeUrl && (
+              <QRCodeSVG
+                value={qrCodeUrl}
+                size={300}
+              />
+            )}
           </div>
 
           <p className="text-xl text-gray-300 mb-4">
