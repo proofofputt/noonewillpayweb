@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import SurveyForm from '@/components/SurveyForm'
 import ViaNegativaHero from '@/components/ViaNegativaHero'
-import WhatWeDoNot from '@/components/WhatWeDoNot'
 
 export default function Home() {
   const [showSurvey, setShowSurvey] = useState(false)
@@ -13,7 +12,7 @@ export default function Home() {
     <main className="min-h-screen">
       <ViaNegativaHero onBeginSurvey={() => setShowSurvey(true)} />
 
-      {showSurvey ? (
+      {showSurvey && (
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -22,8 +21,6 @@ export default function Home() {
         >
           <SurveyForm />
         </motion.div>
-      ) : (
-        <WhatWeDoNot />
       )}
     </main>
   )
