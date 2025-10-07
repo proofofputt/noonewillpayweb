@@ -65,8 +65,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={onBeginSurvey}
-            className="px-8 py-4 bg-orange font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
-            style={{ color: '#22C55E' }}
+            className="px-8 py-4 bg-orange text-black font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
           >
             Begin Survey
           </motion.button>
