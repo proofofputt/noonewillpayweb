@@ -37,15 +37,15 @@ const notItems = [
 
 export default function WhatWeDoNot() {
   return (
-    <section className="py-20 px-4 bg-gray-950">
+    <section className="py-20 px-4 bg-steel-700">
       <div className="container mx-auto max-w-6xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold text-center mb-16"
+          className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
         >
-          What We <span className="text-bitcoin">Do NOT</span> Do
+          What We <span className="text-orange">Do NOT</span> Do
         </motion.h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -56,11 +56,11 @@ export default function WhatWeDoNot() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="p-6 border border-gray-800 rounded-lg hover:border-bitcoin transition-colors via-negativa"
+              className="container-card p-6 hover:border-orange transition-colors"
             >
               <div className="text-4xl mb-4">{item.icon}</div>
-              <h3 className="text-xl font-bold mb-2 text-bitcoin">{item.title}</h3>
-              <p className="text-gray-400">{item.description}</p>
+              <h3 className="text-xl font-bold mb-2 text-orange">{item.title}</h3>
+              <p className="text-steel-200">{item.description}</p>
             </motion.div>
           ))}
         </div>
@@ -70,12 +70,12 @@ export default function WhatWeDoNot() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.6 }}
-          className="mt-16 text-center"
+          className="mt-16 text-center container-card p-8"
         >
-          <p className="text-xl text-gray-300 mb-4">
-            We emphasize what is <span className="text-ordinal font-bold">absent</span> to highlight the <span className="text-runes font-bold">value</span>
+          <p className="text-xl text-white mb-4">
+            We emphasize what is <span className="text-orange font-bold">absent</span> to highlight the <span className="text-orange font-bold">value</span>
           </p>
-          <p className="text-gray-500">
+          <p className="text-steel-300">
             This is Via Negativa - defining something by what it is NOT
           </p>
         </motion.div>

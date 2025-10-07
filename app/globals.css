@@ -4,12 +4,19 @@
 
 :root {
   --bitcoin-orange: #F7931A;
+  --orange: #FF6B35;
   --ordinal-purple: #8B5CF6;
   --runes-green: #10B981;
+  --steel-grey: #6C757D;
+  --steel-dark: #343A40;
 }
 
 body {
-  @apply bg-black text-white font-mono;
+  @apply bg-steel-700 text-white font-mono;
+}
+
+.glow-orange {
+  text-shadow: 0 0 10px var(--orange), 0 0 20px var(--orange);
 }
 
 .glow-bitcoin {
@@ -22,6 +29,10 @@ body {
 
 .glow-runes {
   text-shadow: 0 0 10px var(--runes-green), 0 0 20px var(--runes-green);
+}
+
+.container-card {
+  @apply bg-steel-800 border border-steel-600 rounded-lg shadow-lg;
 }
 
 .via-negativa {
