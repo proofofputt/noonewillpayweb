@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bitcoin-orange: #F7931A;
+  --ordinal-purple: #8B5CF6;
+  --runes-green: #10B981;
+}
+
+body {
+  @apply bg-black text-white font-mono;
+}
+
+.glow-bitcoin {
+  text-shadow: 0 0 10px var(--bitcoin-orange), 0 0 20px var(--bitcoin-orange);
+}
+
+.glow-ordinal {
+  text-shadow: 0 0 10px var(--ordinal-purple), 0 0 20px var(--ordinal-purple);
+}
+
+.glow-runes {
+  text-shadow: 0 0 10px var(--runes-green), 0 0 20px var(--runes-green);
+}
+
+.via-negativa {
+  position: relative;
+}
+
+.via-negativa::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid currentColor;
+  opacity: 0.3;
+  pointer-events: none;
+}
