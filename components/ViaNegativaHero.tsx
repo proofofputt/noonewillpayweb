@@ -40,15 +40,15 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold mb-8"
+            className="text-5xl md:text-7xl font-bold mb-8 text-white"
           >
-            <span className="glow-orange text-orange">No</span>
+            <span>No</span>
             <span className="text-steel-500 mx-2">•</span>
-            <span className="text-white">One</span>
+            <span>One</span>
             <span className="text-steel-500 mx-2">•</span>
-            <span className="glow-orange text-orange">Will</span>
+            <span>Will</span>
             <span className="text-steel-500 mx-2">•</span>
-            <span className="text-white">Pay</span>
+            <span>Pay</span>
           </motion.h1>
 
           <motion.p
@@ -70,8 +70,10 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
               Free • Fair • Decentralized
             </p>
             <p className="text-sm text-steel-300 max-w-2xl mx-auto">
-              A Bitcoin education platform for the DMV area. Learn about Bitcoin, Ordinals, and Runes
-              through street interviews, surveys, and comprehensive educational content.
+              A Bitcoin education platform for the capital of the Free World.
+            </p>
+            <p className="text-base text-white max-w-3xl mx-auto mt-6 leading-relaxed">
+              Please take this 3 question survey to test common knowledge. Sign up at the end to take the full 21 point questionnaire and sign up for free educational resources on: Bitcoin, Energy, Ordinals, and Runes.
             </p>
           </motion.div>
 
@@ -86,16 +88,6 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
           >
             Begin Survey
           </motion.button>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.2, duration: 0.8 }}
-            className="mt-12 text-sm text-steel-400"
-          >
-            <p>No pre-sales • No team allocations • No market makers</p>
-            <p className="mt-2">Just pure Bitcoin education</p>
-          </motion.div>
         </div>
       </div>
     </section>
