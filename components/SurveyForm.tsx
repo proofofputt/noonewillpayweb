@@ -137,15 +137,11 @@ export default function SurveyForm() {
         className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-black">Join the Community</h2>
-          <p className="text-white">
-            Share your contact information to access educational resources
-          </p>
+          <h2 className="text-3xl font-bold mb-4 text-black">Sign Up for resources and activation alerts</h2>
         </div>
 
         {/* Contact Information */}
         <div className="space-y-6 p-6 bg-black/20 rounded-lg border border-white/30">
-          <h3 className="text-xl font-bold text-white">Contact Information</h3>
 
           <div>
             <label className="block text-sm font-medium mb-2 text-white">Email</label>
