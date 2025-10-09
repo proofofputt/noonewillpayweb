@@ -202,15 +202,16 @@ export default function SurveyForm() {
 
         {/* Newsletter */}
         <div className="p-6 bg-black/20 rounded-lg border border-white/30">
-          <div className="flex items-center">
+          <div className="flex items-start">
             <input
               {...contactForm.register('newsletter')}
               type="checkbox"
-              className="mr-2 w-4 h-4"
+              className="mr-2 w-4 h-4 mt-1"
             />
-            <label className="text-sm text-white">
-              Subscribe to our newsletter for Bitcoin education updates and community offers
-            </label>
+            <div className="text-sm text-white">
+              <div>• Take the full 21 question quiz</div>
+              <div>• Learn more about technologies, activations, and airdrops</div>
+            </div>
           </div>
         </div>
 
