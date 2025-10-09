@@ -156,7 +156,7 @@
       "id": "09",
       "category": "Economic Metrics",
       "difficulty": "easy",
-      "question": "What is the approximate average price in cents per kilowatt-hour (kWh) for electricity in the DMV area?",,
+      "question": "What is the approximate average price in cents per kilowatt-hour (kWh) for electricity in the DMV area?",
       "answerType": "multipleChoice",
       "correctAnswer": 17,
       "tolerance": 5,
@@ -245,7 +245,7 @@
       ],
       "explanation": "The average U.S. household electricity bill is approximately $110-$140/month, varying by region and usage.",
       "pillSignSide": "orange",
-      "pointValue": 
+      "pointValue": 2
     },
     {
       "id": "14",
