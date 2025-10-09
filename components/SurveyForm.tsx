@@ -137,7 +137,11 @@ export default function SurveyForm() {
         className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-black">Sign Up for resources and activation alerts</h2>
+          <h2 className="text-3xl font-bold mb-4 text-black">Sign Up For Score and Resources</h2>
+          <ul className="text-white space-y-2 mt-4">
+            <li>• Take the full 21 question quiz</li>
+            <li>• Learn more about technologies, activations, and airdrops</li>
+          </ul>
         </div>
 
         {/* Contact Information */}
@@ -222,7 +226,7 @@ export default function SurveyForm() {
             type="submit"
             className="flex-1 py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
           >
-            Complete Registration
+            Complete Sign Up
           </button>
         </div>
       </motion.form>
