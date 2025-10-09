@@ -33,6 +33,7 @@ export default function SurveyForm() {
   const [answersSubmitted, setAnswersSubmitted] = useState(false)
   const [surveyAnswers, setSurveyAnswers] = useState<AnswersFormData | null>(null)
   const [finalSubmitted, setFinalSubmitted] = useState(false)
+  const [noThanks, setNoThanks] = useState(false)
 
   const answersForm = useForm<AnswersFormData>({
     resolver: zodResolver(answersSchema),
@@ -79,6 +80,22 @@ export default function SurveyForm() {
     } catch (error) {
       console.error('Error submitting survey:', error)
     }
+  }
+
+  const handleNoThanks = () => {
+    setNoThanks(true)
+  }
+
+  if (noThanks) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="text-center py-16 container-card p-12 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-3xl mx-auto"
+      >
+        <h2 className="text-4xl font-bold mb-6 text-black">Thanks for helping us measure common knowledge</h2>
+      </motion.div>
+    )
   }
 
   if (finalSubmitted) {
@@ -197,12 +214,21 @@ export default function SurveyForm() {
           </div>
         </div>
 
-        <button
-          type="submit"
-          className="w-full py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
-        >
-          Complete Registration
-        </button>
+        <div className="flex gap-4">
+          <button
+            type="button"
+            onClick={handleNoThanks}
+            className="w-1/4 py-4 bg-red-600 text-white font-bold text-lg rounded-lg hover:bg-red-700 transition-colors shadow-lg border-2 border-red-800"
+          >
+            No thanks
+          </button>
+          <button
+            type="submit"
+            className="flex-1 py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
+          >
+            Complete Registration
+          </button>
+        </div>
       </motion.form>
     )
   }
