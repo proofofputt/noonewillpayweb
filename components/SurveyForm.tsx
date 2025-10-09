@@ -196,7 +196,7 @@ export default function SurveyForm() {
               type="checkbox"
               className="mr-2 w-4 h-4"
             />
-            <label className="text-sm text-white">I consent to being recorded on camera (street interview)</label>
+            <label className="text-sm text-white">I consent to being recorded on camera (Photo / Video Release Waiver)</label>
           </div>
         </div>
 
