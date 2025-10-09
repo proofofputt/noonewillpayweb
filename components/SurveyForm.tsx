@@ -224,7 +224,7 @@ export default function SurveyForm() {
           </button>
           <button
             type="submit"
-            className="flex-1 py-4 bg-orange text-white font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
+            className="flex-1 py-4 bg-green-600 text-white font-bold text-lg rounded-lg hover:bg-green-700 transition-colors shadow-lg border-2 border-green-800"
           >
             Complete Sign Up
           </button>
