@@ -6,10 +6,12 @@ export interface Question {
   category: string
   question: string
   hint?: string
-  answerType: 'number' | 'decimal'
+  answerType: 'number' | 'decimal' | 'multipleChoice'
   correctAnswer?: number
   tolerance: number
   exampleAnswer?: number
+  options?: string[]
+  correctOption?: string
 }
 
 export function getRandomQuestions(): Question[] {
@@ -38,6 +40,12 @@ export function getQuestionsByDifficulty(difficulty: 'easy' | 'medium' | 'hard')
 }
 
 export function validateAnswer(question: Question, answer: string): boolean {
+  // Handle multiple choice questions
+  if (question.answerType === 'multipleChoice') {
+    return answer === question.correctOption
+  }
+
+  // Handle numeric questions
   const numAnswer = parseFloat(answer)
 
   if (isNaN(numAnswer)) {
