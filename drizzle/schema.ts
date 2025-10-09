@@ -6,6 +6,7 @@ export const users = pgTable('users', {
   email: varchar('email', { length: 255 }).notNull().unique(),
   username: varchar('username', { length: 100 }).notNull(),
   passwordHash: text('password_hash').notNull(),
+  isAdmin: boolean('is_admin').default(false).notNull(),
   referralCode: varchar('referral_code', { length: 20 }).notNull().unique(),
   referredByCode: varchar('referred_by_code', { length: 20 }),
   allocationPoints: integer('allocation_points').default(0).notNull(),
@@ -24,6 +25,10 @@ export const surveyResponses = pgTable('survey_responses', {
   newsletter: boolean('newsletter').default(true).notNull(),
   answers: text('answers').notNull(), // JSON string
   score: integer('score').default(0).notNull(),
+  ipAddress: varchar('ip_address', { length: 45 }), // IPv6 support
+  userAgent: text('user_agent'),
+  submittedBy: uuid('submitted_by').references(() => users.id), // Admin who submitted (if applicable)
+  isAdminSubmission: boolean('is_admin_submission').default(false).notNull(),
   timestamp: timestamp('timestamp').defaultNow().notNull(),
 })
 

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 import db, { surveyResponses, users, allocationPointsHistory } from '@/lib/db'
 import { eq } from 'drizzle-orm'
+import { getClientIP } from '@/lib/ip'
+import { verifyAdminRequest } from '@/lib/admin-auth'
 
 // Validation schema
 const SurveySchema = z.object({
@@ -25,6 +27,34 @@ export async function POST(request: NextRequest) {
     // Validate input
     const validated = SurveySchema.parse(data)
 
+    // Get client IP address
+    const ipAddress = getClientIP(request)
+    const userAgent = request.headers.get('user-agent')
+
+    // Check if request is from admin
+    const adminUser = await verifyAdminRequest(request)
+    const isAdminSubmission = !!adminUser
+
+    // For non-admin submissions, check for duplicates by IP
+    if (!isAdminSubmission && ipAddress) {
+      const [existingSubmission] = await db
+        .select()
+        .from(surveyResponses)
+        .where(eq(surveyResponses.ipAddress, ipAddress))
+        .limit(1)
+
+      if (existingSubmission) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: 'Survey already submitted from this device',
+            alreadySubmitted: true
+          },
+          { status: 409 }
+        )
+      }
+    }
+
     // Calculate score (simple scoring for now)
     const score = validated.questions.length * 100 // 100 points per question
 
@@ -37,6 +67,10 @@ export async function POST(request: NextRequest) {
       newsletter: validated.newsletter,
       answers: JSON.stringify(validated.questions),
       score,
+      ipAddress,
+      userAgent,
+      submittedBy: adminUser?.userId || null,
+      isAdminSubmission,
     }).returning()
 
     // If user exists, update their points
