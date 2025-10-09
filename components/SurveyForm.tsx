@@ -138,10 +138,6 @@ export default function SurveyForm() {
       >
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4 text-black">Sign Up For Score and Resources</h2>
-          <ul className="text-white space-y-2 mt-4">
-            <li>• Take the full 21 question quiz</li>
-            <li>• Learn more about technologies, activations, and airdrops</li>
-          </ul>
         </div>
 
         {/* Contact Information */}
