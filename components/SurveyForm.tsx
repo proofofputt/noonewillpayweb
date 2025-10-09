@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
+import Link from 'next/link'
 import { getRandomQuestions } from '@/lib/questions'
 
 const answersSchema = z.object({
@@ -23,6 +24,9 @@ const contactSchema = z.object({
   }),
   onCamera: z.boolean(),
   newsletter: z.boolean(),
+  agreeToTerms: z.boolean().refine(val => val === true, {
+    message: 'You must agree to the Terms of Service and Privacy Policy to continue'
+  }),
 })
 
 type AnswersFormData = z.infer<typeof answersSchema>
@@ -44,6 +48,7 @@ export default function SurveyForm() {
     defaultValues: {
       onCamera: false,
       newsletter: true,
+      agreeToTerms: false,
     }
   })
 
@@ -196,6 +201,39 @@ export default function SurveyForm() {
           </div>
         </div>
 
+        {/* Terms and Privacy Policy Consent */}
+        <div className="p-6 bg-black/30 rounded-lg border border-white/40">
+          <div className="flex items-start mb-2">
+            <input
+              {...contactForm.register('agreeToTerms')}
+              type="checkbox"
+              className="mr-3 w-5 h-5 mt-1 flex-shrink-0"
+            />
+            <label className="text-sm text-white leading-relaxed">
+              I agree to the{' '}
+              <Link href="/terms" target="_blank" className="text-orange hover:text-orange-light underline font-semibold">
+                Terms of Service
+              </Link>
+              {' '}and{' '}
+              <Link href="/privacy" target="_blank" className="text-orange hover:text-orange-light underline font-semibold">
+                Privacy Policy
+              </Link>
+              , including the collection of my IP address for fraud prevention and the use of my data as described.
+            </label>
+          </div>
+          {contactForm.formState.errors.agreeToTerms && (
+            <p className="text-red-300 text-sm mt-2 ml-8">{contactForm.formState.errors.agreeToTerms.message}</p>
+          )}
+          <div className="mt-4 text-xs text-gray-300 ml-8">
+            <p className="mb-1">By submitting this survey:</p>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>Your IP address will be collected to prevent duplicate submissions</li>
+              <li>Your responses and contact info will be used for research and education</li>
+              <li>You may receive allocation points based on your performance</li>
+              <li>If you consent to camera recording, your image may be used publicly</li>
+            </ul>
+          </div>
+        </div>
 
         <div className="flex gap-4">
           <button
