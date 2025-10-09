@@ -246,7 +246,7 @@ export default function SurveyForm() {
             </div>
 
             <div className="space-y-3">
-              {q.options?.map((option) => {
+              {q.options?.map((option: string) => {
                 const optionLetter = option.charAt(0)
                 return (
                   <label
