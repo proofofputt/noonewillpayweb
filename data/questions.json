@@ -260,7 +260,7 @@
         "A) 21 minutes",
         "B) 10 minutes",
         "C) 15 minutes",
-        "D) 7 minutes"
+        "D) 30 minutes"
       ],
       "explanation": "Bitcoin is designed to produce blocks every 10 minutes on average. This timing is maintained through difficulty adjustments every 2,016 blocks.",
       "pillSignSide": "orange",
@@ -310,19 +310,18 @@
       "id": "17",
       "category": "Technology & Internet",
       "difficulty": "hard",
-      "question": "What is the standard port number for HTTPS encrypted web traffic?",
-      "hint": "It's on the green pill sign - think secure connections",
+      "question": "The bitcoin difficulty adjustment occurs approximately every two weeks, how many blocks are mined in each difficulty adjustment period?",
       "answerType": "multipleChoice",
-      "correctAnswer": 443,
+      "correctAnswer": 2016,
       "tolerance": 0,
       "correctOption": "D",
       "options": [
-        "A) 80",
-        "B) 8080",
-        "C) 3000",
-        "D) 443"
+        "A) 1000",
+        "B) 2100",
+        "C) 1971",
+        "D) 2016"
       ],
-      "explanation": "Port 443 is the standard for HTTPS (encrypted web traffic). Always check for HTTPS when entering wallet info!",
+      "explanation": "Each block takes 10 minutes on average, so there are 6 blocks per hour, 144 blocks per day, and 2016 blocks in a two week period.",
       "pillSignSide": "green",
       "pointValue": 3
     },
@@ -330,8 +329,7 @@
       "id": "18",
       "category": "Technology & Internet",
       "difficulty": "medium",
-      "question": "What is the most common HTTP status code for 'Not Found'?",
-      "hint": "It's a famous error code everyone has seen",
+      "question": "What is the most common HTTP status code 'Error Not Found'?",
       "answerType": "multipleChoice",
       "correctAnswer": 404,
       "tolerance": 0,
@@ -368,42 +366,40 @@
     {
       "id": "20",
       "category": "Technology & Internet",
-      "difficulty": "easy",
-      "question": "What is the standard port number for HTTP web traffic?",
-      "hint": "It's a two-digit number - super common",
+      "difficulty": "medium",
+      "question": "On bitcoin pizza day, May 22, 2010, Laszlo Hanyecz paid how much for each of the two pizzas ordered over the BitcoinTalk forum?",
       "answerType": "multipleChoice",
-      "correctAnswer": 80,
+      "correctAnswer": 5000,
       "tolerance": 0,
-      "correctOption": "A",
+      "correctOption": "C",
       "options": [
-        "A) 80",
-        "B) 443",
-        "C) 8080",
-        "D) 3000"
+        "A) 9000",
+        "B) 1000",
+        "C) 5000",
+        "D) 2100"
       ],
-      "explanation": "Port 80 is the default for HTTP (unencrypted web traffic). HTTPS uses 443.",
+      "explanation": "Laszlo paid 10,000 BTC for two pizzas, or 5,000 BTC each. This transaction became known as Bitcoin Pizza Day.",
       "pillSignSide": "orange",
-      "pointValue": 10
+      "pointValue": 2
     },
     {
       "id": "21",
-      "category": "Technology & Internet",
-      "difficulty": "medium",
-      "question": "In what year was Facebook (now Meta) founded?",
-      "hint": "Mid-2000s at Harvard",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "hard",
+      "question": "Each bitcoin can be divided into 100 million smaller units called satoshis. In total there will be about 2.1 quadrillion satoshis, how many zeros does 1 quadrillian have?",
       "answerType": "multipleChoice",
-      "correctAnswer": 2004,
+      "correctAnswer": 15,
       "tolerance": 0,
-      "correctOption": "B",
+      "correctOption": "C",
       "options": [
-        "A) 2002",
-        "B) 2004",
-        "C) 2006",
-        "D) 2008"
+        "A) 11",
+        "B) 21",
+        "C) 15",
+        "D) 18"
       ],
-      "explanation": "Facebook launched in 2004, creating the social media era and centralized data collection Bitcoin resists.",
+      "explanation": "21 million bitcoin is the same as saying 2.1 quadrillion satoshis (2,100,000,000,000,000). 1 quadrillion has 15 zeros.",
       "pillSignSide": "green",
-      "pointValue": 15
+      "pointValue": 3
     }
   ]
 }
