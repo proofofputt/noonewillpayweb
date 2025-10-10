@@ -41,7 +41,7 @@ async function testDatabase() {
       // Get recent submissions
       console.log('\n4. Fetching recent submissions...');
       const recent = await sql`
-        SELECT id, email, phone, region, score, "timestamp", "ipAddress", "isAdminSubmission"
+        SELECT *
         FROM survey_responses
         ORDER BY "timestamp" DESC
         LIMIT 5

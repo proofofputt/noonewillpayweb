@@ -38,8 +38,11 @@ export async function POST(request: NextRequest) {
     const adminUser = await verifyAdminRequest(request)
     const isAdminSubmission = !!adminUser
 
-    // For non-admin submissions, check for duplicates by IP
-    if (!isAdminSubmission && ipAddress) {
+    // Check if IP blocking is disabled (for testing)
+    const ipBlockingDisabled = process.env.DISABLE_IP_BLOCKING === 'true'
+
+    // For non-admin submissions, check for duplicates by IP (unless disabled for testing)
+    if (!isAdminSubmission && ipAddress && !ipBlockingDisabled) {
       const [existingSubmission] = await db
         .select()
         .from(surveyResponses)
