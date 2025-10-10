@@ -46,7 +46,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
               Free • Fair • Decentralized
             </h1>
             <p className="text-sm md:text-base text-gray-600 max-w-4xl mx-auto">
-              A Bitcoin education platform from the capital of the free world.
+              An education platform from the capital of the free world.
             </p>
             <div className="text-left max-w-3xl mx-auto mt-8 space-y-4">
               <p className="text-base text-white leading-relaxed">
