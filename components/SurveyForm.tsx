@@ -7,6 +7,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import Link from 'next/link'
 import { getRandomQuestions } from '@/lib/questions'
+import { detectRegionFromPhone, getRegionName, type RegionCode } from '@/lib/phone-validation'
 
 const answersSchema = z.object({
   answers: z.object({
@@ -17,11 +18,8 @@ const answersSchema = z.object({
 })
 
 const contactSchema = z.object({
-  email: z.string().email('Invalid email address'),
+  email: z.string().email('Invalid email address').optional().or(z.literal('')),
   phone: z.string().min(10, 'Phone number must be at least 10 digits'),
-  region: z.enum(['DC', 'MD', 'VA', 'OTHER'], {
-    required_error: 'Please select your region'
-  }),
   onCamera: z.boolean(),
   newsletter: z.boolean(),
   agreeToTerms: z.boolean().refine(val => val === true, {
@@ -38,6 +36,7 @@ export default function SurveyForm() {
   const [surveyAnswers, setSurveyAnswers] = useState<AnswersFormData | null>(null)
   const [finalSubmitted, setFinalSubmitted] = useState(false)
   const [noThanks, setNoThanks] = useState(false)
+  const [detectedRegion, setDetectedRegion] = useState<RegionCode | null>(null)
 
   const answersForm = useForm<AnswersFormData>({
     resolver: zodResolver(answersSchema),
@@ -60,6 +59,12 @@ export default function SurveyForm() {
   const onAnswersSubmit = (data: AnswersFormData) => {
     setSurveyAnswers(data)
     setAnswersSubmitted(true)
+  }
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const phone = e.target.value
+    const region = detectRegionFromPhone(phone)
+    setDetectedRegion(region)
   }
 
   const onContactSubmit = async (data: ContactFormData) => {
@@ -149,7 +154,31 @@ export default function SurveyForm() {
         <div className="space-y-6 p-6 bg-black/20 rounded-lg border border-white/30">
 
           <div>
-            <label className="block text-sm font-medium mb-2 text-white">Email</label>
+            <label className="block text-sm font-medium mb-2 text-white">
+              Phone Number <span className="text-red-400">*</span>
+            </label>
+            <input
+              {...contactForm.register('phone', {
+                onChange: handlePhoneChange
+              })}
+              type="tel"
+              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
+              placeholder="(202) 555-0123"
+            />
+            {contactForm.formState.errors.phone && (
+              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.phone.message}</p>
+            )}
+            {detectedRegion && (
+              <p className="text-sm mt-2 text-orange-light">
+                📍 Detected Region: <strong>{getRegionName(detectedRegion)}</strong>
+              </p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2 text-white">
+              Email <span className="text-gray-400 text-xs">(Optional)</span>
+            </label>
             <input
               {...contactForm.register('email')}
               type="email"
@@ -158,36 +187,6 @@ export default function SurveyForm() {
             />
             {contactForm.formState.errors.email && (
               <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.email.message}</p>
-            )}
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-2 text-white">Phone Number</label>
-            <input
-              {...contactForm.register('phone')}
-              type="tel"
-              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-              placeholder="(202) 555-0123"
-            />
-            {contactForm.formState.errors.phone && (
-              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.phone.message}</p>
-            )}
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium mb-2 text-white">Region</label>
-            <select
-              {...contactForm.register('region')}
-              className="w-full px-4 py-2 bg-white/90 text-black border border-white rounded-lg focus:border-orange focus:outline-none"
-            >
-              <option value="">Select your region</option>
-              <option value="DC">Washington, DC</option>
-              <option value="MD">Maryland</option>
-              <option value="VA">Virginia</option>
-              <option value="OTHER">Tourist/Transplant</option>
-            </select>
-            {contactForm.formState.errors.region && (
-              <p className="text-red-300 text-sm mt-1">{contactForm.formState.errors.region.message}</p>
             )}
           </div>
 

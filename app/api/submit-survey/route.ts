@@ -4,12 +4,12 @@ import db, { surveyResponses, users, allocationPointsHistory } from '@/lib/db'
 import { eq } from 'drizzle-orm'
 import { getClientIP } from '@/lib/ip'
 import { verifyAdminRequest } from '@/lib/admin-auth'
+import { detectRegionFromPhone } from '@/lib/phone-validation'
 
 // Validation schema
 const SurveySchema = z.object({
-  email: z.string().email(),
-  phone: z.string().min(10).optional(),
-  region: z.enum(['DC', 'MD', 'VA', 'OTHER']),
+  email: z.string().email().optional(),
+  phone: z.string().min(10, 'Phone number is required'),
   onCamera: z.boolean(),
   newsletter: z.boolean(),
   questions: z.array(z.object({
@@ -26,6 +26,9 @@ export async function POST(request: NextRequest) {
 
     // Validate input
     const validated = SurveySchema.parse(data)
+
+    // Auto-detect region from phone number
+    const region = detectRegionFromPhone(validated.phone)
 
     // Get client IP address
     const ipAddress = getClientIP(request)
@@ -60,9 +63,9 @@ export async function POST(request: NextRequest) {
 
     // Store survey response
     const [survey] = await db.insert(surveyResponses).values({
-      email: validated.email,
-      phone: validated.phone || null,
-      region: validated.region,
+      email: validated.email || null,
+      phone: validated.phone,
+      region,
       onCamera: validated.onCamera,
       newsletter: validated.newsletter,
       answers: JSON.stringify(validated.questions),
@@ -73,17 +76,20 @@ export async function POST(request: NextRequest) {
       isAdminSubmission,
     }).returning()
 
-    // If user exists, update their points
-    const [existingUser] = await db.select().from(users).where(eq(users.email, validated.email)).limit(1)
+    // If user exists, update their points (only if email provided)
+    const existingUser = validated.email
+      ? await db.select().from(users).where(eq(users.email, validated.email)).limit(1)
+      : []
+    const [userRecord] = existingUser
 
-    if (existingUser) {
+    if (userRecord) {
       await db.update(users)
-        .set({ allocationPoints: existingUser.allocationPoints + score })
-        .where(eq(users.id, existingUser.id))
+        .set({ allocationPoints: userRecord.allocationPoints + score })
+        .where(eq(users.id, userRecord.id))
 
       // Record points history
       await db.insert(allocationPointsHistory).values({
-        userId: existingUser.id,
+        userId: userRecord.id,
         points: score,
         source: 'survey',
         sourceId: survey.id,
@@ -96,6 +102,7 @@ export async function POST(request: NextRequest) {
       message: 'Survey submitted successfully',
       surveyId: survey.id,
       score,
+      region,
     })
   } catch (error) {
     if (error instanceof z.ZodError) {

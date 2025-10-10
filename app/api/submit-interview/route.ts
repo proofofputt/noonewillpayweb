@@ -44,8 +44,8 @@ export async function POST(request: NextRequest) {
 
     // Store interview submission
     const [survey] = await db.insert(surveyResponses).values({
-      email: validated.participantInfo?.email || 'anonymous@survey.local',
-      phone: validated.participantInfo?.phone || null,
+      email: validated.participantInfo?.email || null,
+      phone: validated.participantInfo?.phone || '0000000000', // Default for street interviews
       region: validated.participantInfo?.region || 'OTHER',
       onCamera: validated.onCamera,
       newsletter: false, // Street interviews don't opt into newsletter by default

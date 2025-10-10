@@ -42,13 +42,12 @@ export default function TermsOfService() {
             </p>
             <ul className="list-disc pl-8 space-y-2 mb-4">
               <li><strong>Research and Education:</strong> To measure common knowledge about Bitcoin,
-              cryptocurrency, and financial literacy in the D.C. metro area</li>
+              cryptocurrency, and financial literacy</li>
               <li><strong>Content Creation:</strong> To create educational materials, reports, and
               potentially documentary content about financial literacy</li>
               <li><strong>Community Building:</strong> To connect participants with Bitcoin educational
-              resources and community initiatives</li>
-              <li><strong>Allocation Distribution:</strong> To determine eligibility for future Bitcoin
-              allocation point distributions based on survey performance</li>
+              resources, decentralized community initiatives, and networking opportunity for projects and partnerships</li>
+              <li><strong>Points Distribution:</strong> To determine knowledge, skills, participation, and performance of a variety of quizes, as well as on going research and review content</li>
             </ul>
           </section>
 
@@ -169,12 +168,12 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-steel-900">11. Governing Law and Dispute Resolution</h2>
             <p className="mb-4">
-              These Terms of Service are governed by the laws of the District of Columbia, United States,
+              These Terms of Service are governed by the laws of Montgomery County, Maryland, United States,
               without regard to conflict of law principles.
             </p>
             <p className="mb-4">
               Any disputes arising from these terms or your participation in the Survey shall be resolved
-              through binding arbitration in Washington, D.C., in accordance with the American Arbitration
+              through binding arbitration in Montgomery County, Maryland, in accordance with the American Arbitration
               Association rules. You waive your right to participate in class action lawsuits.
             </p>
           </section>
@@ -184,11 +183,8 @@ export default function TermsOfService() {
             <p className="mb-4">
               If you have questions about these Terms of Service, please contact us at:
             </p>
-            <p className="mb-2">
-              <strong>Email:</strong> legal@noonewillpay.com
-            </p>
             <p className="mb-4">
-              <strong>Address:</strong> No One Will Pay, Washington, D.C. Metro Area
+              <strong>Email:</strong> noonewillpay21@gmail.com
             </p>
           </section>
 

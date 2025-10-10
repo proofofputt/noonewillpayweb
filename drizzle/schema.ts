@@ -18,9 +18,9 @@ export const users = pgTable('users', {
 export const surveyResponses = pgTable('survey_responses', {
   id: uuid('id').defaultRandom().primaryKey(),
   userId: uuid('user_id').references(() => users.id),
-  email: varchar('email', { length: 255 }).notNull(),
-  phone: varchar('phone', { length: 50 }),
-  region: varchar('region', { length: 20 }).notNull(),
+  email: varchar('email', { length: 255 }), // Optional
+  phone: varchar('phone', { length: 50 }).notNull(), // Required
+  region: varchar('region', { length: 20 }).notNull(), // Auto-detected from phone
   onCamera: boolean('on_camera').default(false).notNull(),
   newsletter: boolean('newsletter').default(true).notNull(),
   answers: text('answers').notNull(), // JSON string
