@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 import db, { users } from '@/lib/db'
 import { eq } from 'drizzle-orm'
-import { requireAuth, BIRTH_DECADES } from '@/lib/auth-helpers'
+import { requireAuth } from '@/lib/auth-helpers'
+import { BIRTH_DECADES } from '@/lib/constants'
 
 const UpdateProfileSchema = z.object({
   birthDecade: z.string().optional().refine(

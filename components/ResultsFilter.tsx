@@ -1,6 +1,6 @@
 'use client'
 
-import { BIRTH_DECADES } from '@/lib/auth-helpers'
+import { BIRTH_DECADES } from '@/lib/constants'
 
 export interface ResultsFilters {
   quizType: 'quick' | 'full' | 'both'

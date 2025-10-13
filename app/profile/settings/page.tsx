@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useRouter } from 'next/navigation'
-import { BIRTH_DECADES } from '@/lib/auth-helpers'
+import { BIRTH_DECADES } from '@/lib/constants'
 
 interface UserProfile {
   id: string
