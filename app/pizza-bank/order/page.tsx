@@ -31,7 +31,7 @@ interface Pizzeria {
   menu?: MenuItem[]
 }
 
-export default function OrderPage() {
+function OrderPageContent() {
   const router = useRouter()
   const searchParams = useSearchParams()
   const pizzeriaId = searchParams.get('pizzeria')
@@ -601,5 +601,20 @@ export default function OrderPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function OrderPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-4xl mb-4">🍕</div>
+          <div className="text-xl">Loading pizzeria...</div>
+        </div>
+      </div>
+    }>
+      <OrderPageContent />
+    </Suspense>
   )
 }

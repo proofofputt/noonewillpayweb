@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { motion } from 'framer-motion'
 import { QRCodeSVG } from 'qrcode.react'
 import { useSearchParams } from 'next/navigation'
@@ -31,7 +31,7 @@ interface StickerInfo {
   totalStickerReferrals: number
 }
 
-export default function DashboardPage() {
+function DashboardContent() {
   const searchParams = useSearchParams()
   const referralCodeParam = searchParams?.get('code')
   const phoneParam = searchParams?.get('phone')
@@ -407,5 +407,20 @@ function AllocationBar({
         />
       </div>
     </div>
+  )
+}
+
+export default function DashboardPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-black text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-4xl mb-4">Loading...</div>
+          <p className="text-gray-400">Fetching your dashboard data</p>
+        </div>
+      </div>
+    }>
+      <DashboardContent />
+    </Suspense>
   )
 }

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { motion } from 'framer-motion'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -18,7 +18,7 @@ const createAnswersSchema = (questionCount: number) => {
   return z.object({ answers: z.object(shape) })
 }
 
-export default function FullAssessmentPage() {
+function FullAssessmentContent() {
   const searchParams = useSearchParams()
   const referralCode = searchParams?.get('ref')
 
@@ -269,5 +269,17 @@ export default function FullAssessmentPage() {
         </button>
       </motion.form>
     </div>
+  )
+}
+
+export default function FullAssessmentPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-br from-steel via-steel-light to-steel-darker flex items-center justify-center">
+        <div className="text-white text-2xl">Loading Full Assessment...</div>
+      </div>
+    }>
+      <FullAssessmentContent />
+    </Suspense>
   )
 }
