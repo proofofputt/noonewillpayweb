@@ -58,17 +58,32 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             </div>
           </motion.div>
 
-          <motion.button
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.9, duration: 0.5 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={onBeginSurvey}
-            className="px-8 py-4 bg-orange text-black font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
-          >
-            Begin Survey
-          </motion.button>
+          <div className="space-y-4">
+            <motion.button
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.9, duration: 0.5 }}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={onBeginSurvey}
+              className="px-8 py-4 bg-orange text-black font-bold text-lg rounded-lg hover:bg-orange-dark transition-colors shadow-lg border-2 border-orange-darker"
+            >
+              Begin Survey
+            </motion.button>
+
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.1, duration: 0.5 }}
+            >
+              <a
+                href="/book-club"
+                className="inline-block text-white hover:text-orange-300 transition-colors text-sm font-semibold underline"
+              >
+                📚 12 Months of Bitcoin Book Clubs
+              </a>
+            </motion.div>
+          </div>
         </div>
       </div>
     </section>
