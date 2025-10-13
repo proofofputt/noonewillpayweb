@@ -24,6 +24,14 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Check if user has a password (some users use magic link only)
+    if (!user.passwordHash) {
+      return NextResponse.json(
+        { error: 'Please use magic link login for this account' },
+        { status: 401 }
+      )
+    }
+
     // Verify password
     const isValid = await verifyPassword(password, user.passwordHash)
 

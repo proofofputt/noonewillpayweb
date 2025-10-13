@@ -29,6 +29,14 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Check if user has a password (admin accounts should have passwords)
+    if (!user.passwordHash) {
+      return NextResponse.json(
+        { success: false, error: 'Invalid credentials' },
+        { status: 401 }
+      )
+    }
+
     // Verify password
     const isValidPassword = await bcrypt.compare(validated.password, user.passwordHash)
     if (!isValidPassword) {
