@@ -13,7 +13,7 @@ import { recordQuickQuizPoints } from '@/lib/points/quiz-points'
 
 // Validation schema
 const SurveySchema = z.object({
-  email: z.string().email().optional(),
+  email: z.string().email().or(z.literal('')).optional(),
   phone: z.string().min(10, 'Phone number is required'),
   onCamera: z.boolean(),
   newsletter: z.boolean(),
@@ -152,8 +152,12 @@ export async function POST(request: NextRequest) {
 
       const userReferralCode = await generateReferralCode()
 
+      // Generate unique email from phone if email not provided
+      const phoneDigits = validated.phone.replace(/\D/g, '')
+      const userEmail = validated.email || `phone_${phoneDigits}@noonewillpay.app`
+
       const [newUser] = await db.insert(users).values({
-        email: validated.email || `user_${Date.now()}@noonewillpay.temp`, // Temp email if not provided
+        email: userEmail,
         username,
         phone: validated.phone,
         passwordHash: null, // Passwordless auth
