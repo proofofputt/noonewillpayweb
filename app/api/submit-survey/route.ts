@@ -249,9 +249,17 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Log detailed error information
     console.error('Error processing survey:', error)
+    console.error('Error stack:', error instanceof Error ? error.stack : 'No stack trace')
+    console.error('Error message:', error instanceof Error ? error.message : String(error))
+
     return NextResponse.json(
-      { success: false, error: 'Failed to submit survey' },
+      {
+        success: false,
+        error: 'Failed to submit survey',
+        details: error instanceof Error ? error.message : 'Unknown error'
+      },
       { status: 500 }
     )
   }
