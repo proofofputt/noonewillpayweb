@@ -243,16 +243,33 @@ export default function SurveyForm() {
           </div>
         </div>
 
-        {/* Next Steps */}
+        {/* Dashboard Access */}
+        <div className="bg-gradient-to-br from-green-900/30 to-blue-900/30 rounded-lg p-4 md:p-6 border-2 border-green-500">
+          <h3 className="font-bold mb-3 text-white text-base md:text-lg">🎯 Your Dashboard is Ready!</h3>
+          <p className="text-white text-sm md:text-base mb-4">
+            You're automatically logged in. Access all resources anytime at:
+          </p>
+          <a
+            href="/my-dashboard"
+            className="block w-full py-3 md:py-4 bg-green-600 text-white font-bold text-base md:text-lg rounded-lg hover:bg-green-700 transition-colors text-center mb-3"
+          >
+            Go to My Dashboard →
+          </a>
+          <p className="text-sm text-gray-300 text-center">
+            Bookmark this page to return anytime
+          </p>
+        </div>
+
+        {/* Resources Available */}
         <div className="bg-black/20 rounded-lg p-4 md:p-6 border border-white/30">
-          <h3 className="font-bold mb-3 text-white text-base md:text-lg">Next Steps:</h3>
+          <h3 className="font-bold mb-3 text-white text-base md:text-lg">📚 Resources in Your Dashboard:</h3>
           <ul className="text-left text-xs md:text-sm text-white space-y-2">
-            <li>✓ Check your email for welcome message</li>
-            <li>✓ Complete the Full Assessment to earn 195 more points</li>
-            <li>✓ Share your referral link to earn 21 points per signup</li>
-            <li>✓ Set up your Xverse wallet</li>
-            <li>✓ Access the GitBook education platform</li>
-            <li>✓ Join the Bitcoin community</li>
+            <li>✓ 12 Months of Bitcoin Book Clubs (GitBook)</li>
+            <li>✓ Complete the Full Assessment (195 more points)</li>
+            <li>✓ Your referral link & QR code</li>
+            <li>✓ Points history & breakdown</li>
+            <li>✓ Pizza Bank partnership opportunities</li>
+            <li>✓ Educational resources & community access</li>
           </ul>
         </div>
       </motion.div>
