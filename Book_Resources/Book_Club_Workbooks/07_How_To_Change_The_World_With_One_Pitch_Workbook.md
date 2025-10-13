@@ -1,6 +1,6 @@
 # How To Change The World With One Pitch - Book Club Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Title:** How To Change The World With One Pitch: A Blueprint For Winning At Life One Conversation At A Time
 **Author:** Daniel Batten
@@ -9,12 +9,12 @@
 **Why This Book Matters:**
 This book demystifies influence by providing a concrete, actionable framework grounded in Bruce Lee's philosophy: "Simple, brutal, and direct." Rather than complex theory or academic rhetoric, Batten distills decades of entrepreneurial success and failure into implementable techniques that work in real-world conversations. The book's power lies in its dual nature - it teaches pitching while simultaneously being a pitch for transformative change in how you communicate, lead, and create impact.
 
-**Connection to Nobody Will Pay Philosophy:**
+**Via Negativa in Communication:**
 This book embodies Via Negativa in communication: influence comes not from adding more words, data, or complexity, but from REMOVING jargon, ELIMINATING unnecessary information, and STRIPPING away everything that doesn't serve the listener. The "Flesch Reading Ease" principle (simplicity wins), the focus on "what to NOT say," and the emphasis on pausing (inspiration happens in silence, not speech) all demonstrate that power emerges from constraint. Like removing subsidies reveals true economics, removing verbosity reveals true message.
 
 ---
 
-## 2. Key Themes
+## Key Themes
 
 ### Theme 1: Pitching is Life's Most Important Skill You Haven't Learned
 
@@ -97,7 +97,7 @@ Complexity doesn't demonstrate intelligence - it demonstrates lack of self-aware
 
 ---
 
-## 3. Discussion Questions
+## Discussion Questions
 
 ### On Mindset
 
@@ -211,14 +211,14 @@ The book opens with a pledge: "I am reading for implementation, not information.
 
 ---
 
-**Question 15: The No One Will Pay Connection**
-How does mastering influential conversation relate to the Nobody Will Pay project's mission of street interviews, partner recruitment, and circular economy building? What specific pitching skills would make the biggest difference in: (a) convincing strangers to participate in Bitcoin education interviews, (b) recruiting circular economy partners, (c) pitching the Via Negativa philosophy?
+**Question 15: Real-World Application**
+How does mastering influential conversation relate to Bitcoin education missions involving street interviews, partner recruitment, and circular economy building? What specific pitching skills would make the biggest difference in: (a) convincing strangers to participate in Bitcoin education interviews, (b) recruiting circular economy partners, (c) pitching the Via Negativa philosophy?
 
-**Why This Matters:** This book provides the communication toolkit for the entire Nobody Will Pay mission. Street interviews are pitches. Partner conversations are pitches. Explaining Bitcoin's energy synergy is a pitch. Mastering this framework multiplies project impact.
+**Why This Matters:** This book provides the communication toolkit for effective Bitcoin and sustainability advocacy. Street interviews are pitches. Partner conversations are pitches. Explaining Bitcoin's energy synergy is a pitch. Mastering this framework multiplies impact.
 
 ---
 
-## 4. Key Quotes & Analysis
+## Key Ideas
 
 ### On Non-Attachment
 
@@ -226,7 +226,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 **Analysis:** This reveals the ethical foundation of influential communication. When you're attached to outcomes, you unconsciously manipulate. When you're focused on serving, you authentically connect. People can feel the difference even if they can't articulate it. Attachment creates transactional energy; non-attachment creates transformational energy.
 
-**Connection to Nobody Will Pay:** Just as Bitcoin succeeds by removing the ability to inflate (constraint creates value), pitching succeeds by removing attachment to outcomes (constraint creates influence).
+**Via Negativa Connection:** Just as Bitcoin succeeds by removing the ability to inflate (constraint creates value), pitching succeeds by removing attachment to outcomes (constraint creates influence).
 
 ---
 
@@ -244,7 +244,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 **Analysis:** Most people give up after one or two rejections, interpreting feedback as indictment. But feedback is simply data - a recipe for what to improve. The only true failure is stopping. Every "no" is a step toward "yes" if you use it as fuel for iteration.
 
-**Nobody Will Pay Connection:** Just as renewable energy projects fail when they depend on subsidies (external support), ideas fail when they depend on immediate validation (external approval). Sustainable success requires internal resilience - keep feeding your vision regardless of initial reception.
+**Via Negativa Application:** Just as renewable energy projects fail when they depend on subsidies (external support), ideas fail when they depend on immediate validation (external approval). Sustainable success requires internal resilience - keep feeding your vision regardless of initial reception.
 
 ---
 
@@ -317,7 +317,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 **Analysis:** This stark claim elevates pausing from technique to necessity. Without pause, you're merely informing, not inspiring. Information transfer doesn't require silence; transformation does. If your goal is compliance, talk continuously. If your goal is commitment, pause powerfully.
 
-**Nobody Will Pay Application:** When explaining Bitcoin's energy synergy or Via Negativa philosophy, resist the urge to explain everything immediately. Make a bold claim, pause, let it sink in. Curiosity created by pause is more powerful than information delivered through verbosity.
+**Practical Application:** When explaining Bitcoin's energy synergy or Via Negativa philosophy, resist the urge to explain everything immediately. Make a bold claim, pause, let it sink in. Curiosity created by pause is more powerful than information delivered through verbosity.
 
 ---
 
@@ -397,9 +397,9 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-## 5. Practical Applications
+## Practical Applications
 
-### Application 1: Pre-Pitch Ritual for Non-Attachment
+### Pre-Pitch Ritual for Non-Attachment
 
 **Concept:** Create a consistent 5-10 minute ritual before every important conversation that removes attachment and focuses on service.
 
@@ -414,7 +414,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 2: The Feedback-to-Recipe Conversion Process
+### The Feedback-to-Recipe Conversion Process
 
 **Concept:** Systematically transform rejection and criticism into actionable improvement plans.
 
@@ -434,7 +434,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 3: The Objection Anticipation Workshop
+### The Objection Anticipation Workshop
 
 **Concept:** Before high-stakes pitches, systematically uncover and address every likely objection.
 
@@ -452,7 +452,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 4: Flesch Reading Ease Optimization
+### Flesch Reading Ease Optimization
 
 **Concept:** Use Microsoft Word's Readability Statistics to ensure your pitch is accessible, not complex.
 
@@ -477,7 +477,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 5: The 75/25 Problem-Solution Pitch Structure
+### The 75/25 Problem-Solution Pitch Structure
 
 **Concept:** Restructure your pitch to spend 75% on problem (emotional engagement) and only 25% on solution (logical fit).
 
@@ -498,7 +498,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 6: The Pause Practice Drill
+### The Pause Practice Drill
 
 **Concept:** Deliberately practice pausing after important statements to create space for inspiration.
 
@@ -516,7 +516,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 7: Bold Moves - Setting the Agenda
+### Bold Moves - Setting the Agenda
 
 **Concept:** Lead the sales process by clearly stating next steps, timelines, and commitments.
 
@@ -539,7 +539,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Application 8: Story Integration for Bitcoin Education
+### Story Integration for Bitcoin Education
 
 **Concept:** Use narrative structure to make Bitcoin's abstract value proposition emotionally resonant.
 
@@ -564,9 +564,9 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-## 6. Activities for Book Club Participants
+## Activities for Book Club Participants
 
-### Activity 1: The Attachment Release Exercise
+### The Attachment Release Exercise
 
 **Duration:** 30 minutes
 **Materials:** Paper, pens, visualization
@@ -582,7 +582,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 2: The Growth Mindset Reframe Game
+### The Growth Mindset Reframe Game
 
 **Duration:** 45 minutes
 **Materials:** Scenario cards, small groups
@@ -605,7 +605,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 3: The Objection Anticipation Rapid-Fire
+### The Objection Anticipation Rapid-Fire
 
 **Duration:** 60 minutes
 **Materials:** Whiteboard, markers, timer
@@ -626,7 +626,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 4: The Flesch Reading Ease Challenge
+### The Flesch Reading Ease Challenge
 
 **Duration:** 45 minutes
 **Materials:** Laptops with Microsoft Word, pitch decks
@@ -644,7 +644,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 5: The Pause Power Experiment
+### The Pause Power Experiment
 
 **Duration:** 30 minutes
 **Materials:** Recording devices (phones), timer
@@ -665,7 +665,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 6: Bold Moves Role-Play
+### Bold Moves Role-Play
 
 **Duration:** 45 minutes
 **Materials:** Scenario cards, pairs
@@ -689,7 +689,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 7: Energy Audit and Morning Ritual Design
+### Energy Audit and Morning Ritual Design
 
 **Duration:** 60 minutes
 **Materials:** Energy audit worksheet, ritual planning template
@@ -720,7 +720,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-### Activity 8: The Story Extraction Workshop
+### The Story Extraction Workshop
 
 **Duration:** 60 minutes
 **Materials:** Story template, small groups
@@ -747,263 +747,7 @@ How does mastering influential conversation relate to the Nobody Will Pay projec
 
 ---
 
-## 7. Connection to No One Will Pay Project
-
-### Philosophical Alignment
-
-**Core Principle:** "How To Change The World With One Pitch" embodies the Nobody Will Pay philosophy through communication mastery. Just as sustainable systems emerge from removing subsidies (not adding support), influential communication emerges from removing complexity, jargon, attachment, and ego (not adding more words, data, or manipulation).
-
-**Key Parallels:**
-
-1. **Non-Attachment = Via Negativa**
-   - Influence grows by REMOVING attachment to outcomes
-   - Power comes from ELIMINATING neediness
-   - Connection deepens by STRIPPING away transactional energy
-   - Pattern: Constraint (not needing the win) creates value (winning more often)
-
-2. **Simplicity = Core Message**
-   - Flesch Reading Ease >60 achieved by REMOVING jargon
-   - Impact created by ELIMINATING excess words
-   - Clarity gained by SUBTRACTING complexity
-   - Pattern: Less (fewer words, simpler structure) creates more (understanding, inspiration)
-
-3. **Pause = Space for Inspiration**
-   - Decisions happen in silence, not speech
-   - Inspiration occurs when you STOP talking
-   - Understanding requires REMOVING constant stimulation
-   - Pattern: Absence (of words) creates presence (of insight)
-
-4. **Growth Mindset = Feedback as Fuel**
-   - Success comes from REMOVING blame
-   - Iteration enabled by ELIMINATING prospect blame syndrome
-   - Progress requires LETTING GO of defensiveness
-   - Pattern: Releasing (fixed mindset) enables receiving (recipe for improvement)
-
-### Street Interview Application
-
-**The Challenge:** Convince strangers on the street to participate in Bitcoin education interviews - perhaps the ultimate cold pitch.
-
-**How This Book Transforms the Approach:**
-
-**Current Approach Might Be:**
-"Excuse me, do you have a minute? We're doing interviews about Bitcoin for a project called Nobody Will Pay..."
-(Result: Immediate skepticism, likely refusal)
-
-**Batten-Optimized Approach:**
-
-**1. Mindset: Non-Attachment**
-- Before street interviews, release attachment to getting "yes"
-- Focus shifts from "I need people to say yes" to "I'm offering people an opportunity to learn something valuable"
-- Mental swagger: "I'd love to share this with you, but if you're not interested, no worries"
-- Result: You approach with relaxed confidence rather than desperate energy
-
-**2. Tactics: Bold Moves + De-risking**
-- **Opening:** "Quick question - if I could show you in 90 seconds how to make your money work harder in the worst economic environment, would that be worth your time?" (Closed question, clear value, specific time commitment)
-- **De-risk:** "No selling, no pressure, just information. If it's useful, great. If not, you'll have lost 90 seconds."
-- **Momentum:** "Perfect. Let me ask you three questions first so I can make this as relevant to you as possible..."
-
-**3. Delivery: Energy + Pause**
-- High-energy morning ritual before street work energizes your approach
-- Power poses before engaging strangers activate confidence
-- Pause after your opening question - let them process, don't fill silence with nervous chatter
-
-**4. Message: Problem-Solution Structure**
-- Lead with the problem: "Your savings are losing 7-10% annually to real inflation"
-- Make it personal: "That retirement account you've worked 20 years to build? It'll buy half as much in 10 years."
-- Only then introduce Bitcoin as solution
-- Story: Share 30-second narrative about someone like them who learned Bitcoin basics and protected their wealth
-
-**Specific Script for Street Interviews:**
-
-"Hi, I'm doing a 90-second interview about money and the future. Can I ask you one question that might change how you think about your savings? [Pause for permission]
-
-"If you knew that inflation is actually 7-10% per year - not the 2-3% we're told - how would that change your financial strategy? [Let them answer]
-
-"Most people don't realize their cash savings lose half their value every 7-10 years. That's not a conspiracy - it's math. [Pause]
-
-"We're teaching people a different approach that's protected wealth for 15 years. Can I show you the basics in under 2 minutes? No pressure, no selling - just information. [Wait for yes/no]
-
-"Great. Let me ask three quick questions so this is relevant to you..."
-
-**Why This Works:**
-- Non-attached energy attracts rather than repels
-- Problem stated first creates urgency
-- Specific time commitment reduces barrier
-- Questions engage rather than lecture
-- Story makes abstract concrete
-
-### Partner Recruitment Application
-
-**The Challenge:** Recruit circular economy partners (businesses, renewable energy operators, sustainability advocates) to collaborate on Bitcoin-energy integration projects.
-
-**How This Book Transforms the Approach:**
-
-**Key Principle:** Most partnership pitches fail because they lead with what YOU want (investment, collaboration, access to their network) rather than what THEY get (solution to their pain).
-
-**Partnership Pitch Structure Using Batten Framework:**
-
-**Pre-Meeting Bold Move:**
-"Hi [Partner], I've been following your work on [their sustainability project]. I have a few questions that would take about 10 minutes to make sure what I want to share is relevant to you. This will make our meeting much more valuable."
-
-(This shows respect for their time, demonstrates you've done homework, and allows you to uncover their actual pain points before the pitch.)
-
-**Meeting Structure (75% Problem / 25% Solution):**
-
-**75% - The Problem They Face:**
-"From what you've shared, here's what I understand: Your renewable projects struggle with [specific pain - intermittency, economics, subsidies dependency]. You're in a tough spot because on one hand, [problem consequence A], and on the other hand, [problem consequence B].
-
-"The real challenge isn't just technical - it's that renewable energy has been handicapped by subsidy dependency. The moment subsidies disappear, projects fail. This creates political vulnerability and makes long-term planning impossible.
-
-"What's frustrating is that renewables SHOULD be economically superior - free fuel from sun/wind vs. expensive fossil fuels. But the economics don't work without subsidies. Why? Because there's no buyer of last resort for excess production.
-
-"You've probably tried [existing failed solutions]. They didn't work because [fundamental flaw].
-
-"Here's what happens if this continues: [paint emotional picture of project failure, credibility damage, wasted potential]. And it's not just your project - it's the entire renewable transition that stalls.
-
-"Am I understanding this correctly? Is this the core challenge you're facing?"
-
-**25% - Your Unique Solution:**
-"Here's what we've discovered: Bitcoin mining is the only technology that can make renewables profitable without subsidies. Not through government support, but through pure market economics.
-
-"Here's why: Bitcoin miners are the ultimate flexible load - they can absorb 100% of excess renewable production, paying market rates, 24/7, anywhere in the world. When your solar produces more than the grid needs, instead of curtailing (wasting energy), you convert it to Bitcoin.
-
-"We've modeled this for projects like yours. Here's what happens: [specific ROI improvement, subsidy independence achieved, risk reduction].
-
-"The only thing standing between your current situation and this outcome is [what you need from them]. Does this approach make sense for your situation?"
-
-**Why This Works:**
-- Spent majority of time validating their problem (builds trust)
-- Showed you understand their pain (empathy)
-- Preempted objections (mining energy use, volatility concerns)
-- Made solution feel like natural answer to problem they already have
-- Asked for specific commitment with clear value proposition
-
-### Explaining Via Negativa Philosophy
-
-**The Challenge:** Via Negativa is counterintuitive. People default to "more is better" thinking. Convincing them that removal creates value requires masterful communication.
-
-**Batten Framework Application:**
-
-**Story Structure for Via Negativa:**
-
-**Act 1 - The Conventional Wisdom:**
-"We're taught from childhood that success comes from addition: Get more education. Work more hours. Add more features to your product. Consume more to be happy. Spend more to stimulate the economy.
-
-"This seems logical. If you have a problem, add a solution. If something isn't working, add more effort. If people aren't buying, add more marketing.
-
-"Entire industries are built on this belief. Self-help: Add morning routines, productivity hacks, goal systems. Business: Add headcount, funding, infrastructure. Economics: Add stimulus, subsidies, intervention."
-
-**Act 2 - The Hidden Flaw:**
-"But here's what nobody tells you: Addition often makes problems worse.
-
-"Example: Energy industry. Problem - renewables aren't economically viable. Solution - add subsidies. Result - Creates dependency, distorts markets, makes renewables politically vulnerable. The 'solution' prevented the real solution.
-
-"Example: Personal productivity. Problem - Not getting enough done. Solution - Add more tasks, apps, systems. Result - Overwhelm, burnout, paralysis. The 'solution' created the problem.
-
-"Example: Medicine. Problem - Symptoms of poor lifestyle. Solution - Add pharmaceuticals. Result - Side effects, dependency, underlying cause ignored. The 'solution' masks the disease.
-
-"The pattern is everywhere: Addition creates complexity, dependency, and fragility. Yet we keep doing it because subtraction feels like giving up."
-
-**Act 3 - The Via Negativa Revelation:**
-"But there's another way, known for millennia but forgotten in modern times: Via Negativa. The path of removal.
-
-"Instead of asking 'What can I add?', ask 'What can I remove?'
-"Instead of adding solutions, remove the cause.
-"Instead of adding energy subsidies, remove the barriers to profitability.
-"Instead of adding medication, remove the toxic inputs.
-"Instead of adding words to your pitch, remove the jargon that obscures your message.
-
-"This isn't about doing less - it's about removing what prevents excellence from emerging naturally."
-
-**Act 4 - The Evidence:**
-"Consider Bitcoin: How did it become the world's best-performing asset? By REMOVING the ability to inflate supply. The constraint (21 million cap) is the value.
-
-"Consider this book's teaching on pitching: How do you inspire? By REMOVING constant talking. Pausing creates space for inspiration.
-
-"Consider renewable energy: How does it become sustainable? By REMOVING subsidies, adding Bitcoin mining creates pure market economics.
-
-"Consider your life: How do you find clarity? Not by adding more information, but by REMOVING distraction, noise, and inessential commitments.
-
-"The pattern: Constraint creates power. Removal reveals value. Less enables more."
-
-**Act 5 - The Application:**
-"So here's my question for you: What are you adding that should be subtracted?
-
-"What subsidies (financial, emotional, intellectual) are preventing you from building something truly sustainable?
-
-"What complexity in your business, your pitch, your life is obscuring the essential truth?
-
-"What if the problem isn't that you need more - but that you need to remove what's preventing the right things from working?
-
-"This is Nobody Will Pay's philosophy: Nobody will pay for subsidized solutions long-term. Everyone will pay for solutions that work on pure merit. And merit emerges when we remove the crutches that prevent excellence."
-
-**Why This Story Works:**
-- Starts with familiar belief (addition = progress)
-- Shows the hidden flaw through relatable examples
-- Introduces counter-narrative (Via Negativa) as revelation
-- Provides evidence from multiple domains
-- Ends with personal application question
-
-**For Street Interviews:**
-This becomes 30-second version: "What if I told you the secret to wealth isn't making more money, but removing the thing that steals your money's value? That thing is inflation, and there's now a way to remove its impact completely. Interested?"
-
-### Project Communication Strategy
-
-**How This Book Informs Overall Nobody Will Pay Communication:**
-
-**1. Mindset Shifts for Project Team:**
-- **Non-Attachment:** Approach potential partners/interviewees with genuine service focus, not desperate need for validation
-- **Growth Mindset:** Every rejection is feedback refining our message
-- **Conviction:** We're not pitching a project - we're pitching civilizational infrastructure
-
-**2. Tactical Implementation:**
-- **Anticipation:** Build FAQ addressing every possible objection to Bitcoin-energy integration before they're raised
-- **De-risking:** Total transparency about challenges, unknowns, and risks builds trust
-- **Momentum:** Set clear timelines and next steps in every partner conversation
-- **Bold Moves:** Ask directly for what we need - interviews, partnerships, commitments
-
-**3. Delivery Excellence:**
-- **Energy:** Team members do morning rituals before public engagement
-- **Pause:** In presentations, deliberately pause after key claims about Bitcoin's impact
-- **Tonality:** Practice delivering Bitcoin education with enthusiasm that's infectious
-- **Physicality:** Use high-power poses before street work to activate confidence
-
-**4. Message Mastery:**
-- **Questions:** Lead with "What if inflation is stealing 10% of your wealth annually?" not "Bitcoin is great"
-- **Structure:** Spend 75% explaining the fiat problem before introducing Bitcoin solution
-- **Rhetoric:** Use metaphors - "Bitcoin is a time battery," "Via Negativa is the path of removal"
-- **Story:** Every pitch includes narrative about real person transformed by understanding sound money
-
-### The Ultimate Integration
-
-**Nobody Will Pay Project is a Series of Pitches:**
-1. **Pitch to strangers:** Participate in education interview (street interviews)
-2. **Pitch to businesses:** Partner on circular economy integration
-3. **Pitch to energy operators:** Collaborate on Bitcoin mining integration
-4. **Pitch to community:** Adopt Via Negativa philosophy
-5. **Pitch to ourselves:** This work matters enough to persist through difficulty
-
-**This book provides the HOW for every pitch.**
-
-**The 7-Minute Transformation Principle:**
-Harvey changed his destiny with a 7-minute phone call. The Nobody Will Pay project creates 7-minute conversations on street corners, in coffee shops, and at energy conferences that change how people think about money, energy, and sustainability.
-
-**Batten's Framework Makes This Possible:**
-- Mindset keeps us unattached and service-focused
-- Tactics help us anticipate and preempt objections
-- Delivery ensures we're energetic and inspiring
-- Message makes complex ideas (Bitcoin, Via Negativa) simple and compelling
-
-**The Stakes:**
-This isn't just about project success. It's about changing the world one conversation at a time - the exact promise of the book's title. Every person who understands Bitcoin's civilizational role becomes a node in the network. Every partner who integrates Bitcoin-energy synergy becomes proof of concept. Every street interview is a pitch that could spark transformation.
-
-**We're not building a project. We're pitching a future.**
-
-And we have 16 elements across 4 dimensions to make that pitch irresistible.
-
----
-
-## 8. Further Reading & Resources
+## Further Reading & Resources
 
 ### Primary Sources Referenced in Book
 
@@ -1130,7 +874,7 @@ And we have 16 elements across 4 dimensions to make that pitch irresistible.
 - Slidebean (pitch deck templates and examples)
 - Y Combinator pitch resources
 
-### For Nobody Will Pay Project Team
+### For Bitcoin Education Teams
 
 **Bitcoin Communication:**
 - "The Bitcoin Standard" by Saifedean Ammous (sound money narrative)
@@ -1217,136 +961,7 @@ And we have 16 elements across 4 dimensions to make that pitch irresistible.
 
 ---
 
-## 9. Bookmark Bounty Suggestions
-
-### Bookmark #1: The Non-Attachment Paradox (Early Chapter)
-
-**Recommended Passage:**
-"Without the ability to drop your intention and focus on connection, the other person just becomes a pawn in your chess game. Care for others, not the outcome. Your task is to remain present and care for the other person."
-
-**Why This Passage:**
-- Introduces the book's most counterintuitive and powerful principle
-- Immediately challenges conventional "attachment to results" mentality
-- Provides ethical foundation for all influence
-- Short, memorable, transformative
-
-**Cashu Amount:** 21,000 sats (symbolic of caring for others like 21M cap cares for scarcity)
-
----
-
-### Bookmark #2: The Growth Mindset Revelation (Mindset Section)
-
-**Recommended Passage:**
-"Seeing feedback as a recipe for success is what creates a growth mindset. Your idea does not deserve to die just because the first pitch didn't work. What stops our idea reaching its potential is when we decide to stop feeding it."
-
-**Why This Passage:**
-- Transforms how readers interpret rejection forever
-- Provides immediate practical value
-- Highly relatable - everyone faces rejection
-- Separates those who persist from those who quit
-
-**Cashu Amount:** 10,000 sats (round number for foundational insight)
-
----
-
-### Bookmark #3: The Seven-Minute Transformation (Tactics Section)
-
-**Recommended Passage:**
-"Harvey's tactics had won him a new destiny. And how long had he spent on the phone with me that day? Less than seven minutes. Just seven minutes of bold action can undo years of underperformance."
-
-**Why This Passage:**
-- Inspiring proof that brief, bold conversations change lives
-- Makes the book's promise tangible
-- Encourages immediate action
-- Memorable story that readers will retell
-
-**Cashu Amount:** 7,000 sats (symbolic of 7 minutes that changed destiny)
-
----
-
-### Bookmark #4: The Pause Power Principle (Delivery Section)
-
-**Recommended Passage:**
-"Decisions are not made while you're speaking, they're made while you're pausing. Inspiration literally happens when you are not talking. Failing to pause means failing to inspire."
-
-**Why This Passage:**
-- Completely counterintuitive insight
-- Immediately implementable
-- Transforms presentation style overnight
-- Elegant and memorable phrasing
-
-**Cashu Amount:** 3,000 sats (representing 3-5 second pause recommended)
-
----
-
-### Bookmark #5: The Problem-Solution Ratio (Message Section)
-
-**Recommended Passage:**
-"Spend about three-quarters of your time describing the problem, not the solution. Unless we can make [problem] emotional, the listeners understand explicitly what the high-impact problem is, well before we start talking about our solution."
-
-**Why This Passage:**
-- Inverts standard pitch structure
-- Addresses most common pitching mistake
-- Provides specific, actionable ratio (75/25)
-- Backed by evidence from winning pitch decks
-
-**Cashu Amount:** 75,000 sats (representing 75% problem focus)
-
----
-
-### Bookmark #6: The Flesch Simplicity Standard (Message Section)
-
-**Recommended Passage:**
-"The Flesch Reading Ease score is the only measure to care about when it comes to pitching. It should be greater than 60. Complexity doesn't demonstrate intelligence - it demonstrates lack of self-awareness."
-
-**Why This Passage:**
-- Provides concrete, measurable standard
-- Challenges ego-driven complex communication
-- Immediately testable (readers can check their own writing)
-- Democratizes great communication (anyone can achieve Flesch 60+)
-
-**Cashu Amount:** 60,000 sats (representing target Flesch score >60)
-
----
-
-### Bookmark #7: The Conviction Pledge (Mindset Section)
-
-**Recommended Passage:**
-"I commit to this path: even if it may be long, even if others may doubt its size, even if I may not always know the path ahead. I commit to this vision: even if I have setbacks, even if it is uncomfortable, even if I do not yet have all the resources to create it. I will do whatever it takes to realize this vision, fulfil my purpose and honor my legacy."
-
-**Why This Passage:**
-- Deeply moving commitment statement
-- Readers can immediately adapt for themselves
-- Anchors conviction through written pledge
-- Transforms reading into active participation
-
-**Cashu Amount:** 100,000 sats (largest reward for most transformative passage)
-
----
-
-### Bookmark Placement Strategy
-
-**Progressive Revelation:**
-1. **Early bookmark (Non-Attachment):** Hook readers with counterintuitive principle
-2. **Mid-book bookmarks (Growth Mindset, 7-Minute, Pause):** Build practical toolkit
-3. **Later bookmarks (Problem-Solution, Flesch, Conviction):** Provide implementation framework
-
-**QR Code Redemption Page Design:**
-- Display quote prominently
-- Add "Why This Changes Everything" explanation
-- Link to specific book section for context
-- Provide one immediate action: "Before your next important conversation, try this..."
-- Encourage sharing with hashtag #OneConversationAtATime
-
-**Educational Card with Each Bookmark:**
-
-*"You've discovered a key insight from 'How To Change The World With One Pitch.' This Cashu token represents value created through communication mastery - appropriate since this book teaches you to create value through words. The passage you found is not just information; it's implementation guidance. Every pivotal moment in your life - investor pitch, client meeting, team recruitment, partnership proposal, or convincing yourself to take bold action - requires winning a powerful conversation. You now have one more tool to win. Study it. Practice it. Implement it. Your destiny may change in the next seven minutes."*
-
-**Hashtags:** #OnePitch #ChangingTheWorld #OneConversationAtATime #BookmarkBounty
-
----
-
-## 10. Teaching Integration & Facilitation Guide
+## Teaching Integration & Facilitation Guide
 
 ### 90-Minute Session Structure
 
@@ -1532,16 +1147,16 @@ And we have 16 elements across 4 dimensions to make that pitch irresistible.
 
 ### Project Integration
 
-**Nobody Will Pay Team Training:**
+**Team Training:**
 
-This workbook becomes required reading for all team members involved in:
+This workbook is valuable for all team members involved in:
 - Street interviews (direct public engagement)
 - Partner recruitment (business development)
 - Community education (Bitcoin teaching)
 - Content creation (written, video, podcast)
 
 **Quarterly Pitch Workshops:**
-- Team gathers to practice pitching Nobody Will Pay mission
+- Team gathers to practice pitching Bitcoin and sustainability missions
 - Different contexts: Investor pitch, partner pitch, public presentation, street interview script
 - Record, review, refine using 16-element framework
 - Build institutional muscle memory for influential communication
@@ -1568,8 +1183,8 @@ This workbook becomes required reading for all team members involved in:
 ---
 
 **Workbook Version 1.0 - October 2025**
-**Created for the Nobody Will Pay Project**
-**BookMark Breakfast Discussion Series**
+**Created for Book Club Discussions**
+**Book Club Discussion Series**
 
 ---
 
@@ -1591,4 +1206,4 @@ Success is measured by behavior change, not knowledge acquisition. If they can r
 
 The stakes are civilizational: We're teaching people to pitch Bitcoin's importance, Via Negativa's power, and circular economy's viability. These ideas can change the world - but only if they're communicated masterfully.
 
-*Teach accordingly. Lead by example. Change the world one conversation at a time.*
+*Teach accordingly. Lead by example. Change the world through great books.*

@@ -11,6 +11,10 @@ const UpdateProfileSchema = z.object({
     { message: 'Invalid birth decade' }
   ),
   username: z.string().min(3, 'Username must be at least 3 characters').max(100).optional(),
+  bitcoinAddress: z.string().max(255).optional().refine(
+    (val) => !val || val.startsWith('bc1p') || val.startsWith('bc1') || val.startsWith('1') || val.startsWith('3'),
+    { message: 'Invalid Bitcoin address format' }
+  ),
 })
 
 export async function POST(request: NextRequest) {
@@ -28,6 +32,10 @@ export async function POST(request: NextRequest) {
 
     if (data.birthDecade !== undefined) {
       updates.birthDecade = data.birthDecade || null
+    }
+
+    if (data.bitcoinAddress !== undefined) {
+      updates.bitcoinAddress = data.bitcoinAddress || null
     }
 
     if (data.username) {
@@ -69,6 +77,7 @@ export async function POST(request: NextRequest) {
         username: updatedUser.username,
         referralCode: updatedUser.referralCode,
         birthDecade: updatedUser.birthDecade,
+        bitcoinAddress: updatedUser.bitcoinAddress,
         allocationPoints: updatedUser.allocationPoints,
       }
     })

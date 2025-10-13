@@ -13,6 +13,7 @@ export const users = pgTable('users', {
   allocationPoints: decimal('allocation_points', { precision: 12, scale: 3 }).default('0.000').notNull(), // Support decimal points
   registrationBonusAwarded: boolean('registration_bonus_awarded').default(false).notNull(), // NEW: Track if 10-point bonus given
   birthDecade: varchar('birth_decade', { length: 20 }), // NEW: Birth decade for demographics (e.g., '1980-1990')
+  bitcoinAddress: varchar('bitcoin_address', { length: 255 }), // Bitcoin Taproot address for payments/rewards
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
 })

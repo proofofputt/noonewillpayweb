@@ -1,4 +1,4 @@
-# The Bitcoin Standard - BookMark Breakfast Discussion Workbook
+# The Bitcoin Standard - Book Club Discussion Workbook
 
 **Author:** Saifedean Ammous
 **Publication Year:** 2018
@@ -19,14 +19,6 @@ The Bitcoin Standard argues that Bitcoin represents a return to sound money prin
 4. **Practical Arguments**: Equips Bitcoin advocates with rigorous economic reasoning to counter mainstream Keynesian narratives
 5. **Via Negativa Application**: Shows how Bitcoin succeeds by removing the ability to inflate supply, rather than adding features—a perfect example of power through constraint
 
-### Connection to Nobody•Will•Pay Philosophy
-
-The Bitcoin Standard embodies the Via Negativa principle at every level:
-- **Monetary Policy**: Power comes from what Bitcoin CANNOT do (inflate supply) rather than what it can do
-- **Network Design**: Security emerges from removing trusted third parties, not adding them
-- **Individual Sovereignty**: Freedom comes from removing government control over money, not reforming it
-- **Time Preference**: Prosperity comes from deferring gratification (what you don't consume now) rather than consumption
-- **Economic Growth**: Capital accumulation happens through savings (not spending), investment in production (not consumption)
 
 ---
 
@@ -190,9 +182,9 @@ Consider your own major life decisions through the lens of time preference. Wher
 **Why this question matters**: Time preference is the book's central insight. Making it personal helps people see how monetary policy shapes individual lives beyond just economics.
 
 ### 2. The Via Negativa Paradox
-The Bitcoin Standard argues that Bitcoin succeeds because it REMOVES features (flexibility, centralized decision-making, supply expansion) that every conventional economist says good money needs. The Nobody•Will•Pay project argues that sustainable renewable energy succeeds by REMOVING subsidies and mandates. Is this pattern—power through constraint, success through removal—applicable to other domains of life? Where else do we mistakenly pursue success by adding rather than subtracting?
+The Bitcoin Standard argues that Bitcoin succeeds because it REMOVES features (flexibility, centralized decision-making, supply expansion) that every conventional economist says good money needs. Sustainable renewable energy succeeds by REMOVING subsidies and mandates. Is this pattern—power through constraint, success through removal—applicable to other domains of life? Where else do we mistakenly pursue success by adding rather than subtracting?
 
-**Why this question matters**: This connects the book's core insight to the broader Nobody•Will•Pay philosophy and pushes people to think about Via Negativa as a general principle.
+**Why this question matters**: This connects the book's core insight to the broader Via Negativa philosophy and pushes people to think about Via Negativa as a general principle.
 
 ### 3. The Moral Dimension of Money
 Ammous argues that sound money makes people more moral, peaceful, and future-oriented, while unsound money encourages lying, cheating, high time preference, and war. Do you believe money is really that influential on human character and behavior? Or are individuals fully responsible for their choices regardless of monetary incentives?
@@ -221,7 +213,7 @@ Ammous argues that the decline in artistic quality, family stability, cultural r
 
 ---
 
-## Integration with 90-Minute Curriculum
+## Integration with Discussion Format
 
 ### Introductory Bitcoin Education (First 30 minutes)
 
@@ -324,7 +316,7 @@ Ammous argues that the decline in artistic quality, family stability, cultural r
 
 **Discussion Bridge**: "The Bitcoin Standard is ultimately a persuasion document—Ammous is trying to change your mind about money. How does he use persuasion techniques? He uses historical authority (gold standard worked), scarcity principles (hard money good, easy money bad), social proof (great economists predicted this), and reciprocity (Bitcoin gives you freedom from government control). Are you convinced? What persuasion techniques worked on you, and which didn't?"
 
-**Practical Application for BookMark Breakfast**:
+**Practical Application**:
 
 **The 3-Act Bitcoin Pitch** (Klaff's method applied):
 1. **Frame Control**: "Everything you learned about economics is wrong. You were taught that government management of money is necessary and natural. This is propaganda. For thousands of years, money emerged from the market—government control of money is a 100-year experiment, and it's failing."
@@ -360,7 +352,7 @@ Ammous argues that the decline in artistic quality, family stability, cultural r
 - **Social Reality**: Institutions exist through collective belief and agreement
 - **Persuasion Books**: Changing minds requires frame control and social proof
 
-Now the big question: Is the Nobody•Will•Pay philosophy—that sustainable systems emerge through removal rather than addition—a universal principle? Or are there domains where adding is better than subtracting? Where does Via Negativa work, and where doesn't it?"
+Now the big question: Is the Via Negativa philosophy—that sustainable systems emerge through removal rather than addition—a universal principle? Or are there domains where adding is better than subtracting? Where does Via Negativa work, and where doesn't it?"
 
 **Expected Insights**:
 - Healthcare: Removing barriers to entry vs. adding regulations
@@ -457,7 +449,7 @@ Research one historical example of money transition mentioned in the book:
 - What political or social changes accompanied the monetary change?
 - Are there parallels to today?
 
-**Share**: Present your findings at the next BookMark Breakfast session.
+**Share**: Present your findings at the next book club session.
 
 ---
 
@@ -565,7 +557,7 @@ Choose one aspect of The Bitcoin Standard that resonates with you and write a 1,
 - "The Via Negativa Principle Applied to [Your Domain of Expertise]"
 
 **Share**:
-Post your essay in the Nobody•Will•Pay project repository, share at BookMark Breakfast, or publish on Medium/Substack.
+Share at book club, or publish on Medium/Substack.
 
 **Goal**:
 Original thinking. Don't just repeat Ammous—extend his ideas into new domains, test them against your own experience, find the limits of his arguments. This is how intellectual traditions grow.
@@ -575,7 +567,7 @@ Original thinking. Don't just repeat Ammous—extend his ideas into new domains,
 ### Community Actions
 
 **12. Start a Bitcoin Study Group**
-If BookMark Breakfast is successful, formalize it. Meet monthly to discuss:
+If your book club is successful, formalize it. Meet monthly to discuss:
 - One chapter from an Austrian economics book
 - One Bitcoin technical concept
 - One current event through the sound money lens
@@ -590,7 +582,7 @@ If BookMark Breakfast is successful, formalize it. Meet monthly to discuss:
 ---
 
 **13. The Bitcoin Education Ripple**
-Each participant commits to orange-pilling one person per quarter using the BookMark Breakfast curriculum:
+Each participant commits to orange-pilling one person per quarter using the discussion curriculum:
 - Q1: One family member
 - Q2: One friend
 - Q3: One colleague
@@ -642,7 +634,7 @@ The future is not yet written. These action items are your chance to write it.
 
 ---
 
-**For BookMark Breakfast Facilitators**
+**For Facilitators**
 
 This workbook is designed to be modular. You don't need to cover everything in one session. Use what fits your audience:
 
@@ -657,5 +649,5 @@ Sound money. Low time preference. Individual sovereignty. These are the pillars.
 ---
 
 *Workbook Version 1.0 - October 2025*
-*Created for the Nobody•Will•Pay Project*
-*BookMark Breakfast Discussion Series*
+*Created for Book Club Discussions*
+*Book Club Discussion Series*

@@ -11,6 +11,7 @@ interface UserProfile {
   username: string
   referralCode: string
   birthDecade: string | null
+  bitcoinAddress: string | null
   allocationPoints: string
 }
 
@@ -24,6 +25,7 @@ export default function ProfileSettingsPage() {
 
   const [birthDecade, setBirthDecade] = useState('')
   const [username, setUsername] = useState('')
+  const [bitcoinAddress, setBitcoinAddress] = useState('')
 
   useEffect(() => {
     fetchProfile()
@@ -47,6 +49,7 @@ export default function ProfileSettingsPage() {
         setProfile(data.user)
         setUsername(data.user.username)
         setBirthDecade(data.user.birthDecade || '')
+        setBitcoinAddress(data.user.bitcoinAddress || '')
       }
     } catch (err: any) {
       setError(err.message)
@@ -68,6 +71,7 @@ export default function ProfileSettingsPage() {
         body: JSON.stringify({
           birthDecade: birthDecade || null,
           username,
+          bitcoinAddress: bitcoinAddress || null,
         }),
       })
 
@@ -221,6 +225,34 @@ export default function ProfileSettingsPage() {
                 <div className="text-sm text-orange-light mb-1">Your Generation</div>
                 <div className="text-white font-bold text-lg">
                   {BIRTH_DECADES.find(d => d.value === birthDecade)?.label}
+                </div>
+              </div>
+            )}
+
+            {/* Bitcoin Taproot Address */}
+            <div>
+              <label className="block text-sm font-medium mb-2 text-white">
+                Bitcoin Taproot Address (Optional)
+              </label>
+              <input
+                type="text"
+                value={bitcoinAddress}
+                onChange={(e) => setBitcoinAddress(e.target.value)}
+                className="w-full px-4 py-3 bg-white/90 text-black border-2 border-white rounded-lg focus:border-orange focus:outline-none font-mono text-sm"
+                placeholder="bc1p... (Taproot address)"
+                maxLength={255}
+              />
+              <p className="text-xs text-gray-300 mt-1">
+                Add your Bitcoin Taproot address (bc1p...) to receive Bitcoin rewards and payments. Make sure you control this address.
+              </p>
+            </div>
+
+            {/* Bitcoin Address Display */}
+            {bitcoinAddress && (
+              <div className="bg-gradient-to-br from-bitcoin/20 to-orange/20 rounded-lg p-4 border border-bitcoin">
+                <div className="text-sm text-orange-light mb-1">Your Bitcoin Address</div>
+                <div className="text-white font-mono text-sm break-all">
+                  {bitcoinAddress}
                 </div>
               </div>
             )}

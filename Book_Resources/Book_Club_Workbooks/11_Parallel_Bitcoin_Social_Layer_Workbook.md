@@ -1,11 +1,11 @@
-# Parallel: The Bitcoin Social Layer - BookMark Breakfast Workbook
+# Parallel: The Bitcoin Social Layer - Book Club Discussion Workbook
 
 **Authors:** Brian De Mint, Knut Svanholm & Daniel Prince
 **Core Thesis:** Build parallel systems rather than fighting existing ones - opt out, don't battle
 
 ---
 
-## 1. Book Overview
+## Book Overview
 
 ### Publication Details
 - **Authors:** Brian De Mint, Knut Svanholm & Daniel Prince
@@ -37,7 +37,7 @@ This book argues that Bitcoin enables the creation of a "Bitcoin Social Layer" -
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### Theme: Parallel Systems vs. Fighting
 
@@ -133,7 +133,7 @@ This book argues that Bitcoin enables the creation of a "Bitcoin Social Layer" -
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### 1. Parallel Systems vs. Direct Opposition
 
@@ -213,7 +213,7 @@ This book argues that Bitcoin enables the creation of a "Bitcoin Social Layer" -
 - Attend IRL Bitcoin meetups (page 202, 682-683)
 - Build real relationships with Bitcoiners
 - Connect producers and consumers in your community
-- Host educational sessions (BookMark Breakfast!)
+- Host educational sessions (book clubs!)
 
 **Communication:**
 - Use Nostr/Signal for censorship-resistant speech
@@ -234,7 +234,7 @@ This book argues that Bitcoin enables the creation of a "Bitcoin Social Layer" -
 
 Both scenarios favor those who BUILD NOW, not those who wait
 
-### 4. PERFECT Alignment with Nobody•Will•Pay's "Free and Fair" Philosophy
+### 4. Perfect Alignment with "Free and Fair" Philosophy
 
 **Free and Fair = Parallel Bitcoin Social Layer:**
 
@@ -252,7 +252,7 @@ Both scenarios favor those who BUILD NOW, not those who wait
 - No bailouts, no special privileges
 - Rising tide lifts all boats when incentives align
 
-**BookMark Breakfast Embodies This:**
+**Book Club Embodies This:**
 - Building parallel intellectual infrastructure
 - Economic incentives (Cashu bookmarks) drive engagement
 - Community connections strengthen the network
@@ -324,7 +324,7 @@ Via Negativa (theology term) = defining something by what it is NOT, rather than
 - What remains when you remove permission-seeking? Sovereign actor
 - What remains when you remove fighting? Builder
 
-**Via Negativa Applied to Nobody•Will•Pay:**
+**Via Negativa Application:**
 
 The entire project is via negativa in action:
 - NOT waiting for publishers → Building own distribution
@@ -333,7 +333,7 @@ The entire project is via negativa in action:
 - NOT corporate bookstores → Community-driven discovery
 - NOT permission from gatekeepers → Sovereign book business
 
-**Every BookMark Breakfast Session is Via Negativa:**
+**Every Book Club Session is Via Negativa:**
 - NOT consuming mainstream narratives → Building own understanding
 - NOT passive reading → Active engagement with Bookmark Bounty
 - NOT isolated learning → Community knowledge building
@@ -344,12 +344,12 @@ The entire project is via negativa in action:
 
 By removing our participation from what we reject, we reveal and build what we truly are. The Bitcoin Social Layer isn't defined by a manifesto of what it will be - it's revealed by what we systematically choose NOT to be.
 
-**This is the Nobody•Will•Pay ethos:**
+**This is the Via Negativa ethos:**
 Nobody will pay for freedom in fiat terms - but everyone wins when we build free and fair alternatives.
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
 ### Question 1: Why Build Alternatives Instead of Fighting the System?
 **Context:** Buckminster Fuller quote (page 78), Printing Press example, energy expenditure
@@ -402,7 +402,7 @@ Nobody will pay for freedom in fiat terms - but everyone wins when we build free
 
 **DMV Application:**
 - What businesses in DMV could become Bitcoin economy anchors?
-- How could BookMark Breakfast serve as a Bitcoin Social Layer node?
+- How could our book club serve as a Bitcoin Social Layer node?
 - What events or meetups could strengthen our IRL network?
 
 ### Question 5: The Perfect Storm - Why Now?
@@ -419,7 +419,7 @@ Nobody will pay for freedom in fiat terms - but everyone wins when we build free
 - How will they judge your generation's response to this opportunity?
 
 ### Question 6: Via Negativa - What Are You NOT?
-**Context:** Building identity through rejection, opting out as definition, Nobody•Will•Pay philosophy
+**Context:** Building identity through rejection, opting out as definition, Via Negativa philosophy
 
 **Discussion Points:**
 - How does defining yourself by what you reject clarify what you stand for?
@@ -444,21 +444,21 @@ Nobody will pay for freedom in fiat terms - but everyone wins when we build free
 - How do fixed rules (Bitcoin) create fairer outcomes than flexible rules (fiat)?
 - Can a system be fair if it's not free? Can it be free if it's not fair?
 
-**Nobody•Will•Pay Connection:**
+**Book Club Connection:**
 - How does "Free and Fair" apply to books, education, and community?
-- What makes BookMark Breakfast both free (sovereign) and fair (merit-based)?
+- What makes book clubs both free (sovereign) and fair (merit-based)?
 - How do Cashu bookmarks align incentives fairly?
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### Curriculum Structure Alignment
 
 **Segment 1: Book Introduction (15 min)**
 - Present core thesis: Build parallel, don't fight
 - Introduce Bitcoin Social Layer concept
-- Frame as culmination of BookMark Breakfast journey
+- Frame as culmination of book club journey
 
 **Segment 2: Key Concepts Deep Dive (25 min)**
 - The Perfect Storm: Three cycles aligning
@@ -473,8 +473,8 @@ Nobody will pay for freedom in fiat terms - but everyone wins when we build free
 
 **Segment 4: Broader Implications (20 min)**
 - How Bitcoin Social Layer transforms everything
-- Connection to BookMark Breakfast mission
-- Links to circular economy and Nobody•Will•Pay vision
+- Connection to book club mission
+- Links to circular economy and BookMark vision
 - Call to action: become a node in the network
 
 ### Fits Into "Broader Implications" Segment
@@ -501,9 +501,9 @@ Parallel is the perfect capstone because it shows how everything else in the ser
 **The Broader Implication:**
 We're not just learning about Bitcoin. We're learning how to build the alternative civilization that emerges when money is fixed and incentives align.
 
-### Connects to BookMark Breakfast Mission
+### Connects to Book Club Mission
 
-**BookMark Breakfast IS a Bitcoin Social Layer Node:**
+**Book Club IS a Bitcoin Social Layer Node:**
 
 1. **Economic Connection Point**
    - Cashu bookmarks create incentive alignment
@@ -532,15 +532,15 @@ We're not just learning about Bitcoin. We're learning how to build the alternati
    - Each book discussion = vote for independent thought
 
 **The Meta-Connection:**
-We're using a book ABOUT parallel systems to BUILD a parallel system for book discovery and discussion. BookMark Breakfast doesn't just teach the Bitcoin Social Layer - it IS the Bitcoin Social Layer for intellectual community.
+We're using a book ABOUT parallel systems to BUILD a parallel system for book discovery and discussion. Our book club doesn't just teach the Bitcoin Social Layer - it IS the Bitcoin Social Layer for intellectual community.
 
 ### Links to Circular Economy
 
-**How BookMark Breakfast Creates Circularity:**
+**How Book Club Creates Circularity:**
 
 **The Flow:**
 1. Readers attend session → earn Cashu bookmarks
-2. Spend bookmarks → on Nobody•Will•Pay books/future sessions
+2. Spend bookmarks → on books/future sessions
 3. Authors/hosts earn Bitcoin → spend in DMV Bitcoin economy
 4. Businesses accept Bitcoin → sponsor future sessions
 5. New participants join → cycle strengthens
@@ -561,7 +561,7 @@ Every transaction:
 **Real Bedford Model (page 790-800):**
 Peter McCormack: "Don't need money to do this. Need a community."
 
-BookMark Breakfast:
+Book Club:
 - Community discovering books together
 - Bitcoin incentives aligning interests
 - Local business integration (coffee shops, bookstores, Bitcoin spaces)
@@ -591,7 +591,7 @@ BookMark Breakfast:
    - Politically aware population
    - Hunger for alternatives to status quo
 
-**BookMark Breakfast as DMV Bitcoin Social Layer Catalyst:**
+**Book Club as DMV Bitcoin Social Layer Catalyst:**
 
 **Phase 1: Network Formation (Now)**
 - Weekly sessions build IRL connections
@@ -599,12 +599,12 @@ BookMark Breakfast:
 - Relationships form between participants
 
 **Phase 2: Economic Integration (Next 6 months)**
-- Participants identify as "BookMark Breakfast community"
+- Participants identify as "book club community"
 - Start preferencing each other for services
 - "You're a Bitcoiner, I'll call you for plumbing" (page 797)
 
 **Phase 3: Business Adoption (6-12 months)**
-- Coffee shops see BookMark Breakfast traffic → accept Bitcoin
+- Coffee shops see book club traffic → accept Bitcoin
 - Bookstores want our business → join circular economy
 - Authors/speakers earn Bitcoin → spend locally
 
@@ -614,7 +614,7 @@ BookMark Breakfast:
 - Proof that parallel system works at local level
 
 **Metrics of Success:**
-- Number of businesses in BookMark Breakfast economy
+- Number of businesses in book club economy
 - Percentage of participant spending in Bitcoin
 - New Bitcoin users onboarded through sessions
 - Economic connections formed (not just social follows)
@@ -627,127 +627,10 @@ If we can build a circular economy around BOOKS (not exactly a necessity like fo
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Recommended Pages for Cashu Bookmarks
-
-**Bookmark #1: Page 78 - The Buckminster Fuller Quote**
-> "You never change the existing system by tearing it down or fighting against it. You change the existing system by building a parallel system that's better, and then people naturally gravitate towards that."
-
-**Why This Page:**
-- Single most important concept in the entire book
-- Perfectly encapsulates Nobody•Will•Pay philosophy
-- Memorable, shareable, actionable
-- Foundation for everything that follows
-
----
-
-**Bookmark #2: Page 129 - Your Unique Moment in History**
-> "For some reason, you were the one chosen from your family lineage to live at this time - this unique moment in history where four perfect storms of change are all touching down at the same time. No one in the generations before you or those to come will have the opportunity that you have now, to help build the parallel system."
-
-**Why This Page:**
-- Deeply personal and motivating
-- Creates sense of responsibility and urgency
-- Connects individual action to historical significance
-- Answers "why should I care?" question
-
----
-
-**Bookmark #3: Page 248 - Individualism vs. Collectivism**
-> "In the fiat social layer (collectivism), the state is the entity and the individual is just an instrument of the state to be wielded as the state sees fit. In the Bitcoin Social Layer (individualism), the individual is the entity and the state is simply an instrument of the individual that exists for the sole purpose of preserving individual liberty."
-
-**Why This Page:**
-- Clear definition of what Bitcoin Social Layer actually IS
-- Stark contrast with current system
-- Philosophical foundation for practical action
-- Clarifies what we're building toward
-
----
-
-**Bookmark #4: Page 840 - Every Action is a Vote**
-> "Every action you take throughout your day is a vote. The things you pay attention to, the things you ignore, the people you spend time with, the medicines you take, what you do for a living, and the money you hold - all of these are votes."
-
-**Why This Page:**
-- Transforms daily choices into meaningful acts
-- Empowers readers to see their own power
-- Bridges philosophy and practice
-- Perfectly titled chapter: "Every Day Is Election Day"
-
----
-
-**Bookmark #5: Page 883-884 - Net Effect of Two**
-> "Every Transaction within the Bitcoin social Layer has a net effect of two. When you spend in bitcoin, it not only removes from fiat, it adds a plus one for Bitcoin. Simultaneously subtracting support from the fiat economy and adding it to the bitcoin economy."
-
-**Why This Page:**
-- Quantifies the impact of individual transactions
-- Makes abstract concept (opting out) concrete
-- Motivates spending Bitcoin, not just holding
-- Shows how small actions compound
-
----
-
-**Bookmark #6 (BONUS): Page 154 - The Path Forward**
-> "Never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete. Far left socialists and far right fascists want the same thing: through collectivism, they want to burn down the system, but that's not how sustainable change is made. Change that lasts generations is made by building a better system. Rather than burning the existing system down, starve it of oxygen."
-
-**Why This Page:**
-- Unites both political extremes in same trap
-- Shows the ONLY sustainable path forward
-- Poetic and powerful language
-- Builds vs. burns = building vs. fighting distinction
-
----
-
-### Bookmark Placement Strategy
-
-**For BookMark Breakfast Sessions:**
-
-1. **Pre-Session Plant:** Place bookmarks BEFORE discussion
-   - Creates treasure hunt during reading
-   - Participants discover during preparation
-   - Natural discussion starters
-
-2. **Discussion Integration:** Reference bookmark pages during conversation
-   - "Who found the bookmark on page 78?"
-   - Read quote aloud, discuss significance
-   - Connect to other concepts in book
-
-3. **Action Catalyst:** Bookmark pages are homework/next steps
-   - Page 129: Reflect on your unique role
-   - Page 840: Track your daily votes
-   - Page 883: Calculate your net effect
-
-**Cashu Bookmark Values:**
-
-- Pages 78, 129, 248: 2,100 sats (foundational concepts)
-- Pages 840, 883: 1,000 sats (actionable insights)
-- Page 154: 500 sats (reinforcement of main theme)
-
-Total Bounty: 8,200 sats per book = ~$8 at current prices
-
-**The Meta-Game:**
-Finding bookmarks teaches the book's lesson - you're rewarded for actively engaging, building connections (to text, to community), and participating in the parallel Bitcoin economy. The medium IS the message.
-
----
-
-## 7. Connection to Other Books
-
-### Core Connection to Nobody•Will•Pay Project
-
-**This Book IS the Nobody•Will•Pay Manifesto:**
-
-Everything we're building is an application of Parallel's principles:
-
-1. **NOT Fighting Traditional Publishing → Building Parallel Distribution**
-   - Rejecting: Gatekeepers, extractive contracts, permission-seeking
-   - Building: Direct author-reader connection, Bitcoin incentives, sovereign creation
-
-2. **NOT Begging for Mainstream Acceptance → Creating Our Own Standard**
-   - Rejecting: "Legitimate" through institutional validation
-   - Building: Value-based reputation in Bitcoin community
 
 3. **NOT Waiting for "The System" to Change → Opt Out Completely**
    - Rejecting: Reform efforts, lobbying publishers, asking for fairness
-   - Building: Entire parallel infrastructure (BookMark Breakfast, Bookmark Bounty, circular economy)
+   - Building: Entire parallel infrastructure (book clubs, Bookmark Bounty, circular economy)
 
 4. **Via Negativa in Action:**
    - What remains when we remove: publishers, bookstores, fiat payments, centralized discovery?
@@ -758,7 +641,7 @@ Everything we're building is an application of Parallel's principles:
 - **Fiat Book World:** Publishers → Distributors → Retailers → Readers (extract at each step)
 - **Bitcoin Book World:** Authors ↔ Readers (direct connection, Bitcoin incentives)
 
-**Nobody•Will•Pay = Bitcoin Social Layer for Books**
+**Book Club = Bitcoin Social Layer for Books**
 
 ### Links to Blocksize Wars (Grassroots Organizing)
 
@@ -767,12 +650,12 @@ Everything we're building is an application of Parallel's principles:
 1. **Small Groups Can Win Against Powerful Institutions**
    - Blocksize: User-activated soft fork defeated corporate takeover
    - Parallel: 1/3 of population enough for revolution (page 66)
-   - Application: BookMark Breakfast doesn't need majority adoption to succeed
+   - Application: Book clubs don't need majority adoption to succeed
 
 2. **Decentralized Coordination Beats Top-Down Control**
    - Blocksize: No leader, just aligned incentives and clear principles
    - Parallel: Bitcoin Social Layer emerges from individual choices (page 248)
-   - Application: Each BookMark session is autonomous, yet coordinated by shared values
+   - Application: Each session is autonomous, yet coordinated by shared values
 
 3. **Technical AND Social Victory Required**
    - Blocksize: Winning the tech argument wasn't enough—needed community coordination
@@ -799,20 +682,20 @@ Blocksize Wars showed HOW to coordinate decentralized resistance. Parallel shows
 2. **Memes as Modern Court Jesters**
    - How to Change: Framing and narrative matter
    - Parallel: Memes "breach sensitive subjects presenting truths others dared not utter" (page 559)
-   - Application: BookMark Breakfast discussions help reframe books into actionable memes
+   - Application: Book club discussions help reframe books into actionable memes
 
 3. **IRL Trumps Digital**
    - How to Change: Face-to-face more persuasive than text
    - Parallel: "IRL connections are the biggest threat to status quo" (page 202)
-   - Application: In-person BookMark sessions create stronger bonds than online book clubs
+   - Application: In-person sessions create stronger bonds than online book clubs
 
 4. **Narrative Builds Movements**
    - How to Change: Story and emotional connection drive adoption
    - Parallel: We're living in unique historical moment—be part of story (page 129)
-   - Application: Position BookMark Breakfast as part of larger parallel system narrative
+   - Application: Position book club as part of larger parallel system narrative
 
 **The Connection:**
-How to Change the World teaches communication tactics. Parallel provides the strategy (build parallel) and the cause (Bitcoin Social Layer). BookMark Breakfast executes both: effective communication within parallel infrastructure.
+How to Change the World teaches communication tactics. Parallel provides the strategy (build parallel) and the cause (Bitcoin Social Layer). Book clubs execute both: effective communication within parallel infrastructure.
 
 ### Supports Abundance Through Scarcity Theme
 
@@ -826,7 +709,7 @@ How to Change the World teaches communication tactics. Parallel provides the str
 2. **Time Preference Shapes Civilization**
    - Abundance: Hard money → low time preference → delayed gratification
    - Parallel: "Society of low time preference individuals = less depraved behavior" (page 744)
-   - Application: BookMark Breakfast rewards deep reading (delayed gratification) over quick takes
+   - Application: Book clubs reward deep reading (delayed gratification) over quick takes
 
 3. **Antifragility Through Constraint**
    - Abundance: Limits force creativity and resilience
@@ -841,7 +724,7 @@ How to Change the World teaches communication tactics. Parallel provides the str
 **The Connection:**
 Abundance shows the economics. Parallel shows the social implications. Together: Sound money (scarce) → Low time preference → Better civilization → Parallel systems flourish.
 
-### The Complete BookMark Breakfast Journey
+### The Complete Book Club Journey
 
 **Book Progression Arc:**
 
@@ -863,8 +746,8 @@ Abundance shows the economics. Parallel shows the social implications. Together:
 **Parallel is the Capstone:**
 It takes everything learned and says: "Now build. Here's how. Here's why. Here's your moment."
 
-**Nobody•Will•Pay Connection:**
-We're not just READING about parallel systems—we're BUILDING one. Each BookMark Breakfast session is:
+**Book Club Connection:**
+We're not just READING about parallel systems—we're BUILDING one. Each session is:
 - Grassroots coordination (Blocksize)
 - Bitcoin philosophy applied (21 Lessons)
 - Sound money incentives (Bitcoin Standard)
@@ -873,11 +756,11 @@ We're not just READING about parallel systems—we're BUILDING one. Each BookMar
 - Parallel system in action (Parallel)
 
 **The Meta-Lesson:**
-The book series itself IS a parallel education system, and BookMark Breakfast IS a parallel book discovery system. We're living the books we're reading.
+The book series itself IS a parallel education system, and book clubs ARE a parallel book discovery system. We're living the books we're reading.
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### Immediate Actions (This Week)
 
@@ -886,7 +769,7 @@ The book series itself IS a parallel education system, and BookMark Breakfast IS
 - **How:**
   - Search meetup.com or orangepillapp.com for DMV Bitcoin meetups
   - Attend at least one this month
-  - Introduce yourself as part of BookMark Breakfast community
+  - Introduce yourself as part of book club community
 - **Outcome:** Make 1-3 real connections with local Bitcoiners
 
 **2. Calculate Your "Net Effect"**
@@ -913,12 +796,12 @@ The book series itself IS a parallel education system, and BookMark Breakfast IS
 - **Why:** "Become a Bitcoin business = cheat code for success" (page 781)
 - **How:**
   - Set up Lightning wallet (Phoenix, Breez, or similar)
-  - Announce to BookMark Breakfast community you accept Bitcoin
+  - Announce to book club community you accept Bitcoin
   - Start with discount for Bitcoin payments (5-10% off)
   - Track: saves on fees, attracts Bitcoiners, builds reputation
 - **Outcome:** First step toward Bitcoin business model
 
-**5. Host or Organize a BookMark Breakfast Session**
+**5. Host or Organize a Book Club Session**
 - **Why:** Build the parallel intellectual infrastructure
 - **How:**
   - Choose a book from the series (or this one!)
@@ -953,13 +836,13 @@ The book series itself IS a parallel education system, and BookMark Breakfast IS
 - **Metric:** Have 10 Bitcoiners who know your name and what you offer
 - **Outcome:** Network effect begins—opportunities find you
 
-**8. Participate in Nobody•Will•Pay Circular Economy**
+**8. Participate in Book Club Circular Economy**
 - **Why:** Practice what the book preaches—build the parallel
 - **How:**
-  - Earn: Attend BookMark Breakfast, find Cashu bookmarks
+  - Earn: Attend book club, find Cashu bookmarks
   - Spend: Buy books with sats, pay for future sessions with Cashu
   - Circulate: Introduce others, help them earn and spend
-  - Expand: Connect Nobody•Will•Pay to other Bitcoin businesses
+  - Expand: Connect book club to other Bitcoin businesses
 - **Metric:** Complete 5 circular transactions (earn → spend → someone else earns)
 - **Outcome:** Lived experience of circular Bitcoin economy
 
@@ -985,7 +868,7 @@ The book series itself IS a parallel education system, and BookMark Breakfast IS
   - Practice explaining Bitcoin Social Layer (not just Bitcoin)
   - Listen for pain points in conversations (inflation, censorship, control)
   - Offer relevant solution from parallel system
-  - Follow up—invite to meetup, BookMark Breakfast, or Bitcoin business
+  - Follow up—invite to meetup, book club, or Bitcoin business
 - **Approach:** "I used to struggle with that too. I found an alternative..."
 - **Outcome:** Bring 3-5 new people into parallel system this year
 
@@ -1010,7 +893,7 @@ The book series itself IS a parallel education system, and BookMark Breakfast IS
 
 ### Session Commitment Card
 
-At the end of each BookMark Breakfast session, participants fill out:
+At the end of each session, participants fill out:
 
 **Name:** _______________
 

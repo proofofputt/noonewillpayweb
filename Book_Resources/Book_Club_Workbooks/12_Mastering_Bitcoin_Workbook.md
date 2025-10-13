@@ -1,4 +1,4 @@
-# Mastering Bitcoin - BookMark Breakfast Workbook
+# Mastering Bitcoin - Book Club Discussion Workbook
 
 **Author:** Andreas M. Antonopoulos
 **Publication Year:** 2017 (2nd Edition)
@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Book Overview
+## Book Overview
 
 ### Core Thesis
 Mastering Bitcoin is the definitive technical guide to understanding Bitcoin's architecture and mechanics. Antonopoulos takes readers from the abstract concept of "this isn't money, it's a decentralized trust network" deep into the implementation details that make Bitcoin work. The book demonstrates that Bitcoin is not just a currency but a platform for building trustless applications through programmable money.
@@ -39,7 +39,7 @@ Antonopoulos discovered Bitcoin in mid-2011, initially dismissing it as "Pfft! N
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### On Decentralization & Trust
 > "Bitcoin is such a system, decentralized by design, and free of any central authority or point of control that can be attacked or corrupted."
@@ -128,7 +128,7 @@ Antonopoulos discovered Bitcoin in mid-2011, initially dismissing it as "Pfft! N
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### 1. Bitcoin as a Decentralized Trust Network
 **Simple Explanation:** Bitcoin isn't just digital money - it's a way for strangers to transact without needing a bank, government, or company to act as middleman. The network itself provides trust through mathematics and game theory.
@@ -257,7 +257,7 @@ Antonopoulos discovered Bitcoin in mid-2011, initially dismissing it as "Pfft! N
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
 ### Question 1: Why Does Technical Understanding Matter for Non-Developers?
 **Context:** Most people use smartphones without understanding how processors work. Why should Bitcoin be different?
@@ -371,7 +371,7 @@ Antonopoulos discovered Bitcoin in mid-2011, initially dismissing it as "Pfft! N
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### Key Mechanics Segment (20 minutes)
 **Goal:** Give non-technical audience enough understanding to use Bitcoin competently and evaluate technical claims.
@@ -435,148 +435,6 @@ Antonopoulos discovered Bitcoin in mid-2011, initially dismissing it as "Pfft! N
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Recommended Pages/Passages for Hiding Cashu Bookmarks
-
-**1. "Ownership Through Keys" Section**
-- **Location:** Chapter 4 - Introduction to Keys, Addresses
-- **Quote:** "Ownership of bitcoin is established through digital keys, bitcoin addresses, and digital signatures. The digital keys are not actually stored in the network, but are instead created and stored by users..."
-- **Why:** Core concept that Bitcoin ownership is about keys, not accounts. Perfect metaphor for Cashu tokens hidden in books.
-
-**2. "Don't Trust, Verify" Passage**
-- **Location:** Chapter 8 - Full Nodes description
-- **Quote:** "Full nodes can autonomously and authoritatively verify any transaction without external reference."
-- **Why:** Embodies the philosophical core of Bitcoin. Participants must verify to claim the reward.
-
-**3. "Decentralized Consensus" Explanation**
-- **Location:** Chapter 10 - Introduction to Mining and Consensus
-- **Quote:** "Satoshi Nakamoto's main invention is the decentralized mechanism for emergent consensus. Emergent, because consensus is not achieved explicitly - there is no election or fixed moment when consensus occurs."
-- **Why:** Beautiful explanation of Bitcoin's breakthrough innovation.
-
-**4. "Private Keys Must Be Protected" Warning**
-- **Location:** Chapter 4 - Private Keys section
-- **Quote:** "The private key must be kept secret at all times, because revealing it to third parties is equivalent to giving them control over the bitcoin secured by that key. The private key must also be backed up and protected from accidental loss, because if it's lost it cannot be recovered and the funds secured by it are forever lost, too."
-- **Why:** Critical security lesson. Finding this passage could save someone from future loss.
-
-**5. "Bitcoin as Trust Network" Revelation**
-- **Location:** Preface - Author's Journey
-- **Quote:** "The realization that 'this isn't money, it's a decentralized trust network,' started me on a four-month journey to devour every scrap of information about bitcoin I could find."
-- **Why:** Antonopoulos's "aha moment" that inspired the book. Perfect for bounty hunters to discover.
-
----
-
-## 7. Connection to Other Books
-
-### Complements The Genesis Book
-**Relationship:** The Genesis Book tells the story of WHY Bitcoin was created (cypherpunk philosophy, digital freedom, sound money). Mastering Bitcoin shows HOW it was built (technical implementation).
-
-**Cross-References:**
-- Genesis Book: "Cypherpunks write code" → Mastering Bitcoin: Here's the code
-- Genesis Book: History of failed digital cash → Mastering Bitcoin: Why Bitcoin succeeded (solving double-spend)
-- Genesis Book: Satoshi's vision → Mastering Bitcoin: Satoshi's architecture
-
-**Discussion Bridge:** "The Genesis Book inspired us with the vision. Mastering Bitcoin empowers us to verify that vision is being faithfully executed in code."
-
-### Links to The Blocksize Wars
-**Relationship:** The Blocksize Wars describes the political battle over Bitcoin's scaling. Mastering Bitcoin provides the technical foundation to understand what was actually being debated.
-
-**Cross-References:**
-- Blocksize Wars: Big blocks vs small blocks → Mastering Bitcoin: Block structure, UTXO set growth, bandwidth requirements
-- Blocksize Wars: Segregated Witness → Mastering Bitcoin: Chapter on SegWit technical details
-- Blocksize Wars: Miner signaling → Mastering Bitcoin: BIP-9 activation mechanism
-
-**Discussion Bridge:** "You can't fully understand the blocksize war's stakes without understanding Bitcoin's architecture. Mastering Bitcoin reveals what was really at risk."
-
-### Supports Decrypting Money (Jeff Booth)
-**Relationship:** Decrypting Money makes Bitcoin accessible to non-technical audiences. Mastering Bitcoin provides the depth for those who want to dig deeper.
-
-**Cross-References:**
-- Decrypting Money: "Bitcoin is trustless" → Mastering Bitcoin: Here's how cryptography and consensus enable trustlessness
-- Decrypting Money: "21 million cap" → Mastering Bitcoin: Code that enforces supply schedule
-- Decrypting Money: "Store of value" → Mastering Bitcoin: Immutability through Proof-of-Work
-
-**Discussion Bridge:** "Start with Decrypting Money for the big picture. Read Mastering Bitcoin when you're ready to verify those claims yourself."
-
-### Foundation for Layered Money (Nik Bhatia)
-**Relationship:** Layered Money describes Bitcoin as base layer money. Mastering Bitcoin explains Lightning Network and other Layer 2 solutions technically.
-
-**Cross-References:**
-- Layered Money: Bitcoin as Layer 1 → Mastering Bitcoin: Blockchain as settlement layer
-- Layered Money: Lightning as Layer 2 → Mastering Bitcoin: Chapter 12 on payment channels and HTLCs
-- Layered Money: Tradeoffs between layers → Mastering Bitcoin: Technical constraints that create those tradeoffs
-
-**Discussion Bridge:** "Layered Money explains why Bitcoin needs layers. Mastering Bitcoin shows how those layers are built on Bitcoin's foundation."
-
----
-
-## 8. Action Items for Participants
-
-### Level 1: Beginner Actions (Do These First)
-
-**1. Set Up a Bitcoin Full Node**
-- **Goal:** Experience "Don't trust, verify" firsthand
-- **How:**
-  - Start9, Umbrel, or RaspiBlitz (easiest)
-  - Bitcoin Core on your computer (most educational)
-  - Let it sync the entire blockchain (~500GB)
-- **Learning:** Watch your node validate every block from 2009. See consensus rules enforced in real-time.
-- **Resources:** Chapter 3 of Mastering Bitcoin, node documentation
-
-**2. Generate a Seed Phrase Offline**
-- **Goal:** Understand key generation and entropy
-- **How:**
-  - Use dice to generate random numbers
-  - Convert to BIP-39 mnemonic words
-  - Import into a hardware wallet or air-gapped device
-- **Learning:** Experience that private keys are just random numbers. Understand why secure randomness matters.
-- **Resources:** Chapter 4 and Chapter 5 (HD wallets)
-
-**3. Verify a Transaction on Your Node**
-- **Goal:** Stop trusting block explorers, start verifying
-- **How:**
-  - Look up a transaction on blockchain.info
-  - Query your own node with bitcoin-cli getrawtransaction
-  - Decode the transaction and verify all details match
-- **Learning:** Your node is the source of truth, not websites
-- **Resources:** Chapter 3 (Bitcoin Core API)
-
-**4. Explore Bitcoin's Source Code on GitHub**
-- **Goal:** See that Bitcoin is just code anyone can audit
-- **How:**
-  - Visit github.com/bitcoin/bitcoin
-  - Read validation.cpp to see consensus rules
-  - Review commit history for recent changes
-- **Learning:** "Don't trust, verify" extends to the software itself
-- **Resources:** Preface mentions GitHub, links throughout book
-
-### Level 2: Intermediate Actions (After Basics)
-
-**5. Create a Multisig Wallet**
-- **Goal:** Understand advanced script capabilities
-- **How:**
-  - Use Sparrow Wallet, Specter, or Electrum
-  - Create 2-of-3 multisig with multiple hardware wallets
-  - Practice recovery scenarios
-- **Learning:** How Bitcoin script enables sophisticated custody
-- **Resources:** Chapter 7 (Advanced Transactions and Scripting)
-
-**6. Run Lightning Network Node**
-- **Goal:** Experience Layer 2 scaling solution
-- **How:**
-  - Set up LND, c-lightning, or Eclair
-  - Open payment channels with other nodes
-  - Send and receive Lightning payments
-- **Learning:** How payment channels work, HTLC mechanics
-- **Resources:** Chapter 12 (Payment Channels)
-
-**7. Decode and Analyze Raw Transactions**
-- **Goal:** Understand transaction structure deeply
-- **How:**
-  - Use bitcoin-cli decoderawtransaction
-  - Manually parse hexadecimal transaction data
-  - Identify inputs, outputs, scripts, signatures
-- **Learning:** Transactions are just data structures, not magic
 - **Resources:** Chapter 6 (Transactions)
 
 **8. Track the UTXO Set**

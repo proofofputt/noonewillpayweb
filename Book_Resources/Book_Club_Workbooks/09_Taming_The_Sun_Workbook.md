@@ -1,6 +1,6 @@
 # Taming The Sun - Book Club Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Title:** Taming The Sun: Innovations To Harness Solar Energy and Power The Planet
 **Author:** Varun Sivaram
@@ -12,14 +12,14 @@
 **Why This Book Matters:**
 Sivaram's work bridges the gap between techno-optimism ("solar will save us automatically") and pessimism ("renewable energy can never work at scale"). He presents a clear-eyed assessment of solar's potential while identifying specific barriers that must be overcome. Unlike most energy books that focus solely on technology or policy, Taming The Sun integrates technology, finance, business models, and geopolitics into a comprehensive framework.
 
-**Connection to No One Will Pay Philosophy:**
+**Via Negativa in Energy:**
 This book exemplifies Via Negativa thinking in the energy sector. Sivaram argues that solar's success doesn't require MORE subsidies, regulation, or central planning - it requires REMOVING barriers to innovation, ELIMINATING perverse incentives, and allowing markets to function efficiently. The book shows how subsidies have actually hindered solar innovation by rewarding incremental deployment over breakthrough research. True solar abundance emerges when we remove obstacles, not when we add support.
 
 The Bitcoin connection is profound: just as Bitcoin mining can monetize stranded renewable energy (removing the transmission problem), sound money can enable long-term infrastructure investments (removing the short-term capital problem). Both represent "removal solutions" rather than "addition solutions."
 
 ---
 
-## 2. Key Themes
+## Key Themes
 
 ### Theme 1: Two Divergent Futures for Solar Energy
 
@@ -81,7 +81,7 @@ China's dominance in solar manufacturing (70%+ of global production) creates str
 
 ---
 
-## 3. Discussion Questions
+## Discussion Questions
 
 ### Question 1: The Two Futures Paradox
 Sivaram argues both the "bright" and "stalled" futures look identical in their early stages - rapid solar deployment followed by divergence. If we can't tell which path we're on until it's too late to change course, what metrics should we track NOW to know if we're heading toward the bright or stalled future?
@@ -106,14 +106,14 @@ Sivaram argues solar subsidies (feed-in tariffs, tax credits) have been a double
 
 **Why This Matters:** This is the core Via Negativa question for energy policy. Did adding subsidies help or hurt solar's long-term prospects? Would removing them unleash or destroy innovation?
 
-**Nobody Will Pay Framework:** If solar needs perpetual subsidies, nobody will pay for it long-term (politically unsustainable). If solar can become subsidy-free, everyone will pay for it (economically sustainable).
+**Via Negativa Framework:** If solar needs perpetual subsidies, it's not sustainable long-term (politically and economically). If solar can become subsidy-free, it becomes universally viable.
 
 ---
 
 ### Question 4: Bitcoin Mining as Grid Solution
 Sivaram identifies grid integration and value deflation as solar's biggest challenges. Bitcoin mining provides flexible demand that can absorb excess midday solar and shut off during evening peaks. Could Bitcoin mining solve solar's grid integration problem? Or is this techno-optimism ignoring practical barriers?
 
-**Why This Matters:** This directly connects the book to the No One Will Pay project thesis. If Bitcoin mining can monetize stranded solar power and stabilize grids, it removes two major barriers to solar scaling - without subsidies or regulation.
+**Why This Matters:** If Bitcoin mining can monetize stranded solar power and stabilize grids, it removes two major barriers to solar scaling - without subsidies or regulation.
 
 **Challenge Point:** Critics argue Bitcoin mining is too small to matter, too volatile (what if Bitcoin price crashes?), and politically toxic (governments see it as wasteful). How would you respond?
 
@@ -178,7 +178,7 @@ Energy infrastructure lasts 30-50 years. Solar panels installed today will still
 
 ---
 
-## 4. Key Quotes & Analysis
+## Key Ideas
 
 ### On Two Futures
 
@@ -298,7 +298,7 @@ Energy infrastructure lasts 30-50 years. Solar panels installed today will still
 
 ---
 
-## 5. Practical Applications
+## Practical Applications
 
 ### Application 1: Evaluating Solar Investment Opportunities
 
@@ -324,7 +324,7 @@ Energy infrastructure lasts 30-50 years. Solar panels installed today will still
 
 **Real-World Example:** Texas solar farms increasingly face negative prices during midday. A co-located Bitcoin mining operation could pay near-zero for electricity during these hours, making mining profitable even with razor-thin margins. The solar farm gains revenue from otherwise worthless excess generation.
 
-**Nobody Will Pay Integration:** This removes the need for subsidies. Solar+Bitcoin mining is economically viable on pure market dynamics - no feed-in tariffs, no tax credits required.
+**Via Negativa Integration:** This removes the need for subsidies. Solar+Bitcoin mining is economically viable on pure market dynamics - no feed-in tariffs, no tax credits required.
 
 ---
 
@@ -417,7 +417,7 @@ Energy infrastructure lasts 30-50 years. Solar panels installed today will still
 
 ---
 
-## 6. Activities for Book Club Participants
+## Activities for Book Club Participants
 
 ### Activity 1: Two Futures Scenario Planning
 **Duration:** 45 minutes
@@ -583,123 +583,7 @@ Energy infrastructure lasts 30-50 years. Solar panels installed today will still
 
 ---
 
-## 7. Connection to No One Will Pay Project
-
-### Philosophical Alignment
-
-**Core Principle:** Taming The Sun embodies Via Negativa thinking - solar's success requires removing barriers, not adding support. Sivaram demonstrates that subsidies have hindered innovation, perverse incentives have blocked breakthrough technologies, and regulatory obstacles have prevented efficient market solutions. True solar abundance emerges from constraint removal, not subsidy addition.
-
-**Key Parallels:**
-
-1. **Subsidy Paradox**
-   - Solar subsidies drove deployment but killed innovation
-   - Feed-in tariffs rewarded installing inferior technology over developing superior technology
-   - Via Negativa solution: Remove deployment subsidies, let market pressure drive innovation
-
-2. **Bitcoin-Solar Synergy**
-   - Solar's biggest problem: Value deflation from grid oversupply during midday
-   - Bitcoin mining's solution: Flexible demand that absorbs excess solar when prices are low
-   - Via Negativa: Removes grid integration problem without subsidies or regulation
-
-3. **Sound Money and Long-Term Infrastructure**
-   - Energy infrastructure requires 30-50 year planning horizons
-   - Fiat money creates high time preference (quarterly earnings, election cycles)
-   - Bitcoin's fixed supply creates low time preference enabling multi-generational infrastructure thinking
-
-### Bitcoin-Energy Synergy for Nobody Will Pay
-
-**The Integration:**
-
-Taming The Sun reveals why Bitcoin and solar are naturally symbiotic:
-
-1. **Grid Stabilization Without Subsidies**
-   - **Problem:** Solar creates duck curve - too much power at midday, none at night
-   - **Subsidy Solution:** Pay backup plants to stand idle, subsidize batteries
-   - **Bitcoin Solution:** Mine during solar excess, shut down during shortage
-   - **Via Negativa:** Removes need for subsidies by creating market-driven demand flexibility
-
-2. **Stranded Energy Monetization**
-   - **Problem:** Best solar resources are often far from demand centers, transmission is expensive
-   - **Subsidy Solution:** Build transmission lines with government funding
-   - **Bitcoin Solution:** Mine on-site, transmit value digitally instead of electrically
-   - **Via Negativa:** Removes transmission bottleneck by moving value, not energy
-
-3. **Value Deflation Solution**
-   - **Problem:** As solar penetration increases, its economic value decreases
-   - **Subsidy Solution:** Guaranteed prices (feed-in tariffs) regardless of market value
-   - **Bitcoin Solution:** Mining provides price floor - will buy excess solar at low but positive price
-   - **Via Negativa:** Removes value deflation through market mechanism, not regulation
-
-**Nobody Will Pay Vindication:**
-
-The book proves that:
-- Nobody will pay for subsidized solar long-term (politically unsustainable, fiscally burdensome)
-- Everyone will pay for Bitcoin-enabled solar (economically sustainable, profitable)
-- The solution was removing barriers (value deflation, grid integration, transmission constraints), not adding support
-
-### Energy Questions in No One Will Pay Survey
-
-**Survey Integration:**
-
-The No One Will Pay project survey includes energy-related questions. Taming The Sun provides the theoretical framework for why these questions matter:
-
-1. **"Can renewable energy power civilization without fossil fuels?"**
-   - Sivaram's answer: Yes, but only with breakthrough storage, grid modernization, and flexible demand
-   - Bitcoin contribution: Provides flexible demand that makes high renewable penetration economically viable
-
-2. **"Should governments subsidize renewable energy?"**
-   - Sivaram's nuanced answer: Subsidize innovation (R&D), not deployment (installation)
-   - Via Negativa: Remove deployment subsidies that reward inferior technology
-
-3. **"Is energy abundance or scarcity humanity's future?"**
-   - Sivaram's bright future: Energy abundance through solar
-   - Bitcoin's role: Makes solar abundance economically sustainable by solving grid integration
-
-**Survey Design Implication:**
-Questions should distinguish between:
-- Deployment subsidies (feed-in tariffs, tax credits) - which Sivaram shows are counterproductive
-- Innovation funding (R&D, ARPA-E) - which Sivaram supports
-- Market mechanisms (Bitcoin mining, demand response) - which remove need for subsidies
-
-### Practical Implementation
-
-**How the Book Informs Project Strategy:**
-
-1. **Focus on Grid Integration Solutions**
-   - Sivaram identifies grid integration as solar's biggest barrier
-   - Nobody Will Pay can position Bitcoin mining as THE solution
-   - Demonstrate that solar+Bitcoin is profitable without subsidies
-
-2. **Emphasize Innovation Over Deployment**
-   - Support breakthrough storage research (flow batteries, hydrogen, thermal)
-   - Don't advocate for more solar panel installations - advocate for better technology
-   - Frame as innovation policy (bipartisan) not climate policy (polarizing)
-
-3. **Energy Sovereignty Narrative**
-   - Connect Bitcoin mining to energy independence
-   - Distributed solar+Bitcoin reduces dependence on centralized grids and foreign supply chains
-   - Appeals to both progressive (climate) and conservative (sovereignty) values
-
-4. **Long-Term Infrastructure Vision**
-   - Position Bitcoin as enabler of multi-generational thinking
-   - Sound money allows 30-50 year infrastructure planning that fiat discourages
-   - Frame energy transition as infrastructure project requiring low time preference
-
-### The Ultimate Case Study
-
-Taming The Sun is the perfect energy policy companion to Nobody Will Pay because it proves:
-
-- **Energy:** Remove subsidies → gain sustainable deployment
-- **Grid:** Remove inflexible demand → gain stability
-- **Innovation:** Remove deployment incentives → gain breakthrough research
-- **Finance:** Remove fiat's short-termism → gain long-term infrastructure investment
-- **Geopolitics:** Remove centralized control → gain distributed resilience
-
-The book shows this isn't just a pattern - it's a fundamental principle of sustainable systems. Nobody Will Pay puts this principle into practice by demonstrating that Bitcoin mining solves solar's problems through removal (of grid constraints, value deflation, subsidy dependence) rather than addition (of regulations, subsidies, centralized control).
-
----
-
-## 8. Further Reading & Resources
+## Further Reading & Resources
 
 ### Primary Sources Referenced
 
@@ -835,7 +719,7 @@ The book shows this isn't just a pattern - it's a fundamental principle of susta
 
 ### Project-Specific Connections
 
-**Nobody Will Pay Related:**
+**Book Club Related:**
 1. Review workbooks: Bitcoin Standard, Price of Tomorrow, Abundance Through Scarcity
 2. Study circular economy + solar integration
 3. Research successful solar+Bitcoin mining projects
@@ -863,223 +747,6 @@ The book shows this isn't just a pattern - it's a fundamental principle of susta
 - "This Machine Greens" - Bitcoin mining and renewables
 - "Bitcoin and Energy: The Great Debate" - Nic Carter, Troy Cross
 - Peter McCormack's "What Bitcoin Did" podcast - Bitcoin mining episodes
-
----
-
-## 9. Bookmark Bounty Suggestions
-
-### Bookmark #1: Two Futures Warning (Introduction)
-
-**Recommended Passage:**
-"It doesn't help that the paths toward each future start out looking deceptively similar - both involve today's solar PV panels surging in popularity over the next decade or two - so it's not obvious which path the world is on right now."
-
-**Why This Passage:**
-- Introduces book's central thesis immediately
-- Creates cognitive dissonance - current solar boom doesn't guarantee success
-- Accessible to general readers while profound for experts
-- Sets up book's urgency - we must act NOW when outcomes aren't yet visible
-
-**Cashu Amount:** 21,000 sats (symbolic of 21M Bitcoin cap, and this is the foundational concept)
-
----
-
-### Bookmark #2: Innovation Deficit (Chapter 2)
-
-**Recommended Passage:**
-"Firms in Asia, which dominate the industry, invest less than a penny from every dollar of revenue into R&D of new technologies."
-
-**Why This Passage:**
-- Shocking statistic that contradicts "solar is booming" narrative
-- Explains why solar's bright future is not guaranteed
-- Accessible (simple percentage) yet profound (systemic problem)
-- Prompts question: If solar industry doesn't innovate, who will?
-
-**Cashu Amount:** 100,000 sats (big number to emphasize the seriousness of this issue)
-
----
-
-### Bookmark #3: Grid Integration Challenge (Chapter 3)
-
-**Recommended Passage:**
-"At 9:45 a.m. on March 20, 2015, electricity grid operators in Germany scanned the heavens, praying for clouds."
-
-**Why This Passage:**
-- Visceral, dramatic imagery - "praying for clouds" during solar eclipse
-- Illustrates grid integration challenge better than any technical explanation
-- Memorable and quotable
-- Foreshadows that "crisis today becomes daily phenomenon in 10 years"
-
-**Cashu Amount:** 20,150 sats (date of eclipse: 2015 + 20 for March 20)
-
----
-
-### Bookmark #4: Value Deflation (Chapter 3)
-
-**Recommended Passage:**
-"As the cost of generating solar power steadily falls, the value of consuming that electricity could fall even faster as more of it connects to the grid."
-
-**Why This Passage:**
-- Counterintuitive economic concept critical to understanding solar's challenges
-- Explains why falling solar costs don't guarantee economic success
-- Bridges to Bitcoin mining solution (flexible demand prevents value deflation)
-- Sophisticated concept that rewards careful reading
-
-**Cashu Amount:** 14,400 sats (144 blocks per day × 100 - symbolizing daily grid cycles)
-
----
-
-### Bookmark #5: Subsidy Double-Edged Sword (Chapter 4-5)
-
-**Recommended Passage:**
-"Feed-in tariffs and tax credits rewarded deployment of existing technology, not development of new technology. This created a perverse incentive structure."
-
-**Why This Passage:**
-- Core Via Negativa insight - subsidies hindered more than helped
-- Challenges conventional wisdom that "solar needs subsidies"
-- Directly connects to Nobody Will Pay philosophy
-- Prompts productive debate about role of government in energy
-
-**Cashu Amount:** 200,000 sats (Germany spent ~200 billion euros on solar subsidies)
-
----
-
-### Bookmark #6: Storage Reality Check (Chapter 7)
-
-**Recommended Passage:**
-"Even with optimistic battery cost projections, seasonal storage remains prohibitively expensive. You can't economically store summer solar power for winter heating."
-
-**Why This Passage:**
-- Bursts the "solar+batteries = 100% renewable" bubble
-- Distinguishes daily (feasible) from seasonal (impractical) storage
-- Accessible concept (summer vs winter) illustrating technical limitation
-- Honest assessment that doesn't sugarcoat challenges
-
-**Cashu Amount:** 730,000 sats (365 days × 2 - representing seasonal storage challenge)
-
----
-
-### Bookmark #7: China Dominance (Chapter 2)
-
-**Recommended Passage:**
-"China built up massive production overcapacity all along the solar supply chain, then launched an all-out price war to win scarce customer demand. When the dust settled, China had emerged as the world's largest producer and consumer of solar PV."
-
-**Why This Passage:**
-- Explains how China came to dominate solar manufacturing
-- Geopolitical implications of energy transition
-- Shows energy independence isn't achieved by replacing oil (OPEC) with solar (China)
-- Relevant to current policy debates about domestic manufacturing
-
-**Cashu Amount:** 70,000 sats (China controls ~70% of global solar manufacturing)
-
----
-
-### Bookmark #8: Off-Grid Solar Failure (Chapter 5)
-
-**Recommended Passage:**
-"From 2012 to 2016, roughly 100,000 households gained access to electricity thanks to off-grid solar systems - but over 50 million households remained in the dark."
-
-**Why This Passage:**
-- Devastating statistic showing gap between solar's promise and reality
-- Humanitarian dimension - technology exists but distribution/business models fail
-- Prompts discussion of whether off-grid solar is right development model
-- Shows technology alone doesn't solve problems - need economics, financing, distribution
-
-**Cashu Amount:** 50,000 sats (50 million households still without power)
-
----
-
-### Bookmark #9: Energy Transition Timeline (Chapter 1)
-
-**Recommended Passage:**
-"Energy transitions take a very long time. Wood to coal to oil - have each taken roughly a half-century. There will be no opportunity for another do-over."
-
-**Why This Passage:**
-- Historical context showing magnitude of challenge
-- Emphasizes urgency - we're attempting unprecedented acceleration
-- Long-term thinking essential (connects to Bitcoin's low time preference)
-- "No do-over" stakes make current decisions critical
-
-**Cashu Amount:** 50,000 sats (50 years = typical energy transition timeframe)
-
----
-
-### Bookmark #10: The Choice (Conclusion)
-
-**Recommended Passage:**
-"There will be winners and losers. But there will be far more winners and many more prizes to go around if the world can realize the second future, not the first."
-
-**Why This Passage:**
-- Optimistic yet realistic conclusion
-- Emphasizes stakes - bright future is achievable but not inevitable
-- Calls to action without being preachy
-- Memorable closing thought
-
-**Cashu Amount:** 2,100,000 sats (21M supply cap ÷ 10 - representing abundance possible in bright future)
-
----
-
-### Bookmark Placement Strategy
-
-**Progressive Revelation:**
-1. Early bookmarks (Two Futures, Grid Challenge) - hook readers with big picture
-2. Mid-book bookmarks (Innovation Deficit, Subsidies, China) - deepen understanding of systemic issues
-3. Later bookmarks (Storage, Value Deflation) - sophisticated economic concepts
-4. Final bookmark (The Choice) - inspire action
-
-**QR Code Design:**
-- Include quote excerpt on redemption page
-- Add "Why This Matters for Bitcoin & Energy" note
-- Link to Nobody Will Pay project content on Bitcoin-solar synergy
-- Encourage sharing with hashtag #TamingTheSun #BitcoinEnergy
-
-**Educational Card with Each Bookmark:**
-
-*"You've discovered a truth about solar's future - just as this bookmark represents economic value (Bitcoin sats) embedded in physical form. Varun Sivaram reveals that solar energy stands at a crossroads between abundance and stagnation. The path forward requires not more subsidies, but smarter innovation - including Bitcoin mining's ability to stabilize renewable grids. The future is bright, but only if we act wisely today. Welcome to the energy revolution."*
-
----
-
-## 10. Teaching Integration & Facilitation Guide
-
-### 90-Minute Session Structure
-
-**Session Title: "Taming The Sun: Solar's Two Futures and Bitcoin's Role"**
-
-**Minutes 0-15: The Two Futures Framework**
-- Open with Germany solar eclipse story - dramatic and memorable
-- Present binary choice: Bright future vs. Stalled future
-- Key point: Both look identical NOW, diverge later
-- Interactive: Poll participants - which future do you think we're heading toward?
-
-**Minutes 15-30: Innovation Drought and Subsidy Paradox**
-- Present shocking stat: <1% R&D spending in solar industry
-- Explain how Chinese manufacturing boom killed innovation ecosystem
-- Subsidy double-edged sword: Drove deployment, killed breakthrough research
-- Interactive: Quick debate - should governments subsidize solar? How?
-
-**Minutes 30-50: Grid Integration and Value Deflation**
-- Explain duck curve with visual diagram
-- Value deflation concept: Solar's value falls as penetration increases
-- Chile example: Zero/negative electricity prices at midday
-- Interactive: Calculate simple grid scenario - how much backup power needed?
-
-**Minutes 50-70: Bitcoin Mining as Grid Solution**
-- Present Bitcoin mining as flexible demand
-- Explain how mining absorbs excess midday solar
-- Economics: Mine when power is cheap (solar glut), stop when expensive (evening peak)
-- Case studies: Texas solar farms + Bitcoin mining
-- Interactive: Calculate mining profitability with variable electricity prices
-
-**Minutes 70-85: Storage, Geopolitics, and Long-Term Vision**
-- Storage reality check: Daily (feasible) vs. Seasonal (impractical)
-- China dominance in solar manufacturing - energy independence question
-- Long-term infrastructure thinking requires low time preference (Bitcoin mindset)
-- Connect to Nobody Will Pay: Via Negativa solutions remove barriers
-
-**Minutes 85-90: The Choice and Call to Action**
-- Emphasize stakes: Decisions made now determine which future we get
-- Individual action items: What can YOU do? (Install solar, advocate for innovation funding, support Bitcoin-solar projects)
-- Community building: How do we coordinate toward bright future?
-- Close with optimism: Technology exists, economics can work, just need wise decisions
 
 ---
 
@@ -1163,7 +830,7 @@ The book shows this isn't just a pattern - it's a fundamental principle of susta
 - Bitcoin-energy connection - recognize synergies rather than opposition
 
 **Project Integration:**
-- Graduates become Nobody Will Pay advocates - spreading Via Negativa energy philosophy
+- Graduates become advocates for Via Negativa energy philosophy
 - Contribute to Bitcoin + solar demonstration projects
 - Advocate for subsidy removal and innovation funding in local policy
 - Build local energy communities combining solar + Bitcoin mining
@@ -1197,7 +864,7 @@ The book shows this isn't just a pattern - it's a fundamental principle of susta
 ### Workbook Version & Updates
 
 **Version 1.0 - October 2025**
-**Created for the No One Will Pay Project**
+**Created for Book Club Discussions**
 **Book Club Discussion Series**
 
 **Future Updates:**
@@ -1227,6 +894,6 @@ The book shows this isn't just a pattern - it's a fundamental principle of susta
 The book's greatest contribution is distinguishing DEPLOYMENT (installing panels) from INNOVATION (developing better technology). Most solar policy conflates these. Subsidies drove deployment but killed innovation. The bright future requires prioritizing innovation, which means removing perverse deployment incentives.
 
 **Bitcoin Connection:**
-Bitcoin mining solves solar's biggest problems (grid integration, value deflation, stranded energy) through market mechanisms, not subsidies. This is the perfect embodiment of Nobody Will Pay philosophy - sustainable solutions through removal of barriers, not addition of support.
+Bitcoin mining solves solar's biggest problems (grid integration, value deflation, stranded energy) through market mechanisms, not subsidies. This is the perfect embodiment of Via Negativa philosophy - sustainable solutions through removal of barriers, not addition of support.
 
 *Teach accordingly.*

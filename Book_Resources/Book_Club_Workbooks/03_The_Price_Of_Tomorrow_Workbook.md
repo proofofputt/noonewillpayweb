@@ -1,6 +1,6 @@
-# The Price Of Tomorrow - BookMark Breakfast Workbook
+# The Price Of Tomorrow - Book Club Discussion Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Author:** Jeff Booth
 **Publication Year:** 2020
@@ -11,61 +11,61 @@ This book reveals the hidden war between two opposing forces: deflationary techn
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### Technology & Deflation
-- "Technology is a deflationary force so great that, in the end, nothing we do will stop it." (p. 60)
-- "Deflation, put simply, is when you get more for your money just as inflation is when you get less for your money." (p. 62)
-- "We continue to get more for less." (p. 66)
-- "Information doesn't have the same constraints that physical goods have: it travels seamlessly across borders. It is much more efficient, eradicating a lot of waste from the system. But much of that waste and inefficiency are our jobs." (p. 138)
+- "Technology is a deflationary force so great that, in the end, nothing we do will stop it."
+- "Deflation, put simply, is when you get more for your money just as inflation is when you get less for your money."
+- "We continue to get more for less."
+- "Information doesn't have the same constraints that physical goods have: it travels seamlessly across borders. It is much more efficient, eradicating a lot of waste from the system. But much of that waste and inefficiency are our jobs."
 
 ### The Debt Problem
-- "In other words, it has taken approximately $185 trillion of global debt to achieve $46 trillion of global growth." (p. 82)
-- "The mirage of growth today is nothing more than a debt fuelled spending binge." (p. 84)
-- "Debt combined deflation is a toxic combination, because borrowers have to pay the same for their interest payments while earning less." (p. 80)
-- "There is already too much debt in the world, which paradoxically makes the problem harder to solve." (p. 80)
+- "In other words, it has taken approximately $185 trillion of global debt to achieve $46 trillion of global growth."
+- "The mirage of growth today is nothing more than a debt fuelled spending binge."
+- "Debt combined deflation is a toxic combination, because borrowers have to pay the same for their interest payments while earning less."
+- "There is already too much debt in the world, which paradoxically makes the problem harder to solve."
 
 ### Central Banks & Money Manipulation
-- As Keynes wrote: "Lenin is said to have declared that the best way to destroy the capitalist system was to debauch the currency. By a continuing process of inflation, governments can confiscate, secretly and unobserved, an important part of the wealth of their citizens." (p. 126-127)
-- "A country that devalues its currency also indirectly lowers its labour rate against global competitors, which can help some job growth in the short term, because its goods cost less to buyers in other countries." (p. 120)
-- "The endless game of reducing the value of currencies relative to others only serves as a short-term panacea, because asset prices will rise far more quickly than jobs can be created." (p. 124)
+- As Keynes wrote: "Lenin is said to have declared that the best way to destroy the capitalist system was to debauch the currency. By a continuing process of inflation, governments can confiscate, secretly and unobserved, an important part of the wealth of their citizens."
+- "A country that devalues its currency also indirectly lowers its labour rate against global competitors, which can help some job growth in the short term, because its goods cost less to buyers in other countries."
+- "The endless game of reducing the value of currencies relative to others only serves as a short-term panacea, because asset prices will rise far more quickly than jobs can be created."
 
 ### The Exponential Nature of Technology
-- "Beyond just the doubling of computing power, we should expect a 40 percent annual decline in price to performance." (p. 275)
-- "The cost of one megabyte of hard drive memory has fallen from approximately $1 million in 1967 to 2 cents today." (p. 276)
-- "In less than two hours, more energy from the sun hits the Earth than the yearly worldwide consumption of energy." (p. 407)
-- "Levelized cost of utility-grade solar dropped 88 percent in the last ten years." (p. 421)
+- "Beyond just the doubling of computing power, we should expect a 40 percent annual decline in price to performance."
+- "The cost of one megabyte of hard drive memory has fallen from approximately $1 million in 1967 to 2 cents today."
+- "In less than two hours, more energy from the sun hits the Earth than the yearly worldwide consumption of energy."
+- "Levelized cost of utility-grade solar dropped 88 percent in the last ten years."
 
 ### Abundance Through Scarcity (Bitcoin)
-- "Bitcoin attempts to change that dynamic by forever fixing supply at twenty one million Bitcoins." (p. 649)
-- "It creates a peer-to-peer ledger without any central control: the blockchain. As an open, distributed ledger, it offers security and trust by verifying transactions with consensus instead of through a central authority." (p. 651)
-- "Some parts of the world have less risk in holding Bitcoin than their own currency." (p. 653)
+- "Bitcoin attempts to change that dynamic by forever fixing supply at twenty one million Bitcoins."
+- "It creates a peer-to-peer ledger without any central control: the blockchain. As an open, distributed ledger, it offers security and trust by verifying transactions with consensus instead of through a central authority."
+- "Some parts of the world have less risk in holding Bitcoin than their own currency."
 
 ### The Simple Solution
-- "Deflation becomes something celebrated because it means that we are getting more for less." (p. 663)
-- "As technology removes jobs and fewer overall jobs are needed, prices will keep falling, allowing those who lose jobs a way to share in the benefit of technology abundance without massive transfers of wealth." (p. 665-666)
-- "The deflationary aspect of technology is too great a force and it will eventually overwhelm even the greatest efforts to stop it." (p. 678)
+- "Deflation becomes something celebrated because it means that we are getting more for less."
+- "As technology removes jobs and fewer overall jobs are needed, prices will keep falling, allowing those who lose jobs a way to share in the benefit of technology abundance without massive transfers of wealth."
+- "The deflationary aspect of technology is too great a force and it will eventually overwhelm even the greatest efforts to stop it."
 
 ### Wealth Inequality & Social Unrest
-- "The seemingly random events of Brexit, Trump, and a rise in populism and hate in our world are not haphazard or isolated at all. They are all connected to a loss in hope for a better future for large portions of the population." (p. 45)
-- "The world naturally becomes more unsafe when large amounts of people with increasing anxiety about their own economic future see incredible wealth creation in hands of very few people." (p. 49)
-- "People do not naturally hate others when they're content or have abundance. They are manipulated into it when they feel discounted or that they have nothing to lose." (p. 540)
+- "The seemingly random events of Brexit, Trump, and a rise in populism and hate in our world are not haphazard or isolated at all. They are all connected to a loss in hope for a better future for large portions of the population."
+- "The world naturally becomes more unsafe when large amounts of people with increasing anxiety about their own economic future see incredible wealth creation in hands of very few people."
+- "People do not naturally hate others when they're content or have abundance. They are manipulated into it when they feel discounted or that they have nothing to lose."
 
 ### Call to Action
-- "Something must be done. But because the issues are so complex and thorny in nature, it is easy to put heads in the sand and hope others will solve them." (p. 686)
-- "It is not reasonable to believe that what will work in the future should necessarily be built on what worked in the past." (p. 10)
-- "The opportunity to create something better comes from observing something broken or that doesn't work the way you believe it should." (p. 24)
+- "Something must be done. But because the issues are so complex and thorny in nature, it is easy to put heads in the sand and hope others will solve them."
+- "It is not reasonable to believe that what will work in the future should necessarily be built on what worked in the past."
+- "The opportunity to create something better comes from observing something broken or that doesn't work the way you believe it should."
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### The Technology-Money Conflict
 **In Simple Terms:** Every time technology improves, it should make things cheaper. Your smartphone can do what used to require hundreds of devices - it's a camera, calculator, GPS, music player, encyclopedia, and more. This should mean you spend less money overall. But instead, everything keeps getting more expensive. Why?
 
 The answer is **inflation** - central banks print money to create the illusion of growth, which makes each dollar worth less. So even though technology makes products cheaper to produce, inflation makes them more expensive to buy.
 
-**Connection to Nobody•Will•Pay:** This is Via Negativa in action - the problem isn't that we need MORE (more money, more jobs, more growth). The problem is we need to REMOVE the broken money system that prevents technology's natural abundance from reaching people. Nobody•Will•Pay because they shouldn't have to - technology wants to give us abundance for free.
+This is Via Negativa in action - the problem isn't that we need MORE (more money, more jobs, more growth). The problem is we need to REMOVE the broken money system that prevents technology's natural abundance from reaching people. Technology wants to give us abundance for free.
 
 ### The Debt Trap
 **In Simple Terms:** Governments and central banks try to fight deflation by creating debt - borrowing from the future to spend today. It's like using a credit card to pay for another credit card. Eventually, the system collapses under its own weight.
@@ -124,7 +124,7 @@ This exponential growth means:
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
 ### Question 1: The Smartphone Paradox
 **Discussion Starter:** Your smartphone has the computing power that would have cost millions of dollars 30 years ago. It replaces hundreds of devices. Why hasn't this technological abundance made your life significantly cheaper? Where does the deflation "go"?
@@ -187,7 +187,7 @@ This exponential growth means:
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### Fits Into: "Broader Implications" Segment (Final 30 Minutes)
 
@@ -225,54 +225,7 @@ The first 60 minutes establish WHAT Bitcoin is and HOW it works. The Price of To
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Bookmark Location #1: The Core Thesis (Page 60)
-**Quote:** "Technology is a deflationary force so great that, in the end, nothing we do will stop it."
-
-**Why This Page:** This single sentence captures the entire book's argument. Perfect for someone discovering the fundamental conflict between technology and our monetary system.
-
-**Cashu Note Message:** "Deflation = Abundance. Your money should buy MORE over time, not less. That's what technology promises - if we let it."
-
----
-
-### Bookmark Location #2: The Debt Reality (Page 82)
-**Quote:** "In other words, it has taken approximately $185 trillion of global debt to achieve $46 trillion of global growth."
-
-**Why This Page:** This stark statistic reveals the unsustainability of our current system. It's the "red pill" moment for understanding the debt trap.
-
-**Cashu Note Message:** "4 dollars of debt for every 1 dollar of growth. This isn't prosperity - it's a Ponzi scheme. Bitcoin offers the exit."
-
----
-
-### Bookmark Location #3: Keynes on Currency Debasement (Page 126-127)
-**Quote:** "Lenin is said to have declared that the best way to destroy the capitalist system was to debauch the currency..."
-
-**Why This Page:** Historical perspective on money manipulation. Shows this isn't a new problem - it's a recurring pattern throughout history.
-
-**Cashu Note Message:** "Inflation is theft in slow motion. They confiscate your wealth 'secretly and unobserved' - until you understand Bitcoin."
-
----
-
-### Bookmark Location #4: Energy Abundance (Page 407)
-**Quote:** "In less than two hours, more energy from the sun hits the Earth than the yearly worldwide consumption of energy."
-
-**Why This Page:** Demonstrates that abundance is REAL and POSSIBLE - we're choosing scarcity through our monetary system.
-
-**Cashu Note Message:** "We have unlimited energy from the sun. The only scarcity is artificial - created by money manipulation. Choose abundance."
-
----
-
-### Bookmark Location #5: The Simple Solution (Page 663-666)
-**Quote:** "Deflation becomes something celebrated because it means that we are getting more for less... As technology removes jobs and fewer overall jobs are needed, prices will keep falling, allowing those who lose jobs a way to share in the benefit of technology abundance without massive transfers of wealth."
-
-**Why This Page:** The vision of what's possible - abundance through deflation, enabled by sound money.
-
-**Cashu Note Message:** "Imagine prices falling while your savings grow in purchasing power. That's the Bitcoin future - abundance for all."
-
----
-
-## 7. Connection to Other Books
+## Connection to Other Books
 
 ### Perfect Pairing: The Bitcoin Standard (Saifedean Ammous)
 **Synergy:** Both books argue for sound money, but from different angles:
@@ -319,7 +272,7 @@ The first 60 minutes establish WHAT Bitcoin is and HOW it works. The Price of To
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### Action Item #1: Track Technology vs. Inflation
 **Activity:** Choose one technology product you use (smartphone, computer, TV, etc.)
@@ -439,17 +392,17 @@ The first 60 minutes establish WHAT Bitcoin is and HOW it works. The Price of To
 
 ---
 
-## 9. Closing Reflection
+## Closing Reflection
 
-### The Nobody•Will•Pay Synthesis
+### The Book Club Synthesis
 
-The Price of Tomorrow is the perfect intellectual foundation for the Nobody•Will•Pay project because it reveals the core truth: **abundance through scarcity**.
+The Price of Tomorrow reveals the core truth: **abundance through scarcity**.
 
 - **Scarcity in money** (Bitcoin's fixed supply) enables **abundance in goods** (technology's deflation)
 - **Removing** monetary manipulation allows technology to deliver prosperity
 - **Via Negativa** applied to economics: the solution isn't MORE (stimulus, jobs, growth), it's LESS (interference, manipulation, inflation)
 
-When "Nobody•Will•Pay," it's because they shouldn't have to - technology wants to make everything free or nearly free. The only thing preventing this is a monetary system designed for a pre-technology era.
+Technology wants to make everything free or nearly free. The only thing preventing this is a monetary system designed for a pre-technology era.
 
 Bitcoin isn't just money. It's the infrastructure that allows human civilization to accept the abundant future that technology promises.
 
@@ -459,7 +412,7 @@ Bitcoin isn't just money. It's the infrastructure that allows human civilization
 
 > "The deflationary aspect of technology is too great a force and it will eventually overwhelm even the greatest efforts to stop it. Those efforts to stop it, and the second-order consequences that fight to halt deflation, will look insane to future generations because that fight will bring on revolutions and wars that burn the existing system to the ground. Allowing that to happen seems insanely irresponsible, since humanity might forever lose the opportunity to have the kind of social uplift that is possible with technology."
 >
-> — Jeff Booth, The Price of Tomorrow (p. 678-680)
+> — Jeff Booth, The Price of Tomorrow
 
 **The question isn't WHETHER the abundant future arrives. The question is whether we choose it consciously through sound money, or arrive there through chaos and destruction.**
 
@@ -467,4 +420,4 @@ Bitcoin isn't just money. It's the infrastructure that allows human civilization
 
 ---
 
-*This workbook is part of the BookMark Breakfast series - discovering Bitcoin through great books, one hidden Cashu token at a time.*
+*This workbook is part of the book club series - discovering Bitcoin through great books.*

@@ -162,6 +162,50 @@ export default function MyDashboardPage() {
           </div>
         </div>
 
+        {/* Bitcoin Book Clubs - Prominent Feature */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
+          className="mb-8 bg-gradient-to-br from-purple-900/40 to-blue-900/40 rounded-lg p-8 border-2 border-purple-400"
+        >
+          <div className="flex items-start justify-between">
+            <div className="flex-1">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="text-5xl">📚</span>
+                <h2 className="text-3xl font-bold text-white">
+                  12 Months of Bitcoin Book Clubs
+                </h2>
+              </div>
+              <p className="text-lg text-gray-200 mb-4 leading-relaxed">
+                Access your comprehensive guide to running Bitcoin education book clubs. Includes book notes, discussion guides, and 21 professionally designed slide presentations.
+              </p>
+              <div className="flex flex-wrap gap-3 mb-6">
+                <div className="bg-black/30 px-4 py-2 rounded-lg border border-purple-300">
+                  <span className="text-purple-300 font-semibold">📖 Book Notes</span>
+                </div>
+                <div className="bg-black/30 px-4 py-2 rounded-lg border border-blue-300">
+                  <span className="text-blue-300 font-semibold">🎯 Discussion Guides</span>
+                </div>
+                <div className="bg-black/30 px-4 py-2 rounded-lg border border-green-300">
+                  <span className="text-green-300 font-semibold">📊 21 Slide Decks</span>
+                </div>
+              </div>
+              <Link
+                href="/book-club"
+                className="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold text-lg rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all transform hover:scale-105 shadow-lg"
+              >
+                Open Book Club Resources →
+              </Link>
+            </div>
+            <div className="hidden lg:block ml-6">
+              <div className="w-48 h-48 bg-gradient-to-br from-bitcoin to-orange rounded-lg flex items-center justify-center text-8xl shadow-2xl">
+                📚
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
         {/* Stats Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <StatCard

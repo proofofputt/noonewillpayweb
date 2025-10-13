@@ -20,6 +20,7 @@ export async function GET() {
         username: user.username,
         referralCode: user.referralCode,
         birthDecade: user.birthDecade,
+        bitcoinAddress: user.bitcoinAddress,
         allocationPoints: user.allocationPoints,
         registrationBonusAwarded: user.registrationBonusAwarded,
         isAdmin: user.isAdmin,

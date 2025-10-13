@@ -1,6 +1,6 @@
-# The Genesis Book: BookMark Breakfast Discussion Workbook
+# The Genesis Book: Book Club Discussion Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Author:** Aaron van Wirdum
 **Publication Year:** 2024
@@ -18,106 +18,86 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
-### On The Need for Alternative Money (Introduction/Part I)
+### On The Need for Alternative Money
 
 **Friedrich Hayek (Opening Quote):**
 > "I don't believe that we shall ever have a good money again before we take the thing out of the hands of government. Since we can't take them violently out of the hands of government, all we can do is, by some sly, roundabout way, introduce something they can't stop."
 - Friedrich Hayek, 1984
 - *Perfect opening quote for understanding Bitcoin's strategic approach*
 
-**On Neutral Money (Chapter 3):**
+**On Neutral Money:**
 > "Hayek rejected stabilization policies, and he rejected monetary nationalism. Instead, he advocated for a homogenous, borderless type of money with a fixed supply."
-- Page references: Chapter 3, Neutral Money section
-- *Bookmark Bounty candidate: Shows Bitcoin's intellectual foundation*
 
-**On Currency Wars (Chapter 3):**
+**On Currency Wars:**
 > "Series of currency devaluations, combined with a deep economic depression, was taking its toll-especially in the countries that had lost the war. Destroyed savings, widespread unemployment, and a lack of prospects in large parts of Europe represented a source of uncertainty, despair and, ultimately, anger. Fertile feeding ground for a new and particularly violent, nationalist, racist, and authoritarian collectivist ideology."
-- Chapter 3, Currency Wars section
-- *Critical for understanding why sound money matters*
 
-### On Cryptography & Privacy (Part I/Part II)
+### On Cryptography & Privacy
 
-**On Public Key Cryptography (Chapter 4):**
+**On Public Key Cryptography:**
 > "At present we have neither a proof that public key systems exist, nor a demonstration system."
 - Diffie and Hellman, 1976 paper "Multiuser Cryptographic Techniques"
-- *Shows the humble, uncertain beginnings of revolutionary technology*
 
-**David Chaum's Vision (Chapter 4):**
+**David Chaum's Vision:**
 > "Cyberspace doesn't have all the physical constraints. There are no walls... it's a different, scary, weird place, and with identification it's a panopticon nightmare. Right? Everything you do could be known to anyone else, could be recorded forever. It's antithetical to the basic principle underlying the mechanisms of democracy."
-- Chapter 4, David Chaum section
-- *Bookmark Bounty candidate: Powerful statement on privacy's importance*
 
-**On Electronic Cash (Chapter 6):**
+**On Electronic Cash:**
 > "A society with or without anonymous transactions would ultimately mean the difference between democracy and dictatorship, Chaum believed. What was needed, he therefore concluded, was a type of digital money that offered users a similar level of privacy as physical cash. The world needed electronic cash."
-- Chapter 6
-- *Essential quote for understanding Bitcoin's privacy mission*
 
-### On The Cypherpunk Movement (Part II)
+### On The Cypherpunk Movement
 
-**A Cypherpunk's Manifesto (Chapter 8):**
+**A Cypherpunk's Manifesto:**
 > "We must come together and create systems which allow anonymous transactions to take place. People have been defending their own privacy for centuries with whispers, darkness, envelopes, closed doors, secret handshakes, and couriers. Technologies of the past did not allow for strong privacy, but electronic technologies do."
 - Eric Hughes, A Cypherpunk's Manifesto
-- *Bookmark Bounty candidate: The rallying cry of the movement*
 
-**Cypherpunks Write Code (Chapter 8):**
+**Cypherpunks Write Code:**
 > "Cypherpunks write code. We know that someone has to write software to defend privacy, and we're going to write it."
 - Eric Hughes
-- *The action-oriented ethos that led to Bitcoin*
 
-**Tim May on Crypto-Anarchy (Chapter 8):**
+**Tim May on Crypto-Anarchy:**
 > "Just as the technology of printing altered and reduced the power of medieval guilds and the social power structure, so too will cryptologic methods fundamentally alter the nature of corporations and of government interference in economic transactions."
-- Tim May, Chapter 8
-- *Vision of how cryptography would reshape society*
+- Tim May
 
-### On Digital Currency Designs (Part II)
+### On Digital Currency Designs
 
-**Adam Back's Properties for Electronic Cash (Chapter 9):**
+**Adam Back's Properties for Electronic Cash:**
 > "1. Anonymous (privacy preserving, payee and payer anonymous)
 > 2. Distributed (to make it hard to shut down)
 > 3. Have some built in scarcity
 > 4. Require no trust of any one individual
 > 5. Preferably offline (difficult to do with pure software)
 > 6. Reusable"
-- Adam Back, Chapter 9
-- *Bookmark Bounty candidate: The blueprint for Bitcoin's design*
+- Adam Back
 
-**Digital Scarcity via Hashcash (Chapter 10):**
+**Digital Scarcity via Hashcash:**
 > "Hashcash's key innovation was that it tied purely digital data (numbers, essentially) to real resources in physical reality. Producing proof of work required computing cycles, and computing cycles themselves use up electricity, which in turn costs energy to produce. Fundamental scarcity of energy in physical reality into the digital realm."
-- Chapter 10, Digital Scarcity section
-- *The breakthrough that made Bitcoin possible*
 
-**Nick Szabo on Trusted Third Parties (Chapter 11):**
+**Nick Szabo on Trusted Third Parties:**
 > "Trusted third parties are security holes. The best 'TTP' of all is one that does not exist, but the necessity for which has been eliminated by the protocol design, or which has been automated and distributed amongst the parties to a protocol."
-- Nick Szabo, Chapter 11
-- *Bookmark Bounty candidate: Core principle of Bitcoin's trustless design*
+- Nick Szabo
 
-**Wei Dai on B-money (Chapter 12):**
+**Wei Dai on B-money:**
 > "In the case of commodity money, its value comes partly from the industrial/aesthetic value of the commodity and partly from the usefulness of the commodity as a medium of exchange... all of its value comes from its usefulness as a medium of exchange."
-- Wei Dai, Chapter 12
-- *On how digital money derives value*
+- Wei Dai
 
-**Crypto-Anarchy Definition (Chapter 12):**
+**Crypto-Anarchy Definition:**
 > "Unlike the communities traditionally associated with the word 'anarchy', in a crypto-anarchy the government is not temporarily destroyed but permanently forbidden and permanently unnecessary. It's a community where the threat of violence is impotent because violence is impossible to be linked to their true names or physical locations."
-- Wei Dai, Chapter 12
-- *The vision Bitcoin helps enable*
+- Wei Dai
 
-### On The Financial Context (Part III)
+### On The Financial Context
 
-**Petrodollar System (Chapter 14):**
+**Petrodollar System:**
 > "Nixon would find a solution against the backdrop of a worldwide oil crisis... The unofficial arrangement would come to be known as the petrodollar system."
-- Chapter 14
-- *Understanding the system Bitcoin offers an alternative to*
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### Austrian Economics & Spontaneous Order
 **In Simple Terms:** Markets work best when they self-organize without central planning. Prices communicate information that no central planner could know. Government manipulation of money (interest rates, money printing) distorts these price signals, leading to boom-bust cycles and misallocation of resources.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin is NOT centrally planned
 - Bitcoin is NOT governed by a committee deciding monetary policy
 - Bitcoin is NOT subject to political manipulation
@@ -126,7 +106,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### Cryptography Enables Freedom
 **In Simple Terms:** Public key cryptography (invented by Diffie and Hellman) allows secure communication without meeting in person. Digital signatures prove authenticity without revealing identity. These tools transform power dynamics—no longer do you need to trust institutions to communicate securely or verify information.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin does NOT require trusted intermediaries
 - Bitcoin does NOT depend on identity verification
 - Bitcoin does NOT need permission from authorities
@@ -135,7 +115,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### The Double-Spend Problem
 **In Simple Terms:** Digital information can be copied infinitely. If digital money is just data, what stops someone from spending the same money twice? Previous solutions required trusted third parties (banks) to prevent this. Bitcoin solved it without a trusted third party through proof-of-work and blockchain consensus.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin does NOT require a bank to prevent double-spending
 - Bitcoin does NOT need a company or government to validate transactions
 - Bitcoin does NOT trust any single entity
@@ -144,7 +124,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### Proof of Work = Digital Scarcity
 **In Simple Terms:** Adam Back's Hashcash showed how to link digital data to physical resources (electricity/computing power). Creating a valid proof-of-work hash requires real energy expenditure—you can't fake it. This creates scarcity in the digital realm for the first time.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin is NOT created by decree or printing
 - Bitcoin is NOT inflatable at will
 - Bitcoin is NOT "free" to produce
@@ -153,7 +133,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### Cypherpunks Write Code
 **In Simple Terms:** Instead of lobbying governments or asking permission, Cypherpunks built tools that made privacy possible. They distributed free software that anyone could use. Action over politics. Building over complaining.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin was NOT created through legislation
 - Bitcoin was NOT approved by regulators
 - Bitcoin was NOT funded by venture capital or IPOs
@@ -162,7 +142,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### Trusted Third Parties Are Security Holes
 **In Simple Terms:** Any system that requires trusting a company, bank, or person creates a vulnerability. That entity can be hacked, corrupted, coerced, or simply make mistakes. Nick Szabo recognized that truly robust systems eliminate the need for trust entirely.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin does NOT have a CEO or board of directors
 - Bitcoin does NOT have customer support that can freeze your account
 - Bitcoin does NOT require permission to use
@@ -171,7 +151,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### The Origins of Money
 **In Simple Terms:** Szabo's research showed money is ancient—older than written language. It emerged spontaneously from barter as humans needed a way to track reciprocal altruism beyond small tribe sizes (Dunbar's number ~150). The best proto-money was unforgeable, scarce, and durable (like shells or mammoth teeth).
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin was NOT designed by economists in ivory towers
 - Bitcoin was NOT imposed by governments
 - Bitcoin was NOT created from theory alone
@@ -180,7 +160,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 ### DigiCash's Failure: The Importance of Decentralization
 **In Simple Terms:** David Chaum invented digital cash with perfect privacy in the 1990s, but it required trusting his company DigiCash. When the company went bankrupt, the entire system collapsed. Trust in a central party proved to be a fatal flaw.
 
-**Connection to Nobody•Will•Pay Via Negativa:**
+**Via Negativa Approach:**
 - Bitcoin is NOT a company that can go bankrupt
 - Bitcoin is NOT dependent on any founder staying involved
 - Bitcoin is NOT shut down when one server fails
@@ -188,9 +168,9 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
-### 1. Why Does Satoshi's Anonymity Matter?
+### Why Does Satoshi's Anonymity Matter?
 **Discussion Prompts:**
 - How would Bitcoin be different if we knew Satoshi's identity?
 - What risks exist if a founder becomes the face of a monetary system?
@@ -199,7 +179,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Satoshi's disappearance removed the "trusted third party" of a founder. No one can ask permission, no one can be arrested or coerced, no one can change the rules. This is a feature, not a bug.
 
-### 2. What Made the Cypherpunks Different from Other Privacy Advocates?
+### What Made the Cypherpunks Different from Other Privacy Advocates?
 **Discussion Prompts:**
 - Why did "Cypherpunks write code" instead of lobbying governments?
 - What's the relationship between writing open-source tools and political change?
@@ -208,7 +188,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Action over words. Technology as peaceful resistance. Building alternatives rather than fighting existing systems.
 
-### 3. How Did Decades of Failed Digital Currency Attempts Lead to Bitcoin's Success?
+### How Did Decades of Failed Digital Currency Attempts Lead to Bitcoin's Success?
 **Discussion Prompts:**
 - What did DigiCash, e-gold, Bit Gold, and b-money each contribute to Bitcoin?
 - Why did they all fail despite brilliant innovations?
@@ -217,7 +197,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Bitcoin synthesized solutions to problems solved by others (privacy from Chaum, proof-of-work from Back, decentralized consensus combining ideas from Szabo and Dai). Standing on the shoulders of giants.
 
-### 4. Why Did Hayek Believe Government Control of Money Leads to Tyranny?
+### Why Did Hayek Believe Government Control of Money Leads to Tyranny?
 **Discussion Prompts:**
 - How did currency devaluations contribute to WWII according to Hayek?
 - What is the "Cantillon Effect" and why does it matter?
@@ -226,7 +206,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Control of money is control of the economy, which becomes control of society. Separating money from state is separating power from state.
 
-### 5. What Does "Trusted Third Parties Are Security Holes" Mean in Practice?
+### What Does "Trusted Third Parties Are Security Holes" Mean in Practice?
 **Discussion Prompts:**
 - What examples from the book show trusted parties failing (DigiCash bankruptcy, government seizure of e-gold)?
 - How does Bitcoin eliminate trusted third parties?
@@ -235,7 +215,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Trustlessness has costs (irreversibility, self-custody responsibility) but also profound benefits (censorship resistance, seizure resistance, no counterparty risk).
 
-### 6. How Does Proof-of-Work Create "Digital Scarcity"?
+### How Does Proof-of-Work Create "Digital Scarcity"?
 **Discussion Prompts:**
 - Why couldn't digital scarcity exist before Hashcash?
 - How does tying digital data to physical energy consumption change everything?
@@ -244,7 +224,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 **Key Insight:** Proof-of-work bridges the physical and digital worlds. You cannot create bitcoin without expending real resources, making it the first truly scarce digital asset.
 
-### 7. What Is Bitcoin's "Via Negativa" Origin Story?
+### What Is Bitcoin's "Via Negativa" Origin Story?
 **Discussion Prompts:**
 - Make a list: What is Bitcoin NOT?
 - How does understanding what Bitcoin isn't help newcomers grasp what it is?
@@ -255,7 +235,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### First 15 Minutes: Bitcoin's Origin Story
 **Curriculum Integration:**
@@ -276,7 +256,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 - Bitcoin eliminated trust through proof-of-work and decentralization
 - **The entire book is a case study in why "Don't Trust, Verify" matters**
 
-### Nobody•Will•Pay Philosophy Integration
+### Via Negativa Philosophy Integration
 **Via Negativa Connections:**
 - Spend 2-3 minutes on "What Bitcoin is NOT" using examples from the book
   - NOT created by governments (Hayek wanted to remove money from state control)
@@ -297,55 +277,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Recommended Pages for Hiding Cashu Bookmarks
-
-#### 1. **The Hayek Opening Quote (Introduction)**
-**Quote:** "I don't believe that we shall ever have a good money again before we take the thing out of the hands of government..."
-- **Why this page:** Sets the entire intellectual foundation for Bitcoin
-- **Bounty placement:** Perfect opener that makes finders think about government vs. free money
-- **Discussion value:** Launches conversation about monetary sovereignty
-
-#### 2. **Chaum's Panopticon Warning (Chapter 4)**
-**Quote:** "Cyberspace doesn't have all the physical constraints... with identification it's a panopticon nightmare... Everything you do could be known to anyone else, could be recorded forever."
-- **Why this page:** Powerfully articulates the privacy crisis that Bitcoin addresses
-- **Bounty placement:** Relevant to modern surveillance debates
-- **Discussion value:** Connects Bitcoin to broader digital privacy concerns
-
-#### 3. **Cypherpunk Manifesto (Chapter 8)**
-**Quote:** "Cypherpunks write code. We know that someone has to write software to defend privacy, and we're going to write it."
-- **Why this page:** The action-oriented ethos that directly led to Bitcoin
-- **Bounty placement:** Inspires readers to think about building vs. complaining
-- **Discussion value:** What does "writing code" as activism mean today?
-
-#### 4. **Adam Back's Six Properties (Chapter 9)**
-**The checklist:** Anonymous, Distributed, Scarce, Trustless, Offline, Reusable
-- **Why this page:** Literally the design requirements Bitcoin fulfills
-- **Bounty placement:** Perfect for technical readers to verify Bitcoin against
-- **Discussion value:** Does Bitcoin meet all six? What tradeoffs exist?
-
-#### 5. **Szabo on Trusted Third Parties (Chapter 11)**
-**Quote:** "Trusted third parties are security holes... The best 'TTP' of all is one that does not exist."
-- **Why this page:** Core principle of Bitcoin's architecture
-- **Bounty placement:** Challenges readers to think about every system they use
-- **Discussion value:** Where do we still rely on TTPs? Can/should we eliminate them?
-
-#### 6. **Digital Scarcity Explanation (Chapter 10)**
-**Quote:** "Hashcash's key innovation was that it tied purely digital data to real resources in physical reality... Fundamental scarcity of energy in physical reality into the digital realm."
-- **Why this page:** Explains proof-of-work's breakthrough
-- **Bounty placement:** Helps readers understand Bitcoin's energy use isn't a bug
-- **Discussion value:** Why does digital scarcity matter? What else could it enable?
-
-### Bookmark Bounty Strategy:
-- **Place bookmarks where big ideas are introduced, not just facts**
-- **Choose passages that spark questions, not just provide answers**
-- **Prioritize quotes that connect to readers' existing concerns (privacy, money, freedom)**
-- **Balance philosophical (Hayek), technical (Back's properties), and practical (Cypherpunks write code)**
-
----
-
-## 7. Connection to Other Books
+## Connection to Other Books
 
 ### How The Genesis Book Complements The Bitcoin Standard
 **The Genesis Book provides the "HOW we got here"**
@@ -399,16 +331,16 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 3. **Blocksize Wars:** The governance challenges and decentralization defense
 4. **Parallel Systems:** The broader vision of building alternatives to legacy institutions
 
-**BookMark Breakfast Arc:**
+**Book Club Arc:**
 - Participants progress from understanding Bitcoin's creation → economic significance → governance lessons → broader civilizational implications
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### Immediate Actions (Do Before Next Session):
 
-#### 1. **Read the Bitcoin White Paper**
+#### Read the Bitcoin White Paper
 - **Where to find it:** bitcoin.org/bitcoin.pdf
 - **What to look for:**
   - Notice how short it is (9 pages)
@@ -416,7 +348,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
   - Identify references to Hashcash and other prior work
 - **Discussion prep:** Come with one question about the whitepaper
 
-#### 2. **Explore the Genesis Block**
+#### Explore the Genesis Block
 - **How to do it:** Search "Bitcoin genesis block" or visit blockchain explorers
 - **What to notice:**
   - The embedded message: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"
@@ -424,7 +356,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
   - How does it connect to the financial crisis context from Chapter 14?
 - **Reflection:** What does this message tell us about Bitcoin's purpose?
 
-#### 3. **Research One Cypherpunk Figure**
+#### Research One Cypherpunk Figure
 - **Choose from:**
   - David Chaum (DigiCash inventor)
   - Adam Back (Hashcash creator)
@@ -436,13 +368,13 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ### Deeper Exploration (For Enthusiasts):
 
-#### 4. **Watch/Listen to Primary Sources**
+#### Watch/Listen to Primary Sources
 - **Hal Finney's posts:** Search "Hal Finney Bitcointalk" for his early forum writings
 - **Adam Back interviews:** YouTube has several where he discusses Hashcash and early Bitcoin
 - **Nick Szabo's blog:** "Unenumerated" has his writings on money, law, and smart contracts
 - **Goal:** Hear these ideas in the innovators' own words
 
-#### 5. **Trace Bitcoin's Intellectual Lineage**
+#### Trace Bitcoin's Intellectual Lineage
 - **Create a concept map:**
   - Start with Hayek (spontaneous order, denationalization of money)
   - Add Diffie-Hellman (public key cryptography)
@@ -451,7 +383,7 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
   - Show how Satoshi synthesized these ideas
 - **Bonus:** Share your map with the group
 
-#### 6. **Investigate a Failed Digital Currency**
+#### Investigate a Failed Digital Currency
 - **Choose one:** DigiCash, e-gold, Liberty Reserve, Beenz, Flooz
 - **Questions to answer:**
   - What problem was it trying to solve?
@@ -459,16 +391,16 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
   - What did Bitcoin learn from its failure?
 - **Report back:** 2-minute presentation at next session
 
-### Application to Nobody•Will•Pay Project:
+### Application to Book Club:
 
-#### 7. **Identify Via Negativa Elements in Your Life**
+#### Identify Via Negativa Elements in Your Life
 - **Exercise:** Make two lists:
   - "What Bitcoin is NOT" (from the book)
   - "What [your project/passion] is NOT"
 - **Reflection:** How does defining something by what it's NOT help communicate its essence?
 - **Application:** Can this approach help with Bookmark Bounty explanations?
 
-#### 8. **Practice "Don't Trust, Verify"**
+#### Practice "Don't Trust, Verify"
 - **This week's challenge:**
   - Pick one thing you currently "just trust" (news source, financial statement, health claim)
   - Attempt to verify it yourself
@@ -477,29 +409,29 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 ### Community Building:
 
-#### 9. **Start a Reading Chain**
+#### Start a Reading Chain
 - **Action:** Lend your copy of The Genesis Book to someone curious about Bitcoin
 - **Include:** A bookmark at one of the key quotes (see Section 6)
 - **Ask them:** "Which quote surprised you most?" when they return it
 - **Track:** How many people you can introduce to Bitcoin's origin story
 
-#### 10. **Contribute to the Cypherpunk Legacy**
+#### Contribute to the Cypherpunk Legacy
 - **In the spirit of "Cypherpunks write code":**
   - If technical: Contribute to an open-source Bitcoin project (even just documentation)
   - If non-technical: Write about Bitcoin, create educational content, or teach someone
   - If artistic: Create something that captures Bitcoin's origin story or philosophy
-- **Share:** What you created with the BookMark Breakfast community
+- **Share:** What you created with the book club community
 
 ### Preparation for Next Session:
 
-#### 11. **Come with Questions**
+#### Come with Questions
 - **Bring 1-2 questions raised by the book:**
   - Something you didn't understand
   - Something you disagreed with
   - Something you want to explore further
 - **Format:** Write them down beforehand to ensure thoughtful discussion
 
-#### 12. **Connect to Current Events**
+#### Connect to Current Events
 - **Find a news story from this week that relates to themes in The Genesis Book:**
   - Government monetary policy
   - Privacy concerns
@@ -543,4 +475,4 @@ The Genesis Book traces Bitcoin's intellectual lineage through three major movem
 
 Satoshi Nakamoto synthesized these pieces, released Bitcoin as free software, and disappeared—removing the final trusted third party. The Genesis Book shows us that Bitcoin's origin story IS its value proposition: no permission, no masters, no trust required.
 
-**For BookMark Breakfast:** This book answers the question "Where did Bitcoin come from?" in a way that illuminates "What Bitcoin is for?" Understanding the genesis helps us understand the purpose—and reminds us why Bitcoin's unique properties matter in a world of centralized control.
+**For Book Clubs:** This book answers the question "Where did Bitcoin come from?" in a way that illuminates "What Bitcoin is for?" Understanding the genesis helps us understand the purpose—and reminds us why Bitcoin's unique properties matter in a world of centralized control.

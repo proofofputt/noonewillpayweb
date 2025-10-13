@@ -1,6 +1,6 @@
 # Bitcoin Supercycle - Book Club Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Title:** Bitcoin Supercycle: How the crypto calendar can make you rich
 **Author:** Michael Terpin
@@ -9,12 +9,12 @@
 **Why This Book Matters:**
 Bitcoin Supercycle provides a practical framework for understanding and navigating Bitcoin's price cycles based on 15+ years of historical data. Unlike purely technical analysis or fundamental evangelism, this book combines cyclical patterns, macroeconomic context, investor psychology, and supply-demand dynamics to create an actionable strategy for cycle trading. It bridges the gap between "HODL forever" and active trading, offering a middle path: strategic accumulation during Winter, patient holding through Spring/Summer, and disciplined profit-taking during Fall.
 
-**Connection to Nobody•Will•Pay Philosophy:**
+**Via Negativa in Bitcoin:**
 This book validates the Via Negativa approach to Bitcoin wealth: success comes from REMOVING emotional reactions, AVOIDING common mistakes (buying tops, selling bottoms), and RESISTING the urge to overtrade. The Four Seasons framework provides structure through constraint - knowing when NOT to buy is as valuable as knowing when to buy. Like removing subsidies reveals true energy economics, removing FOMO and panic reveals true Bitcoin accumulation strategy.
 
 ---
 
-## 2. Key Themes
+## Key Themes
 
 ### Theme 1: The Four Seasons Framework - Predictable Cycles in Chaotic Markets
 
@@ -68,7 +68,7 @@ The book challenges the "HODL forever" mantra by demonstrating that strategic cy
 
 ---
 
-## 3. Discussion Questions
+## Discussion Questions
 
 ### On The Four Seasons Framework
 
@@ -189,7 +189,7 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 
 ---
 
-## 4. Key Quotes & Analysis
+## Key Ideas
 
 ### On The Four Seasons
 
@@ -345,7 +345,7 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 
 ---
 
-## 5. Practical Applications
+## Practical Applications
 
 ### Application 1: Building Your Personal Four Seasons Dashboard
 
@@ -414,7 +414,7 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 - Decentralized AI (compute, data, inference) - AI meets crypto
 - Modular chains (Celestia, EigenLayer) - Next-gen infrastructure
 
-**Nobody•Will•Pay Test:** Does this altcoin solve a real problem people will pay for WITHOUT subsidies, governance token inflation, or ponzinomics? If no, it's speculation not investment.
+**Via Negativa Test:** Does this altcoin solve a real problem people will pay for WITHOUT subsidies, governance token inflation, or ponzinomics? If no, it's speculation not investment.
 
 ---
 
@@ -499,7 +499,7 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 - Time-locked inheritance (automatic transfer after X time)
 - Collaborative custody with specialized firms (Unchained, Casa)
 
-**The "Nobody•Will•Pay" Security Principle:** Security comes from removing attack vectors, not adding complexity. The most secure setup is simple enough you can execute it flawlessly under stress.
+**The Via Negativa Security Principle:** Security comes from removing attack vectors, not adding complexity. The most secure setup is simple enough you can execute it flawlessly under stress.
 
 **Most Common Failure:** Over-complicated security that you forget, lose access to, or heirs cannot recover. Optimize for resilience, not perfection.
 
@@ -525,7 +525,7 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 
 ---
 
-## 6. Activities for Book Club Participants
+## Activities for Book Club Participants
 
 ### Activity 1: The Cycle Pattern Recognition Game
 
@@ -728,149 +728,6 @@ Beyond personal wealth, the book frames Bitcoin as civilizational infrastructure
 
 ---
 
-## 7. Connection to No One Will Pay Project
-
-### Philosophical Alignment
-
-**Core Principle:** Bitcoin Supercycle validates the Nobody•Will•Pay philosophy through market-tested evidence: sustainable wealth comes from removing emotional reactions, avoiding common mistakes, and letting time do the work. Just as subsidies create unsustainable energy projects, FOMO creates unsustainable trading strategies.
-
-**Key Parallels:**
-
-1. **Cycle Trading = Via Negativa Investing**
-   - Success comes from NOT buying tops (remove FOMO)
-   - Success comes from NOT selling bottoms (remove panic)
-   - Success comes from NOT overtrading (remove noise)
-   - The winning strategy is mostly about restraint, not action
-
-2. **Halving Scarcity = Removal as Value Creation**
-   - Bitcoin becomes valuable by REMOVING supply inflation
-   - Energy becomes sustainable by REMOVING subsidies
-   - Civilization becomes prosperous by REMOVING currency debasement
-   - Pattern: Constraint creates value
-
-3. **Four Seasons Framework = Structure Through Constraint**
-   - Knowing when NOT to trade is as valuable as knowing when to trade
-   - Winter (maximum constraint on buying) creates Summer (maximum opportunity to sell)
-   - The cycle itself is constraint - you cannot force Summer during Winter
-   - Accept the rhythm, work with it, don't fight it
-
-### Bitcoin-Energy Integration Refined
-
-**The Supercycle View on Energy:**
-
-Terpin demonstrates how Bitcoin mining transforms energy economics during each cycle phase:
-
-**Bitcoin Spring (Post-Halving):**
-- Miner capitulation kills inefficient operations
-- Only sustainable energy sources (cheap hydro, geothermal, stranded gas) remain profitable
-- This is natural selection for efficient energy use - no subsidies needed
-
-**Bitcoin Summer (Bull Market):**
-- Rising BTC price makes all mining profitable, even marginal energy sources
-- Danger: Temporary coal/fossil operations come online (environmental concern)
-- Opportunity: High profits fund next-gen renewable infrastructure investment
-
-**Bitcoin Fall/Winter (Bear Market):**
-- Only the most efficient energy operations survive extended low prices
-- This purifies the mining industry toward cheapest (often renewable) sources
-- Weak miners with expensive energy capitulate
-
-**Nobody•Will•Pay Application:**
-- Bear market is when unsustainable energy mining operations fail
-- Bull market profits from sustainable operations fund infrastructure
-- Over time, mining naturally concentrates in cheapest, often renewable, energy
-- No subsidy needed - price signals and difficulty adjustment create optimal outcome
-
-**Practical Integration:**
-For renewable energy projects partnered with Bitcoin mining:
-1. **Spring:** Accumulate BTC from mining at low prices (DCA effect)
-2. **Summer:** High BTC prices make marginal renewable projects profitable
-3. **Fall:** Take profits, fund expansion, prepare for Winter
-4. **Winter:** Survive on efficient operations while competitors capitulate, acquire distressed assets
-
-This cycle-aware approach maximizes renewable energy project success without requiring subsidies.
-
-### Civilizational Stakes Through Market Cycles
-
-**The Long View:**
-
-Bitcoin Supercycle isn't just about getting rich - it's about civilizational infrastructure being stress-tested through repeated cycles:
-
-1. **Each cycle purifies the system:**
-   - Weak hands exit (speculators)
-   - Strong hands accumulate (long-term holders)
-   - Bad projects die (scams, ponzis)
-   - Good infrastructure survives (Bitcoin, quality L2s)
-
-2. **Each cycle validates the model:**
-   - Halving → supply shock → price rise (economic theory confirmed)
-   - Euphoria → crash → capitulation (human psychology mapped)
-   - Four seasons repeat (predictability in chaos)
-
-3. **Each cycle brings legitimacy:**
-   - Cycle 1-2: Cypherpunks, hackers, early adopters
-   - Cycle 3-4: Institutions, corporations, wealthy individuals
-   - Cycle 5-6 (projected): Sovereign wealth, central banks, pension funds
-   - Cycle 7+: True reserve asset, minimal volatility
-
-**Nobody•Will•Pay Stakes:**
-
-If Bitcoin successfully completes the Supercycle (12+ years of adoption), it proves:
-- Sound money can emerge organically without state backing (nobody will pay for fiat long-term)
-- Energy can be monetized anywhere, making renewables profitable (nobody will pay for subsidized energy long-term)
-- Coordination can occur globally without centralized authority (nobody will pay for legacy finance long-term)
-
-The market cycles are the testing ground. Survival through multiple cycles validates the model.
-
-### Strategic Implementation for the Project
-
-**How The Book Informs Project Development:**
-
-1. **Timeline Alignment:**
-   - We're in Bitcoin Spring 2024-2025 (accumulation phase)
-   - Project should accumulate BTC from mining operations NOW
-   - Deploy profits from Summer 2025-2026 into expansion
-   - Survive Winter 2026-2027 while competitors fail
-   - Emerge stronger for next cycle
-
-2. **Energy Project Sizing:**
-   - Design renewable capacity assuming Winter mining profitability
-   - Any project profitable at $30k BTC (potential Winter floor) survives all seasons
-   - Summer profits are bonus for expansion, not operational dependency
-   - This ensures true sustainability independent of BTC price
-
-3. **Communication Strategy:**
-   - Educate stakeholders on Four Seasons to set expectations
-   - Don't promise consistent returns (market cycles)
-   - Emphasize long-term accumulation, not short-term trading
-   - Frame volatility as feature (buying opportunity) not bug
-
-4. **Partnership Structure:**
-   - Seek partners who understand Bitcoin cycles
-   - Avoid fiat-minded investors expecting steady quarterly returns
-   - Find co-investors with 4+ year time horizons
-   - Build coalition of low time-preference capital
-
-### The Ultimate Case Study
-
-**Bitcoin Supercycle as Nobody•Will•Pay Proof:**
-
-This book provides empirical evidence that Via Negativa works in the world's most volatile market:
-
-**What successful Bitcoin investors REMOVED:**
-- Emotional reactions (FOMO, panic)
-- Overtrading (noise, fees, taxes)
-- Altcoin distraction (mostly value-destroying)
-- Fiat mindset (thinking in dollars not BTC)
-- Short time preference (quarterly thinking)
-
-**What they GAINED:**
-- Clarity (simple framework)
-- Wealth (10x-100x returns per cycle)
-- Resilience (survive bear markets)
-- Conviction (pattern recognition builds confidence)
-
-**Translation to Project:**
 
 Remove subsidies → Gain sustainability
 Remove fiat thinking → Gain sound money
@@ -881,7 +738,7 @@ Bitcoin Supercycle proves this pattern works in the most adversarial environment
 
 ---
 
-## 8. Further Reading & Resources
+## Further Reading & Resources
 
 ### Primary Sources Referenced in Book
 
@@ -1017,7 +874,7 @@ Bitcoin Supercycle proves this pattern works in the most adversarial environment
 - Bitcoin Magazine resources
 - Satoshi Nakamoto Institute
 
-### For Nobody•Will•Pay Project Team
+### For Bitcoin Education Teams
 
 **Energy-Bitcoin Synergy:**
 - Review all renewable + mining case studies
@@ -1073,137 +930,7 @@ Bitcoin Supercycle proves this pattern works in the most adversarial environment
 
 ---
 
-## 9. Bookmark Bounty Suggestions
-
-### Bookmark #1: The Four Seasons Definition (Early Chapter)
-
-**Recommended Passage:**
-"Bitcoin Spring begins the day of the halving. Bitcoin Summer begins the day the former all-time high of the prior cycle is exceeded. Bitcoin Fall begins the day after the all-time high. Bitcoin Winter begins the day of capitulation, which is difficult to recognize until it's in the rearview mirror."
-
-**Why This Passage:**
-- Core framework in simplest terms
-- Immediately useful for any reader
-- Provides structure to apparent chaos
-- Easy to remember and apply
-
-**Cashu Amount:** 21,000 sats (symbolic of 21M supply cap)
-
----
-
-### Bookmark #2: The Halving Scarcity Milestone (Mid-Book)
-
-**Recommended Passage:**
-"After the April 2024 halving, Bitcoin's annual inflation rate dropped to 0.825% - less than half the current annual inflation of gold at approximately 1.7%. Bitcoin officially became scarcer than gold."
-
-**Why This Passage:**
-- Historic milestone moment
-- Concrete comparison to gold standard
-- Mathematical certainty
-- Profound long-term implications
-
-**Cashu Amount:** 1,971 sats (year gold standard ended)
-
----
-
-### Bookmark #3: Diminishing Returns Reality Check (Strategy Section)
-
-**Recommended Passage:**
-"How does one get rich now by buying bitcoin, having missed the 100x, 30x, and 8x cycles? My best estimate for Bitcoin Summer of 2024-2025 is that we could have an eighteen-month cycle, probably with a double bubble. The quickest parabolic moves are likely to occur once bitcoin passes its current post-halving slump."
-
-**Why This Passage:**
-- Addresses common objection ("I'm too late")
-- Sets realistic expectations
-- Provides actionable projection
-- Shows opportunity still exists
-
-**Cashu Amount:** 100,000 sats (substantial reward for key insight)
-
----
-
-### Bookmark #4: The Psychological Trap (Investor Psychology Section)
-
-**Recommended Passage:**
-"Amateur traders see the bounce within 30-60 days after the all-time high as a sign that the rally is continuing and double down at the exact wrong time. Experienced traders should see this as the last chance to exit the cycle. The best time to buy in any cycle is near the capitulation event. This always occurred in the fourth quarter of the year after the all-time high."
-
-**Why This Passage:**
-- Identifies specific trap that destroys wealth
-- Provides counter-strategy
-- Based on empirical pattern
-- Saves readers from costly mistake
-
-**Cashu Amount:** 144,000 sats (blocks per day × 1000)
-
----
-
-### Bookmark #5: The Cycle Trading Evidence (Personal Story)
-
-**Recommended Passage:**
-"I sold my bitcoin at an average of $5,400 and then repurchased it all a month later at an average of $3,500, keeping all of my bitcoin and a sizable amount of cash off the table at the same time. My preferred strategy is channel trading within the cycle, buying as close to the bottom as possible, then selling the majority of one's bitcoin holdings as close to the top as possible."
-
-**Why This Passage:**
-- Real-world proof of strategy
-- Specific numbers (credibility)
-- Shows it's possible to execute
-- Challenges "HODL only" narrative
-
-**Cashu Amount:** 54,000 sats (price difference in example × 10)
-
----
-
-### Bookmark #6: The Supercycle Thesis (Advanced Concept)
-
-**Recommended Passage:**
-"When demand exceeds supply by a level that disrupts price beyond diminishing returns, you get a Supercycle. The ETF approval in January 2024 was a watershed moment. ETF inflows on most days substantially exceeded new bitcoins mined by more than two to one. I believe the Bitcoin Supercycle will last at least twelve years before Bitcoin begins to act like a mature, slower growth financial asset class."
-
-**Why This Passage:**
-- Introduces most important concept for current era
-- Explains what makes now different
-- Provides concrete timeframe
-- Challenges traditional cycle models
-
-**Cashu Amount:** 2,024,000 sats (current cycle year as large reward)
-
----
-
-### Bookmark #7: The Altcoin Warning (Risk Management)
-
-**Recommended Passage:**
-"Bitcoin gets a cold, altcoins catch pneumonia. Only Bitcoin and BNB have existed for more than two complete cycles and set new all-time highs each cycle. Bitcoin Winter is where most altcoins go to die, as well as where new ones are born. There is nothing to be gained buying a coin that dropped 90 percent in the bear market only to see it drop another 90 percent or lose all of its volume."
-
-**Why This Passage:**
-- Critical risk warning
-- Empirical data on altcoin survival
-- Prevents catastrophic losses
-- Balances altcoin opportunity with reality
-
-**Cashu Amount:** 90,000 sats (90% typical altcoin drawdown)
-
----
-
-### Bookmark Placement Strategy
-
-**Progressive Education:**
-1. **Early bookmark (Four Seasons):** Hook readers with framework
-2. **Mid-book bookmarks (Halving, Returns):** Deepen understanding with data
-3. **Advanced bookmarks (Psychology, Trading):** Provide actionable strategy
-4. **Final bookmarks (Supercycle, Altcoins):** Address current cycle specifics
-
-**QR Code Redemption Page Design:**
-- Display quote excerpt prominently
-- Add "Why This Matters for Your Wealth" explanation
-- Link to specific book section for context
-- Include current cycle status update
-- Suggest related resources
-
-**Educational Card Accompanying Each Bookmark:**
-
-*"Congratulations! You've discovered a key insight in Bitcoin's most powerful wealth-building framework. This Cashu token, redeemable for real bitcoin, demonstrates the book's central thesis: predictable cycles create wealth-building opportunities. The Four Seasons of Bitcoin—Spring, Summer, Fall, Winter—repeat with remarkable consistency. Learning to recognize these seasons is the difference between buying tops and selling bottoms versus accumulating wealth systematically. Study the pattern. Control your emotions. Master the cycle. The next 12 years (the Bitcoin Supercycle) offer the opportunity of a lifetime—but only for those who understand the rhythm. You've taken the first step."*
-
-**Hashtags for Social Sharing:** #BitcoinSupercycle #FourSeasons #CycleTrading #BookmarkBounty #BitcoinEducation
-
----
-
-## 10. Teaching Integration & Facilitation Guide
+## Teaching Integration & Facilitation Guide
 
 ### 90-Minute Session Structure
 
@@ -1310,7 +1037,7 @@ Bitcoin Supercycle proves this pattern works in the most adversarial environment
 - Bear case: $100k peak, harsh Winter, cycle compressed
 - Portfolio positioning for each scenario
 
-**Session 6: Energy, Mining, and the Nobody•Will•Pay Connection**
+**Session 6: Energy, Mining, **
 - How Bitcoin mining transforms energy economics
 - Renewable + mining synergy through market cycles
 - Project design: Build mining operation that survives Winter
@@ -1339,7 +1066,7 @@ Bitcoin Supercycle proves this pattern works in the most adversarial environment
 **Project Integration:**
 
 Graduates of this workshop become:
-- Nobody•Will•Pay advocates (cycle-aware, low time preference)
+- Bitcoin and Via Negativa advocates (cycle-aware, low time preference)
 - Potential project supporters (understand energy-Bitcoin synergy)
 - Community educators (teach others the framework)
 - Strategic partners (for renewable energy + mining ventures)
@@ -1369,7 +1096,7 @@ Bitcoin Supercycle provides more than a trading framework—it offers a window i
 **The Supercycle Stakes:**
 We're in the critical adoption phase—past the innovators, not yet to the masses. The next 12 years determine whether Bitcoin becomes global reserve asset or remains a niche store of value. The cycles will continue, but each one raises the stakes.
 
-**For The Nobody•Will•Pay Project:**
+**Bitcoin and Sustainability Projects:**
 This book validates our core thesis through market evidence:
 - Removing subsidies creates sustainability (mining efficiency purification)
 - Removing inflation creates value (21M cap appreciation)
@@ -1391,8 +1118,8 @@ The Supercycle awaits.
 ---
 
 **Workbook Version 1.0 - October 2025**
-**Created for the Nobody•Will•Pay Project**
-**BookMark Breakfast Discussion Series**
+**Created for Book Club Discussions**
+**Book Club Discussion Series**
 
 ---
 
@@ -1404,7 +1131,7 @@ This workbook serves two purposes:
 
 We're not teaching "get rich quick"—we're teaching "get rich predictably over 4-year cycles through pattern recognition and psychological discipline."
 
-The stakes are personal (financial freedom), communal (Nobody•Will•Pay project success), and civilizational (sound money adoption).
+The stakes are personal (financial freedom), communal (community success), and civilizational (sound money adoption).
 
 The Four Seasons framework is elegant because it's true. And truth, when understood and applied, creates wealth.
 

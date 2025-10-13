@@ -54,16 +54,7 @@ export async function sendSMS({ to, message }: SendSMSParams): Promise<SendSMSRe
   }
 
   try {
-    // TODO: Integrate Twilio SDK when ready for production
-    // For now, return error in production without Twilio configured
-    console.error('Twilio integration not yet implemented')
-    return {
-      success: false,
-      error: 'SMS service not yet implemented for production'
-    }
-
-    /* Example Twilio integration (uncomment when ready):
-
+    // Use Twilio SDK to send SMS
     const twilio = require('twilio')
     const client = twilio(twilioAccountSid, twilioAuthToken)
 
@@ -73,11 +64,12 @@ export async function sendSMS({ to, message }: SendSMSParams): Promise<SendSMSRe
       to: to
     })
 
+    console.log(`SMS sent successfully. SID: ${result.sid}`)
+
     return {
       success: true,
       messageId: result.sid
     }
-    */
   } catch (error) {
     console.error('Error sending SMS:', error)
     return {

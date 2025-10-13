@@ -1,6 +1,6 @@
-# Abundance Through Scarcity - BookMark Breakfast Workbook
+# Abundance Through Scarcity - Book Club Discussion Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Author:** Ioni Appelberg
 **Edited by:** Mel Shilling and Niko Laamanen
@@ -10,12 +10,12 @@
 **Why This Book Matters:**
 Abundance Through Scarcity bridges multiple disciplines - physics, mathematics, economics, anthropology, biology, and philosophy - to reveal Bitcoin as far more than a monetary innovation. It's a universal discovery that any advanced civilization would inevitably encounter, akin to discovering fire or mathematics. The book demonstrates how absolute scarcity is nature's fundamental organizing principle, from antlers proving genetic fitness to cryptographic proof-of-work securing digital truth.
 
-**Connection to Nobody•Will•Pay Philosophy:**
+**The Via Negativa Philosophy:**
 This book is the ultimate expression of Via Negativa: abundance emerges not from adding resources but from removing the ability to inflate supply. Bitcoin achieves power through constraint - its fixed 21 million supply cap creates unprecedented value precisely because nothing can be added. Like sound money requires removing supply manipulation, and sustainable energy requires removing subsidies, civilization itself requires removing currency debasement to unlock technological abundance.
 
 ---
 
-## 2. Key Themes
+## Key Themes
 
 ### Theme 1: Civilizational Cycles and the Singularity Crisis
 Civilizations rise through increasing complexity, but complexity introduces costly problems. When the marginal cost of solving new problems exceeds available resources, societies face the singularity crisis - an irreversible decline toward simplification. Every civilization has failed this test, resorting to currency debasement that accelerates collapse. Bitcoin offers the first viable escape: sound money that forces innovation rather than inflation.
@@ -54,7 +54,7 @@ Bitcoin is a "hash hole" (black hole for energy) with infinite demand at its sin
 
 ---
 
-## 3. Key Quotes & Analysis
+## Key Ideas
 
 ### On Civilizational Collapse
 
@@ -70,7 +70,7 @@ Bitcoin is a "hash hole" (black hole for energy) with infinite demand at its sin
 
 **Analysis:** The singularity crisis is economics' equivalent of a black hole's event horizon - once crossed, escape becomes impossible. Every civilization has faced this test; none using fiat money has passed it.
 
-**Connection to Nobody•Will•Pay:** The crisis comes from ADDING complexity and debt, not from insufficient resources. The solution is REMOVING the ability to create fake resources (printed money).
+**Via Negativa Application:** The crisis comes from ADDING complexity and debt, not from insufficient resources. The solution is REMOVING the ability to create fake resources (printed money).
 
 ---
 
@@ -212,9 +212,9 @@ Bitcoin is a "hash hole" (black hole for energy) with infinite demand at its sin
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
-### Question 1: The Singularity Crisis Test
+### The Singularity Crisis Test
 We've seen evidence of civilizational decline: falling birth rates, institutional decay, infrastructure deterioration, and political dysfunction. Are we currently in the early stages of societal collapse, experiencing what Romans felt in 200 AD? Or is this just normal fluctuation? What would definitive evidence of collapse look like?
 
 **Why This Matters:** Collapse is slow and invisible to those within it. Understanding the pattern helps us recognize our current trajectory and the urgency of sound money adoption.
@@ -223,7 +223,7 @@ We've seen evidence of civilizational decline: falling birth rates, institutiona
 
 ---
 
-### Question 2: The Universal Discovery Claim
+### The Universal Discovery Claim
 Appelberg argues Bitcoin is a universal discovery like pi or prime numbers - any advanced civilization would find it. Is this claim justified? What makes something a "discovery" versus an "invention"? Could there be alternative forms of absolute scarcity we haven't discovered yet?
 
 **Why This Matters:** If Bitcoin is a universal constant, it has implications beyond human economics - it's a fundamental property of information systems. This elevates its importance tremendously.
@@ -232,7 +232,7 @@ Appelberg argues Bitcoin is a universal discovery like pi or prime numbers - any
 
 ---
 
-### Question 3: Proof-of-Work as Moral Principle
+### Proof-of-Work as Moral Principle
 The book argues proof-of-work isn't just a technical mechanism but a moral principle: "reward follows effort." Fiat inverts this by rewarding money printing. If proof-of-work is fundamental to nature (stars, antlers, wisdom through experience), what are the implications of a society built on violating this principle?
 
 **Why This Matters:** This frames Bitcoin not just as better money but as money aligned with natural law. Fiat becomes unnatural - a violation of fundamental reality.
@@ -241,7 +241,7 @@ The book argues proof-of-work isn't just a technical mechanism but a moral princ
 
 ---
 
-### Question 4: The Fiat Mind Prison
+### The Fiat Mind Prison
 If living under fiat currency creates "economic derangement syndrome" - an inability to recognize the disorder from within - how can we know we're not still trapped in fiat thinking even after discovering Bitcoin? What residual fiat assumptions might Bitcoin advocates still carry?
 
 **Why This Matters:** Recognizing our own blind spots is crucial. Just as Keynesian economists can't see their delusion, Bitcoin maximalists might have their own unexamined assumptions.
@@ -250,7 +250,7 @@ If living under fiat currency creates "economic derangement syndrome" - an inabi
 
 ---
 
-### Question 5: Energy as Currency
+### Energy as Currency
 The book suggests energy is the fundamental currency, and Bitcoin is "energy money" through proof-of-work. If energy abundance is achievable (solar, geothermal, fusion), and Bitcoin converts energy to value, does this mean Bitcoin's ultimate backing is unlimited energy? What happens to Bitcoin's scarcity if energy becomes free?
 
 **Why This Matters:** Understanding the relationship between Bitcoin, energy, and scarcity is crucial for long-term value proposition.
@@ -259,7 +259,7 @@ The book suggests energy is the fundamental currency, and Bitcoin is "energy mon
 
 ---
 
-### Question 6: Digital Realm as Real Realm
+### Digital Realm as Real Realm
 Appelberg argues cyberspace is as real as physical space - our consciousness doesn't distinguish between atoms and bits. If true, does Bitcoin existing "everywhere and nowhere" make it more real than gold buried in vaults? Is mathematical existence more fundamental than physical existence?
 
 **Why This Matters:** This philosophical question has practical implications. If the digital realm is real, then digital property rights, digital scarcity, and digital sovereignty are as legitimate as physical equivalents.
@@ -268,7 +268,7 @@ Appelberg argues cyberspace is as real as physical space - our consciousness doe
 
 ---
 
-### Question 7: The Kardashev Transition
+### The Kardashev Transition
 The book argues Bitcoin is Type I (planetary) money enabling coordination at civilization scale. Currently we're Type 0.7 - not yet planetary. What specific coordination problems does Bitcoin solve that fiat cannot? How does Bitcoin enable the jump to Type I civilization?
 
 **Why This Matters:** This frames Bitcoin as infrastructure for human advancement, not just better money. It's a necessary tool for the next phase of civilization.
@@ -277,7 +277,7 @@ The book argues Bitcoin is Type I (planetary) money enabling coordination at civ
 
 ---
 
-### Question 8: The Abundance Paradox
+### The Abundance Paradox
 The title "Abundance Through Scarcity" seems paradoxical. How does making money absolutely scarce create abundance in goods and services? Isn't scarcity the opposite of abundance?
 
 **Why This Matters:** This is the core insight of the book and the most counterintuitive concept for newcomers.
@@ -286,7 +286,7 @@ The title "Abundance Through Scarcity" seems paradoxical. How does making money 
 
 ---
 
-### Question 9: Interstellar Commerce
+### Interstellar Commerce
 If absolute scarcity is universal, could Bitcoin (or its mathematical principle) become the basis for interstellar trade? How would alien civilizations recognize and trust Bitcoin's scarcity proof?
 
 **Why This Matters:** This thought experiment tests whether Bitcoin's principles are truly universal or culturally contingent.
@@ -295,7 +295,7 @@ If absolute scarcity is universal, could Bitcoin (or its mathematical principle)
 
 ---
 
-### Question 10: The Personal Stakes
+### The Personal Stakes
 How has learning about absolute scarcity and civilizational cycles changed your personal time preference? Do you make different decisions about saving, spending, career, family, and legacy after understanding Bitcoin's role in civilization?
 
 **Why This Matters:** Ideas must have practical impact. If understanding Bitcoin doesn't change behavior, the understanding is incomplete.
@@ -304,9 +304,9 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-## 5. Practical Applications
+## Practical Applications
 
-### Application 1: Bitcoin as Civilizational Insurance
+### Bitcoin as Civilizational Insurance
 **Concept:** Just as individuals buy insurance against personal catastrophe, societies need insurance against civilizational collapse. Bitcoin is that insurance - a backup monetary system that functions independently of failing institutions.
 
 **Practical Action:**
@@ -318,7 +318,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Application 2: Energy-Bitcoin Synergy for Renewable Projects
+### Energy-Bitcoin Synergy for Renewable Projects
 **Concept:** Bitcoin mining can make renewable energy projects economically viable by providing base load demand that absorbs intermittent overproduction.
 
 **Practical Action:**
@@ -326,11 +326,11 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 - For Bitcoin miners: Seek partnerships with stranded renewable energy sources (geothermal, hydro, solar in remote locations)
 - For policymakers: Recognize Bitcoin mining as grid stabilization tool, not just energy consumer
 
-**Nobody•Will•Pay Connection:** Don't subsidize renewables - let Bitcoin mining make them profitable on pure economics. Remove subsidies, add Bitcoin incentive = sustainable renewable deployment.
+**Via Negativa Application:** Don't subsidize renewables - let Bitcoin mining make them profitable on pure economics. Remove subsidies, add Bitcoin incentive = sustainable renewable deployment.
 
 ---
 
-### Application 3: Low Time Preference Life Design
+### Low Time Preference Life Design
 **Concept:** Design your life around sound money principles - save in appreciating assets, invest in skills that compound, build for generational wealth.
 
 **Practical Action:**
@@ -342,7 +342,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Application 4: Teaching Absolute Scarcity
+### Teaching Absolute Scarcity
 **Concept:** Help others understand Bitcoin by teaching the universal principle of absolute scarcity, not just the technical implementation.
 
 **Practical Action:**
@@ -355,7 +355,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Application 5: Proof-of-Work in Personal Development
+### Proof-of-Work in Personal Development
 **Concept:** Apply proof-of-work principle to self-improvement - value comes from costly effort, not shortcuts.
 
 **Practical Action:**
@@ -367,7 +367,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Application 6: Circular Economy with Bitcoin
+### Circular Economy with Bitcoin
 **Concept:** Bitcoin enables circular economy by providing neutral, global medium of exchange that doesn't favor consumption over conservation.
 
 **Practical Action:**
@@ -375,11 +375,11 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 - Create local circular economies with Bitcoin as settlement layer
 - Replace planned obsolescence (fiat incentive) with durability (sound money incentive)
 
-**Nobody•Will•Pay Integration:** Circular economy succeeds by removing fiat's consumption bias. Bitcoin's deflationary nature incentivizes keeping goods in use longer, repairing rather than replacing, sharing rather than hoarding.
+**Via Negativa Integration:** Circular economy succeeds by removing fiat's consumption bias. Bitcoin's deflationary nature incentivizes keeping goods in use longer, repairing rather than replacing, sharing rather than hoarding.
 
 ---
 
-### Application 7: Sovereign Individual Preparation
+### Sovereign Individual Preparation
 **Concept:** Use Bitcoin to achieve maximum personal sovereignty - location independence, censorship resistance, confiscation immunity.
 
 **Practical Action:**
@@ -396,9 +396,9 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-## 6. Activities for Book Club Participants
+## Activities for Book Club Participants
 
-### Activity 1: The Civilizational Decline Audit
+### The Civilizational Decline Audit
 **Duration:** 30 minutes
 **Materials:** Whiteboard, markers
 
@@ -412,7 +412,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 2: The Time Preference Game
+### The Time Preference Game
 **Duration:** 45 minutes
 **Materials:** Paper, pens, calculator
 
@@ -429,7 +429,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 3: The Energy Value Calculation
+### The Energy Value Calculation
 **Duration:** 40 minutes
 **Materials:** Energy bills, calculator, Bitcoin mining calculator
 
@@ -444,7 +444,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 4: The Scarcity Discovery Exercise
+### The Scarcity Discovery Exercise
 **Duration:** 30 minutes
 **Materials:** None (thought experiment)
 
@@ -459,7 +459,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 5: The Proof-of-Work Nature Walk
+### The Proof-of-Work Nature Walk
 **Duration:** 60 minutes
 **Materials:** Camera/phone, notebook
 
@@ -474,7 +474,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 6: The Via Negativa Audit
+### The Via Negativa Audit
 **Duration:** 45 minutes
 **Materials:** Paper, pens
 
@@ -490,7 +490,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 7: The Kardashev Scale Self-Assessment
+### The Kardashev Scale Self-Assessment
 **Duration:** 30 minutes
 **Materials:** Kardashev scale chart, markers
 
@@ -505,7 +505,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-### Activity 8: The Fiat Mind Diagnosis
+### The Fiat Mind Diagnosis
 **Duration:** 40 minutes
 **Materials:** List of economic narratives
 
@@ -520,126 +520,7 @@ How has learning about absolute scarcity and civilizational cycles changed your 
 
 ---
 
-## 7. Connection to No One Will Pay Project
-
-### Philosophical Alignment
-
-**Core Principle:** Abundance Through Scarcity perfectly embodies the Nobody•Will•Pay philosophy - sustainable systems emerge from constraint, not abundance. Removing the ability to inflate money supply creates economic prosperity. Removing subsidies creates viable renewables. Removing excess creates health. Removing control creates freedom.
-
-**Key Parallels:**
-
-1. **Sound Money = No Subsidies**
-   - Bitcoin achieves monetary soundness by removing supply manipulation
-   - Sustainable energy achieves viability by removing artificial support
-   - Both prove market superiority through constraint, not intervention
-
-2. **Absolute Scarcity = Via Negativa**
-   - Bitcoin's power comes from what it CAN'T do (inflate)
-   - Renewable energy's sustainability comes from what it DOESN'T need (subsidies)
-   - Personal growth comes from what you DON'T do (vices, distractions)
-
-3. **Proof-of-Work = Honest Signaling**
-   - Bitcoin mining proves value through energy cost
-   - True renewable projects prove viability through market returns (nobody will pay for fake solutions)
-   - Nature proves fitness through costly signals (antlers, peacock feathers)
-
-### Bitcoin-Energy Synergy for Nobody•Will•Pay
-
-**The Integration:**
-
-Abundance Through Scarcity reveals how Bitcoin and renewable energy are naturally symbiotic:
-
-1. **Stranded Energy Monetization**
-   - Bitcoin mining makes remote renewable sites profitable
-   - Excess solar/wind production becomes Bitcoin revenue
-   - This eliminates need for subsidies - market forces alone drive deployment
-
-2. **Grid Stabilization**
-   - Bitcoin mining provides flexible demand that balances intermittent supply
-   - Miners can instantly reduce load during peak demand
-   - This solves the "duck curve" problem without government intervention
-
-3. **Circular Economy Enablement**
-   - Sound money incentivizes durable goods (keep value in Bitcoin, not disposable consumption)
-   - Energy abundance (enabled by Bitcoin mining) makes recycling economically viable
-   - Result: circular economy emerges naturally, not through mandates
-
-**Nobody•Will•Pay Vindication:**
-
-The book proves that:
-- Nobody will pay for subsidized renewables long-term (unsustainable)
-- Everyone will pay for Bitcoin-enabled renewables (sustainable, profitable)
-- The solution was removing barriers (fiat money, subsidies), not adding support
-
-### Civilizational Stakes
-
-**Why This Matters for the Project:**
-
-The Nobody•Will•Pay project isn't just about energy or Bitcoin - it's about civilizational survival. Abundance Through Scarcity reveals that:
-
-1. **Every civilization faces the singularity crisis**
-   - Complexity increases, problems get costlier
-   - Fiat money tempts with easy solutions (print money)
-   - This accelerates decline, doesn't prevent it
-
-2. **Bitcoin is the first viable escape**
-   - Incorruptible money forces real solutions
-   - Long-term thinking (low time preference) becomes advantageous
-   - Coordination remains possible even as fiat fails
-
-3. **The stakes are existential**
-   - Civilizations that fail this test leave no legacy
-   - Civilizations that pass achieve post-scarcity and become interstellar
-   - We're at the decision point right now
-
-**Project Mission Amplified:**
-
-Nobody•Will•Pay is therefore not just an energy/Bitcoin project - it's a civilizational survival project. By demonstrating that:
-- Sustainable energy doesn't need subsidies (with Bitcoin)
-- Sound money enables abundance (not degrowth)
-- Via Negativa solves what addition cannot
-
-...we provide a blueprint for escaping the singularity crisis.
-
-### Practical Implementation
-
-**How the Book Informs Project Strategy:**
-
-1. **Education First**
-   - People must understand the singularity crisis to appreciate urgency
-   - Bitcoin-energy synergy must be taught as civilizational infrastructure, not just profit opportunity
-   - Via Negativa must become intuitive decision-making framework
-
-2. **Demonstration Projects**
-   - Build renewable+Bitcoin operations that need no subsidies
-   - Prove market viability without government support
-   - Create templates others can replicate globally
-
-3. **Coordination Layer**
-   - Use Bitcoin as neutral coordination tool for global renewable deployment
-   - Enable peer-to-peer energy trading on Bitcoin rails
-   - Build circular economy infrastructure on sound money foundation
-
-4. **Long-term Vision**
-   - Position project as Kardashev Type I infrastructure
-   - Frame Bitcoin mining not as energy consumption but as energy monetization
-   - Connect daily operations to multi-generational civilizational goals
-
-### The Ultimate Via Negativa Case Study
-
-Abundance Through Scarcity is the perfect theoretical foundation for Nobody•Will•Pay because it proves the core thesis across multiple domains:
-
-- **Money:** Remove inflation → gain stability
-- **Energy:** Remove subsidies → gain sustainability
-- **Civilization:** Remove currency debasement → gain longevity
-- **Nature:** Remove cheap signaling → gain honest information
-- **Personal:** Remove high time preference → gain prosperity
-
-The book shows this isn't just a pattern - it's a fundamental law of sustainable systems. Nobody•Will•Pay puts this law into practice.
-
----
-
-## 8. Further Reading & Resources
+## Further Reading & Resources
 
 ### Primary Sources Referenced in Book
 
@@ -754,7 +635,7 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 
 ### Project-Specific Connections
 
-**Nobody•Will•Pay Related:**
+**Book Club Related:**
 1. Review existing workbooks (Bitcoin Standard, Price of Tomorrow, Taming the Sun)
 2. Study circular economy literature
 3. Research proof-of-work in nature (biomimicry)
@@ -768,134 +649,48 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 
 ---
 
-## 9. Bookmark Bounty Suggestions
+## Connection to Other Books
 
-### Bookmark #1: The Singularity Crisis (Early Chapter)
+### Links to The Bitcoin Standard
+The book draws heavily on Austrian Business Cycle Theory and provides historical/civilizational context for why sound money matters. While The Bitcoin Standard focuses on economic theory, Abundance Through Scarcity explores the physics, mathematics, and civilizational implications.
 
-**Recommended Passage:**
-"The singularity crisis represents a state of irreversible societal decline triggered by the exhaustion of a society's resources. Civilizations naturally oscillate between progress and decline, but when resources are depleted, reversing this decline becomes arduous, causing society to drift toward ever-simpler states."
+### Complements The Price of Tomorrow
+Both books address deflation as natural and good, with Abundance Through Scarcity explaining why Bitcoin's fixed supply creates genuine deflation rather than fiat's artificial inflation fighting technological progress.
 
-**Why This Passage:**
-- Introduces the book's central civilizational framework
-- Explains why every past civilization has failed
-- Sets up Bitcoin as the escape mechanism
-- Accessible to beginners while profound for advanced readers
-
-**Cashu Amount:** 21,000 sats (symbolic of 21 million Bitcoin cap)
+### Expands on Broken Money
+While Lyn Alden's book explains the mechanics of how money breaks, Abundance Through Scarcity explores the civilizational consequences and Bitcoin as the solution to the singularity crisis.
 
 ---
 
-### Bookmark #2: Money as Time Battery (Mid-Book)
+## Action Items for Participants
 
-**Recommended Passage:**
-"Money serves as a battery for time. The true power of money lies in the ability to use it to control time. The freedom to do what you want, when and where you want, with whom you want, and for as long as you want."
+### Implement Low Time Preference Practices
+- Calculate your savings rate and work to increase it monthly
+- Replace consumable purchases with durable investments
+- Build skills that compound over decades
+- Save in Bitcoin to align incentives with future value
 
-**Why This Passage:**
-- Most elegant definition of money's essential function
-- Deeply personal and relatable
-- Connects to everyone's lived experience
-- Bridges economics and philosophy
+### Explore Bitcoin-Energy Synergy
+- Research local renewable energy projects
+- Calculate if Bitcoin mining could make stranded energy profitable
+- Connect with energy developers about Bitcoin integration
+- Study grid stabilization use cases
 
-**Cashu Amount:** 10,000 sats (round number, substantial reward)
+### Practice Via Negativa Decision Making
+- For each problem, list both additive and subtractive solutions
+- Default to removal before addition
+- Track which approach yields better long-term results
+- Teach others this framework
 
----
-
-### Bookmark #3: Absolute Scarcity as Discovery (Philosophy Section)
-
-**Recommended Passage:**
-"Bitcoin is the discovery of applying absolute mathematical scarcity to our world. Bitcoin is not just an economic operating system; it's a physics experiment. Absolute scarcity, akin to the speed of light and gravity, is one such universal principle. Any civilization, anywhere, might discover it whether a billion years ago in a galaxy far, far away, or in a future society yet to emerge."
-
-**Why This Passage:**
-- Elevates Bitcoin from technology to universal constant
-- Appeals to scientific and philosophical mindsets
-- Profound implications for SETI and civilization theory
-- Shifts perspective from "investment" to "discovery"
-
-**Cashu Amount:** 1,618 sats (golden ratio φ × 1000, symbolizing mathematical beauty)
+### Build Sovereign Capacity
+- Learn self-custody with hardware wallet
+- Set up multisig for added security
+- Memorize seed phrase for ultimate portability
+- Develop location-independent income sources
 
 ---
 
-### Bookmark #4: Proof-of-Work in Nature (Biology Section)
-
-**Recommended Passage:**
-"Big antlers are proof of a lineage that fought through adversity, a lineage that managed not just to survive but thrive enough to support such extravagance. The principle of proof-of-work insists that reward follows effort. Bitcoin is a new breed of money, one that strengthens itself by appealing to human primal instincts: greed and growth. Just as a flower provides nectar to its pollinator, bitcoin offers a monetary reward to people who invest energy in the blockchain - a symbiotic relationship."
-
-**Why This Passage:**
-- Makes proof-of-work intuitive through nature analogy
-- Connects biology, economics, and game theory
-- Addresses "energy waste" criticism preemptively
-- Beautiful prose, memorable imagery
-
-**Cashu Amount:** 6,250 sats (block reward in current epoch)
-
----
-
-### Bookmark #5: The Fiat Mind (Psychology Section)
-
-**Recommended Passage:**
-"Both schizophrenia and the fiat economy suffer from a critical issue: an inherent inability to recognize their own disorders. 'In a schizophrenic episode, it doesn't strike the patient that something is strange. Why? Because they believe the narrative told by the sum of their brain chemistry.' - David Eagleman. Under a fiat standard, companies, governments, and misguided investments drain the economy's vitality, contributing nothing real to growth, feasting yet leaving the table bare."
-
-**Why This Passage:**
-- Startling psychological insight
-- Explains why fiat advocates can't see the problem
-- Compassionate framing (disorder, not malice)
-- Prompts self-reflection: Am I still fiat-minded?
-
-**Cashu Amount:** 1971 sats (year Nixon closed gold window, beginning of pure fiat era)
-
----
-
-### Bookmark #6: Energy and Bitcoin Synergy (Energy Chapter)
-
-**Recommended Passage:**
-"Bitcoin fixes this. Its solution lies in reorienting the energy infrastructure, moving consumers to the energy rather than moving the energy to consumers. This groundbreaking approach empowers the energy industry to move the value of energy rather than the energy itself. The more energy that bitcoin absorbs, the stronger and more valuable it becomes. Conversely, as the energy sector intertwines with the bitcoin network, it gains reliability, operational efficiency, and flexibility."
-
-**Why This Passage:**
-- Addresses energy criticism constructively
-- Reveals Bitcoin-renewable synergy
-- Practical application for energy sector
-- Core to Nobody•Will•Pay project thesis
-
-**Cashu Amount:** 144,000 sats (blocks per day × 1000)
-
----
-
-### Bookmark #7: The Choice (Conclusion)
-
-**Recommended Passage:**
-"The choice we make will determine our legacy, either as a brief, forgotten flash in the cosmic timeline or as pioneer settlers in the Milky Way galaxy. Bitcoin stands ready to assume its role as the primary global currency and world reserve asset. Our descendants will continue to rely on bitcoin. Though the natural cycles of progress and decline will persist, they will no longer pose the existential threats of the past. Instead of resorting to currency debasement, our only option will be the right one: expand the economy and push our technological boundaries to achieve post-scarcity and transcend the singularity crisis."
-
-**Why This Passage:**
-- Epic civilizational stakes
-- Optimistic yet realistic
-- Connects all themes
-- Perfect conclusion message
-
-**Cashu Amount:** 2,100,000 sats (21M supply cap ÷ 10)
-
----
-
-### Bookmark Placement Strategy
-
-**Progressive Revelation:**
-1. Early bookmark (singularity crisis) - hooks reader with civilizational framework
-2. Mid-book bookmarks (time battery, scarcity discovery) - deepen understanding
-3. Later bookmarks (proof-of-work, fiat mind) - address sophisticated concepts
-4. Final bookmark (the choice) - inspire action
-
-**QR Code Design:**
-- Include quote excerpt on redemption page
-- Add "Why This Matters" note for each bookmark
-- Link to related Nobody•Will•Pay project content
-- Encourage sharing discovery on social media with hashtag #AbundanceThroughScarcity
-
-**Educational Card with Each Bookmark:**
-
-*"You've discovered absolute scarcity in an analog world - a fitting metaphor for Bitcoin itself. This Cashu token represents mathematical scarcity made tangible: backed 1:1 by bitcoin, redeemable globally, impossible to counterfeit. The passage you found explains why this matters for civilization's survival. Bitcoin isn't just better money - it's humanity's escape from the singularity crisis that has destroyed every previous society. Welcome to the future. Study the past. Secure the present. Build tomorrow."*
-
----
-
-## 10. Teaching Integration & Facilitation Guide
+## Teaching Integration & Facilitation Guide
 
 ### 90-Minute Session Structure
 
@@ -929,7 +724,7 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 - Abundance through constraint: Bitcoin's power from what it CAN'T do
 - Parallel to sustainable energy: viability from removing subsidies
 - Personal application: prosperity through removing high time preference
-- Nobody•Will•Pay philosophy: solutions through subtraction
+- Via Negativa philosophy: solutions through subtraction
 
 **Minutes 85-90: The Choice**
 - Existential stakes: forgotten flash or interstellar pioneers
@@ -997,7 +792,7 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 - Community building (coordination practice)
 
 **Project Integration:**
-- Graduates become Nobody•Will•Pay advocates
+- Graduates become Bitcoin and Via Negativa advocates
 - Contribute to renewable+Bitcoin demonstration projects
 - Teach others using workbook materials
 - Build local circular economies on Bitcoin foundation
@@ -1013,12 +808,12 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 ---
 
 **Workbook Version 1.0 - October 2025**
-**Created for the Nobody•Will•Pay Project**
-**BookMark Breakfast Discussion Series**
+**Created for Book Club Discussions**
+**Book Club Discussion Series**
 
 ---
 
-### For BookMark Breakfast Facilitators
+### For Facilitators
 
 **Modularity Guide:**
 - **Beginners:** Use Sections 1, 2 (selected quotes), Key Themes (1, 2, 6), Discussion Questions (1, 8, 10)
@@ -1031,6 +826,6 @@ The book shows this isn't just a pattern - it's a fundamental law of sustainable
 
 Remember: We're not just teaching about Bitcoin. We're providing the intellectual framework for civilizational survival. Abundance Through Scarcity reveals that Bitcoin solves humanity's oldest problem - coordination in the face of complexity - using the universe's most elegant tool: absolute mathematical scarcity.
 
-The stakes are existential. The solution is elegant. The choice is ours.
+The stakes are existential. The solution is elegant. The choice is ours through great books.
 
 *Teach accordingly.*

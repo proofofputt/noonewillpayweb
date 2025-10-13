@@ -1,6 +1,6 @@
-# The Blocksize War - BookMark Breakfast Discussion Workbook
+# The Blocksize War - Book Club Discussion Workbook
 
-## 1. Book Overview
+## Book Overview
 
 **Author:** Jonathan Bier
 **Publication Year:** 2021
@@ -12,7 +12,7 @@ This book documents Bitcoin's immune system in action. The war wasn't just about
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### On Governance & Decentralization
 
@@ -95,7 +95,7 @@ This book documents Bitcoin's immune system in action. The war wasn't just about
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### The Blocksize Debate Explained Simply
 
@@ -171,7 +171,7 @@ A mechanism where users running full nodes activate a protocol upgrade on a spec
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
 ### 1. How Should Bitcoin Make Decisions?
 
@@ -252,7 +252,7 @@ A mechanism where users running full nodes activate a protocol upgrade on a spec
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### Fits Into "Don't Trust, Verify" Segment (30 minutes)
 
@@ -309,38 +309,7 @@ A mechanism where users running full nodes activate a protocol upgrade on a spec
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Recommended Pages/Quotes for Hiding Cashu Bookmarks
-
-**1. The Realization About Rule Robustness**
-- **Quote:** "I began to realize that the rules of the network had to be robust. It had to be really difficult to change the rules, otherwise it would not stand up to the pressure from the main financial establishment."
-- **Why:** Captures the core governance insight
-- **Bookmark Placement:** Top right corner of page with this quote
-
-**2. User Sovereignty Over Miners**
-- **Quote:** "Proof of work was there to solve the double spending problem, they contended; miners merely decide on the order of transactions."
-- **Why:** Clarifies miner role vs. user power
-- **Bookmark Placement:** Bottom left corner
-
-**3. Corporate Overreach**
-- **Quote:** "It is imperative that we plan for success by raising the maximum block size. BIP 101 and 8MB blocks are supported by a majority of the community and we feel it is time for the industry to unite behind this proposal." (CEO letter from BitPay, Blockchain.info, Circle, Coinbase, Xapo, BitGo)
-- **Why:** Documents the corporate capture attempt
-- **Bookmark Placement:** Middle of page, highlighting the signatories
-
-**4. The UASF Victory**
-- **Quote:** (From Victory chapter, page 214+)
-- **Why:** Marks the grassroots triumph
-- **Bookmark Placement:** First page of Victory chapter
-
-**5. Bitcoin's Antifragility Test**
-- **Quote:** "If we cannot resolve this dispute now, when only a few hundred people really care about it, what hope does Bitcoin really have? The immense pressure which would be exerted on Bitcoin by major economic and political players as Bitcoin grows."
-- **Why:** Stakes of governance resilience
-- **Bookmark Placement:** Center of page
-
----
-
-## 7. Connection to Other Books
+## Connection to Other Books
 
 ### Pairs with Mastering Bitcoin (Technical Governance)
 
@@ -411,7 +380,7 @@ A mechanism where users running full nodes activate a protocol upgrade on a spec
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### 1. Run a Bitcoin Full Node
 
@@ -594,7 +563,7 @@ Bitcoin governance is the worst form of protocol governance, except for all the 
 
 ---
 
-**Prepared for BookMark Breakfast Discussion Sessions**
+**Prepared for Book Club Discussion Sessions**
 **Curriculum Integration: "Don't Trust, Verify" Segment**
 **Recommended Session Length: 90 minutes**
 **Advanced Level: Assumes familiarity with Bitcoin basics**

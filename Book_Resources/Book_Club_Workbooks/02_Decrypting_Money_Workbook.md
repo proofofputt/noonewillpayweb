@@ -1,9 +1,9 @@
 # Decrypting Money: A Comprehensive Introduction To Bitcoin
-## BookMark Breakfast Discussion Workbook
+## Book Club Discussion Workbook
 
 ---
 
-## 1. Book Overview
+## Book Overview
 
 **Authors:** Marco Krohn, Anthony Jefferies, Marco Streng, Zoran Balkic
 **Publication Year:** 2021
@@ -22,87 +22,87 @@ This book is the perfect onboarding tool for Bitcoin newcomers because:
 - **Beginner-friendly structure:** Builds from foundations (money basics) to mechanics (how Bitcoin works)
 - **Gateway to understanding:** Creates informed participants rather than passive observers
 
-**Perfect for the Nobody•Will•Pay 90-minute curriculum** - this book IS the foundation text that participants can explore after their initial Bitcoin experience.
+**Perfect for the 90-minute curriculum** - this book IS the foundation text that participants can explore after their initial Bitcoin experience.
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### On Money Basics
 
-**"Money seems to have been an abstraction from the beginning, and its history is full of abstraction"** (p. 79)
+**"Money seems to have been an abstraction from the beginning, and its history is full of abstraction"**
 - Perfect for explaining why Bitcoin's digital nature is natural, not strange
 
-**"Practically every human society invents some kind of money"** (p. 178)
+**"Practically every human society invents some kind of money"**
 - Shows Bitcoin as continuing human tradition, not breaking from it
 
-**"Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is power to selectively reveal oneself to the world."** (p. 59-60)
+**"Privacy is not secrecy. A private matter is something one doesn't want the whole world to know, but a secret matter is something one doesn't want anybody to know. Privacy is power to selectively reveal oneself to the world."**
 - Essential for understanding Bitcoin's pseudonymity design
 
-**"Bad money drives out good money" - Gresham's Law** (p. 92-93)
+**"Bad money drives out good money" - Gresham's Law**
 - Explains why people save Bitcoin while spending fiat
 
 ### On Bitcoin Fundamentals
 
-**"Bitcoin is both a currency and a payment system"** (p. 55)
+**"Bitcoin is both a currency and a payment system"**
 - Core distinction that helps beginners understand Bitcoin's dual nature
 
-**"Like gold, bitcoin is scarce. Moreover, it is also carefully designed to be divisible, durable, portable, and fungible"** (p. 698)
+**"Like gold, bitcoin is scarce. Moreover, it is also carefully designed to be divisible, durable, portable, and fungible"**
 - Connects familiar (gold) to new (Bitcoin) properties
 
-**"Neither an 'Idiot's Guide' nor a university-level text on cryptocurrencies...for interested, intelligent laypeople"** (p. 53-54)
+**"Neither an 'Idiot's Guide' nor a university-level text on cryptocurrencies...for interested, intelligent laypeople"**
 - The book meets readers where they are
 
-**"Bitcoin motto: vires in numeris (strength in numbers)"** (p. 318)
+**"Bitcoin motto: vires in numeris (strength in numbers)"**
 - Captures Bitcoin's security model in three Latin words
 
-**"Simply the next logical step in the evolution of money"** (p. 71)
+**"Simply the next logical step in the evolution of money"**
 - Frames Bitcoin as evolutionary, not revolutionary
 
 ### On Bitcoin's Design Philosophy
 
-**"Newer isn't better. Newly invented components haven't been tested enough to be trustworthy"** (p. 223)
+**"Newer isn't better. Newly invented components haven't been tested enough to be trustworthy"**
 - Explains why Satoshi used proven cryptography
 
-**"Don't trust, verify" - Bitcoin's mantra** (p. 511)
+**"Don't trust, verify" - Bitcoin's mantra**
 - Core principle of decentralized systems
 
-**"Individual participants rely only on themselves and are solely responsible for the security of their accounts, system can have no single point of control on which it depends"** (p. 230)
+**"Individual participants rely only on themselves and are solely responsible for the security of their accounts, system can have no single point of control on which it depends"**
 - Explains self-custody and decentralization
 
 ### On Practical Use
 
-**"Much the same way a person can drive without knowing much about how a car works, people can participate in bitcoin without knowing anything about cryptographic hash functions or blockchains"** (p. 709)
+**"Much the same way a person can drive without knowing much about how a car works, people can participate in bitcoin without knowing anything about cryptographic hash functions or blockchains"**
 - Empowering message for beginners feeling overwhelmed
 
-**"As long as they take adequate care to protect their private keys, people can buy bitcoin from an ATM as easily as they can order Uber"** (p. 708)
+**"As long as they take adequate care to protect their private keys, people can buy bitcoin from an ATM as easily as they can order Uber"**
 - Makes Bitcoin adoption seem achievable
 
-**"Satoshi: the smallest division (one one-hundred-millionth) of bitcoin"** (p. 297)
+**"Satoshi: the smallest division (one one-hundred-millionth) of bitcoin"**
 - Shows Bitcoin is divisible for any transaction size
 
 ### On Mining and Security
 
-**"Proof of work is deliberately (and provably) time- and energy-intensive"** (p. 678)
+**"Proof of work is deliberately (and provably) time- and energy-intensive"**
 - Explains mining's purpose in simple terms
 
-**"Mining honestly is economically more attractive...like stealing paper money by setting it on fire"** (p. 582-583)
+**"Mining honestly is economically more attractive...like stealing paper money by setting it on fire"**
 - Elegant explanation of Bitcoin's incentive structure
 
-**"As of June 2021, bitcoin in its more than decade-long history has never suffered a successful attack"** (p. 592)
+**"As of June 2021, bitcoin in its more than decade-long history has never suffered a successful attack"**
 - Builds confidence in Bitcoin's security
 
 ### On the Future
 
-**"Envision a world where everyone can participate in (and benefit from) a decentralized monetary system"** (p. 712)
+**"Envision a world where everyone can participate in (and benefit from) a decentralized monetary system"**
 - The vision driving Bitcoin adoption
 
-**"Knowledge being an indispensable precondition for the confident adoption of new technology"** (p. 713)
-- Why education (like BookMark Breakfast) matters
+**"Knowledge being an indispensable precondition for the confident adoption of new technology"**
+- Why education (like book clubs) matters
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### Part 1: Understanding Money (The Foundation)
 
@@ -190,7 +190,7 @@ This book is the perfect onboarding tool for Bitcoin newcomers because:
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
 ### Question 1: The Evolution of Money
 **"Money seems to have been an abstraction from the beginning" - How does understanding money's history (from cowry shells to Bitcoin) change your perception of digital currency?**
@@ -229,11 +229,11 @@ This book is the perfect onboarding tool for Bitcoin newcomers because:
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### This Book IS the Foundation
 
-**Decrypting Money** provides the comprehensive background knowledge that makes the 90-minute Nobody•Will•Pay experience meaningful. Here's how they align:
+**Decrypting Money** provides the comprehensive background knowledge that makes the 90-minute session experience meaningful. Here's how they align:
 
 ### Origin (15 minutes) → Part 1: The History of Money
 - **Curriculum:** "Where did Bitcoin come from?"
@@ -277,47 +277,7 @@ This book is the perfect onboarding tool for Bitcoin newcomers because:
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Top 5 Pages for Hiding Cashu Bookmarks
-
-**1. Page 59-60: "Privacy is power to selectively reveal oneself to the world"**
-- **Why this quote:** Perfectly explains Bitcoin's pseudonymity
-- **Discussion prompt:** Gets people thinking about privacy vs. secrecy
-- **Beginner-friendly:** Relatable concept, profound insight
-
-**2. Page 178: "Practically every human society invents some kind of money"**
-- **Why this quote:** Normalizes Bitcoin as part of human tradition
-- **Discussion prompt:** Money is universal; Bitcoin is the next chapter
-- **Beginner-friendly:** Removes the "weird tech thing" stigma
-
-**3. Page 698: "Like gold, bitcoin is scarce...divisible, durable, portable, and fungible"**
-- **Why this quote:** Connects familiar (gold) to new (Bitcoin)
-- **Discussion prompt:** What makes good money good?
-- **Beginner-friendly:** Uses comparison to something everyone understands
-
-**4. Page 709: "People can participate in bitcoin without knowing anything about cryptographic hash functions"**
-- **Why this quote:** Removes intimidation factor
-- **Discussion prompt:** You can use Bitcoin today, learn details later
-- **Beginner-friendly:** Most empowering message for anxious beginners
-
-**5. Page 712-713: "Envision a world where everyone can participate in a decentralized monetary system"**
-- **Why this quote:** Inspires the vision
-- **Discussion prompt:** What would this world look like?
-- **Beginner-friendly:** Focuses on the "why" not the "how"
-
-### Bookmark Placement Strategy
-
-Place bookmarks at quotes that:
-1. Demystify Bitcoin's complexity
-2. Connect to personal experience with money
-3. Inspire curiosity about the future
-4. Provide "aha moment" insights
-5. Build confidence for taking first steps
-
----
-
-## 7. Connection to Other Books
+## Connection to Other Books
 
 ### Gateway to Mastering Bitcoin (Beginner → Advanced Technical)
 
@@ -351,12 +311,12 @@ Place bookmarks at quotes that:
 - **Decrypting Money:** Systematic education, technical foundations
 - **Together:** Head and heart approach to Bitcoin
 
-**BookMark Breakfast flow:**
+**Discussion flow:**
 1. Genesis Book for inspiration and story (emotional connection)
 2. Decrypting Money for understanding (intellectual foundation)
 3. Participants leave both inspired AND informed
 
-### Building the Nobody•Will•Pay Library
+### Building the Book Club Library
 
 **Beginner Stack (Start here):**
 1. Decrypting Money - Core technical introduction
@@ -372,7 +332,7 @@ Place bookmarks at quotes that:
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### Immediate Actions (During/After Discussion)
 
@@ -435,7 +395,7 @@ Place bookmarks at quotes that:
 **10. Join the Bitcoin Community**
 - [ ] Follow Bitcoin educators on social media
 - [ ] Join local Bitcoin meetup
-- [ ] Attend next BookMark Breakfast session
+- [ ] Attend next book club session
 - [ ] Share your learning journey
 
 ### Security Checklist (Ongoing)
@@ -497,7 +457,7 @@ Place bookmarks at quotes that:
 3. **Confidence** - "You can use Bitcoin today" message empowers immediate action
 4. **Comprehensiveness** - Covers everything from philosophy to practical wallet setup
 
-For BookMark Breakfast participants, this book is the perfect companion to the 90-minute experience. It transforms a single session into a lasting education, turning curious attendees into knowledgeable Bitcoin users.
+For book club participants, this book is the perfect companion to the 90-minute experience. It transforms a single session into a lasting education, turning curious attendees into knowledgeable Bitcoin users.
 
 **The goal:** Not just understanding Bitcoin, but confidently participating in the future of money.
 

@@ -1,9 +1,9 @@
 # BOOM AND BUST: A Global History of Financial Bubbles
-## BookMark Breakfast Discussion Workbook
+## Book Club Discussion Workbook
 
 ---
 
-## 1. Book Overview
+## Book Overview
 
 **Title:** Boom and Bust: A Global History of Financial Bubbles
 **Authors:** William Quinn & John D. Turner
@@ -24,59 +24,59 @@ Understanding boom-and-bust cycles is critical for Bitcoin adoption because:
 
 ---
 
-## 2. Key Quotes & Page References
+## Key Ideas
 
 ### On Business Cycles
 
-**"Why do stock and housing markets sometimes experience amazing booms followed by massive busts and why is this happening more and more frequently?"** (Preface, p. 8)
+**"Why do stock and housing markets sometimes experience amazing booms followed by massive busts and why is this happening more and more frequently?"**
 
-**"Bubbles can encourage overinvestment, overemployment and overbuilding, which ends up being inefficient for both businesses and society."** (p. 20)
+**"Bubbles can encourage overinvestment, overemployment and overbuilding, which ends up being inefficient for both businesses and society."**
 
-**"We have to turn the page on the bubble-and-bust mentality that created this mess." - President Barack Obama** (p. 18)
+**"We have to turn the page on the bubble-and-bust mentality that created this mess." - President Barack Obama**
 
 ### On Central Banking and Money Supply
 
-**"The fuel for the bubble is money and credit. A bubble can form only when the public has sufficient capital to invest in an asset, and is therefore much more likely to occur when there is abundant money and credit in the economy."** (p. 51)
+**"The fuel for the bubble is money and credit. A bubble can form only when the public has sufficient capital to invest in an asset, and is therefore much more likely to occur when there is abundant money and credit in the economy."**
 
-**"Investors would often rather invest in something ridiculous than accept a low interest rate on a safe asset."** (p. 54)
+**"Investors would often rather invest in something ridiculous than accept a low interest rate on a safe asset."**
 
-**"M3, a broad measure of the money supply, grew by a total of 141 per cent between 1980 and 1990 [in Japan]; for comparison, between 1990 and 2010, M3 grew by only 40 per cent."** (p. 530)
+**"M3, a broad measure of the money supply, grew by a total of 141 per cent between 1980 and 1990 [in Japan]; for comparison, between 1990 and 2010, M3 grew by only 40 per cent."**
 
-**"As a result of low interest rates, safe assets were unappealing: in 1987, Japanese treasury bills were yielding only 2.4 per cent, at that time the lowest in their post-war history. Instead, investors piled into land and stocks."** (p. 532-533)
+**"As a result of low interest rates, safe assets were unappealing: in 1987, Japanese treasury bills were yielding only 2.4 per cent, at that time the lowest in their post-war history. Instead, investors piled into land and stocks."**
 
 ### On Austrian Economics and Malinvestment
 
-**"Parliamentary procedure had worked well for development of canals and turnpikes, which were all local enterprises, but parliamentarians did not appreciate the importance of network externalities [for railways]."** (p. 243)
+**"Parliamentary procedure had worked well for development of canals and turnpikes, which were all local enterprises, but parliamentarians did not appreciate the importance of network externalities [for railways]."**
 
-**"One study has estimated that the circa 20,000-mile rail system which had emerged by 1914 contained about 7,000 miles more than was necessary - the same social benefits could have been obtained with substantially less investment."** (p. 254)
+**"One study has estimated that the circa 20,000-mile rail system which had emerged by 1914 contained about 7,000 miles more than was necessary - the same social benefits could have been obtained with substantially less investment."**
 
-**"The huge reduction in the time and money costs of travelling made journeys possible for the masses... However, one must ask whether the social usefulness was as high as it could have been had the process of authorising the railways and establishing a railway network not been so laissez-faire or ad hoc."** (p. 250-252)
+**"The huge reduction in the time and money costs of travelling made journeys possible for the masses... However, one must ask whether the social usefulness was as high as it could have been had the process of authorising the railways and establishing a railway network not been so laissez-faire or ad hoc."**
 
 ### On Speculation and Market Psychology
 
-**"Speculation is the purchase (or sale) of an asset with a view to selling (or repurchasing) the asset at a later date with the sole motivation of generating a capital gain."** (p. 56)
+**"Speculation is the purchase (or sale) of an asset with a view to selling (or repurchasing) the asset at a later date with the sole motivation of generating a capital gain."**
 
-**"Speculators, many of whom trade purely on momentum, buying when prices are rising and selling when prices are falling. May purchase an asset they know to be overpriced, planning to re-sell the asset to 'a greater fool' to make a capital gain. This practice is commonly referred to as 'riding the bubble'."** (p. 58-60)
+**"Speculators, many of whom trade purely on momentum, buying when prices are rising and selling when prices are falling. May purchase an asset they know to be overpriced, planning to re-sell the asset to 'a greater fool' to make a capital gain. This practice is commonly referred to as 'riding the bubble'."**
 
-**"In J.K. Galbraith's famous history of the crash, he argues that its key feature was that 'all aspects of [stock] ownership became irrelevant except the prospect for an early rise in price.'"** (p. 461)
+**"In J.K. Galbraith's famous history of the crash, he argues that its key feature was that 'all aspects of [stock] ownership became irrelevant except the prospect for an early rise in price.'"**
 
 ### On Consequences of Bubbles
 
-**"Estimates, however, conceal the large costs that financial crises have on psychological well-being. They also ignore the human costs associated with the imposition of austerity measures once the crisis is over."** (p. 22)
+**"Estimates, however, conceal the large costs that financial crises have on psychological well-being. They also ignore the human costs associated with the imposition of austerity measures once the crisis is over."**
 
-**"In human terms, this [Great Depression] meant increased homelessness, increased infant mortality and increased rates of suicide. The secondary political effects were even worse, with the Depression a major factor in the collapse of several European democracies and, consequently, World War 2."** (p. 479)
+**"In human terms, this [Great Depression] meant increased homelessness, increased infant mortality and increased rates of suicide. The secondary political effects were even worse, with the Depression a major factor in the collapse of several European democracies and, consequently, World War 2."**
 
-**"The price level in Paris fell by 38 per cent in 1721, a more severe deflation than the United States experienced during Great Depression."** (p. 120)
+**"The price level in Paris fell by 38 per cent in 1721, a more severe deflation than the United States experienced during Great Depression."**
 
 ### On Technology vs. Manipulation
 
-**"Bubbles start when investors and speculators react to new technology or political initiatives, showing that our ability to predict future bubbles will ultimately come down to being able to predict these sparks."** (p. 12)
+**"Bubbles start when investors and speculators react to new technology or political initiatives, showing that our ability to predict future bubbles will ultimately come down to being able to predict these sparks."**
 
-**"Three ways in which bubbles can be useful: Facilitate innovation, Stimulate future innovations, Provide capital for technological projects that would not be financed to same extent in a fully efficient financial market."** (p. 24-27)
+**"Three ways in which bubbles can be useful: Facilitate innovation, Stimulate future innovations, Provide capital for technological projects that would not be financed to same extent in a fully efficient financial market."**
 
 ---
 
-## 3. Main Concepts
+## Main Concepts
 
 ### The Bubble Triangle Framework
 
@@ -169,45 +169,45 @@ Both books draw heavily on Austrian Business Cycle Theory (ABCT):
 
 ---
 
-## 4. Discussion Questions
+## Discussion Questions
 
-### Question 1: Why Do Booms Always Turn to Busts?
+### Why Do Booms Always Turn to Busts?
 - What does the "Bubble Triangle" reveal about the structural nature of bubbles?
 - Can you have sustainable growth without the crash if you remove one element of the triangle?
 - How does malinvestment during the boom make the bust inevitable?
 - What role does leverage play in accelerating both the boom and the bust?
 
-### Question 2: What Is the True Role of Central Banks in Creating Cycles?
+### What Is the True Role of Central Banks in Creating Cycles?
 - How did abundant money and credit fuel every bubble in the book?
 - Why do low interest rates force a "search for yield" into riskier assets?
 - Can central banks successfully manage a bubble, or do they only manage to make it bigger?
 - What would happen to boom-bust cycles if central banks couldn't manipulate money supply?
 
-### Question 3: How Does Bitcoin Change the Boom/Bust Dynamic?
+### How Does Bitcoin Change the Boom/Bust Dynamic?
 - If Bitcoin were the global reserve currency, could we still have asset bubbles?
 - Would the "money and credit" element of the Bubble Triangle be removed under a Bitcoin standard?
 - How would fixed supply change entrepreneurial calculation and capital allocation?
 - Could technological innovation still create localized bubbles without monetary expansion?
 
-### Question 4: Is Speculation Inherently Bad or a Natural Market Function?
+### Is Speculation Inherently Bad or a Natural Market Function?
 - How do we distinguish between harmful speculation and productive price discovery?
 - What role did insider exploitation play in historical bubbles vs. genuine investor enthusiasm?
 - Can markets self-correct without government intervention if we have sound money?
 - How did regulatory responses to bubbles (like the 1720 Bubble Act or 1934 Securities Act) affect future market development?
 
-### Question 5: What Are the Implications for Long-term Planning Under Fiat vs. Bitcoin?
+### What Are the Implications for Long-term Planning Under Fiat vs. Bitcoin?
 - How does monetary uncertainty affect business investment decisions?
 - Why is it impossible to save effectively when central banks target 2% inflation?
 - How would retirement planning change under a deflationary/stable currency like Bitcoin?
 - What happens to the concept of "financial advice" when money itself is sound?
 
-### Question 6: Can Bubbles Ever Be Useful for Society?
+### Can Bubbles Ever Be Useful for Society?
 - The authors suggest some bubbles "facilitated innovation" - is this justification valid?
 - Would the railways have been built more efficiently without the Mania?
 - Does the "useful bubble" theory justify central bank intervention?
 - How do we weigh short-term capital mobilization against long-term malinvestment?
 
-### Question 7: Why Are Bubbles Happening "More and More Frequently"?
+### Why Are Bubbles Happening "More and More Frequently"?
 - What changed in monetary policy over the 20th century to accelerate bubble frequency?
 - How did abandoning the gold standard (1971 Nixon Shock) affect bubble dynamics?
 - What role does financialization play in modern bubble formation?
@@ -215,7 +215,7 @@ Both books draw heavily on Austrian Business Cycle Theory (ABCT):
 
 ---
 
-## 5. Integration with 90-Minute Curriculum
+## Integration with 90-Minute Curriculum
 
 ### Fits into "Broader Implications" Segment (30 minutes)
 
@@ -260,43 +260,7 @@ Both books draw heavily on Austrian Business Cycle Theory (ABCT):
 
 ---
 
-## 6. Bookmark Bounty Suggestions
-
-### Recommended Pages/Passages for Hiding Cashu Bookmarks:
-
-**Bookmark Location #1: The Bubble Triangle Definition (p. 48-51)**
-- **Why:** Introduces the core analytical framework participants will use throughout discussion
-- **Quote to Highlight:** "The fuel for the bubble is money and credit. A bubble can form only when the public has sufficient capital to invest in an asset..."
-- **Discussion Trigger:** "What happens to this 'fuel' under a Bitcoin standard?"
-
-**Bookmark Location #2: John Law and the Mississippi Bubble (p. 82-93)**
-- **Why:** First major example of government-created bubble through monetary manipulation
-- **Quote to Highlight:** "Law attracted the attention of speculators by using an array of 'market management' tricks to engineer a series of rapid increases in the Mississippi share price."
-- **Discussion Trigger:** "How is this different from modern quantitative easing?"
-
-**Bookmark Location #3: Railway Mania Malinvestment (p. 254)**
-- **Why:** Concrete evidence that boom-time investment was 35% wasteful (7,000 unnecessary miles)
-- **Quote to Highlight:** "One study has estimated that the circa 20,000-mile rail system which had emerged by 1914 contained about 7,000 miles more than was necessary..."
-- **Discussion Trigger:** "How much of today's economy is malinvestment that will be liquidated in the next bust?"
-
-**Bookmark Location #4: 1929 Crash and Great Depression (p. 479)**
-- **Why:** Shows the catastrophic human costs of boom-bust cycles
-- **Quote to Highlight:** "In human terms, this meant increased homelessness, increased infant mortality and increased rates of suicide. The secondary political effects were even worse, with the Depression a major factor in the collapse of several European democracies and, consequently, World War 2."
-- **Discussion Trigger:** "Could Bitcoin prevent the next Great Depression?"
-
-**Bookmark Location #5: Japan's Monetary Expansion (p. 530)**
-- **Why:** Modern example showing central bank policy directly creating bubble conditions
-- **Quote to Highlight:** "M3, a broad measure of the money supply, grew by a total of 141 per cent between 1980 and 1990; for comparison, between 1990 and 2010, M3 grew by only 40 per cent."
-- **Discussion Trigger:** "What does the M2 money supply chart look like for the US since 2020?"
-
-**Bookmark Location #6 (Advanced): "Useful Bubbles" Discussion (p. 24-27, p. 248-252)**
-- **Why:** Addresses common counterargument that bubbles serve a social purpose
-- **Quote to Highlight:** "One must ask whether the social usefulness was as high as it could have been had the process of authorising the railways and establishing a railway network not been so laissez-faire or ad hoc."
-- **Discussion Trigger:** "Do we need bubbles to fund innovation, or do they actually misallocate capital?"
-
----
-
-## 7. Connection to Other Books
+## Connection to Other Books
 
 ### Deep Connection to The Bitcoin Standard (Saifedean Ammous)
 
@@ -363,7 +327,7 @@ Both books draw heavily on Austrian Business Cycle Theory (ABCT):
 
 ---
 
-## 8. Action Items for Participants
+## Action Items for Participants
 
 ### Track Federal Reserve Policy Decisions
 
@@ -597,7 +561,7 @@ Both books draw heavily on Austrian Business Cycle Theory (ABCT):
 
 The Bubble Triangle framework gives us a diagnostic tool: if you see marketability + abundant money & credit + speculation, a bubble is forming. Under a Bitcoin standard, the "abundant money and credit" element cannot exist - Bitcoin's supply is fixed by mathematics, not manipulated by politicians.
 
-For participants in BookMark Breakfast, this book should crystallize why Bitcoin matters beyond "number go up." It's not just an investment - it's an exit from a system that has repeatedly destroyed wealth, created depressions, and even triggered world wars (Great Depression → WWII).
+For participants in book club discussions, this book should crystallize why Bitcoin matters beyond "number go up." It's not just an investment - it's an exit from a system that has repeatedly destroyed wealth, created depressions, and even triggered world wars (Great Depression → WWII).
 
 The most powerful realization: **We're living through the biggest bubble in human history right now.** Global debt is at all-time highs, central banks have printed trillions since 2008, and the "money and credit" fuel for the bubble is more abundant than ever. The question isn't if the current system will bust - it's when, and whether you'll have an exit when it does.
 
@@ -609,4 +573,4 @@ Bitcoin is that exit. This book explains why.
 **Last Updated:** October 2025
 **Next Review:** After discussion session - collect participant feedback and iterate
 
-**For questions or suggested improvements to this workbook, contact the BookMark Breakfast facilitation team.**
+**For questions or suggested improvements to this workbook, contact the book club facilitation team.**
