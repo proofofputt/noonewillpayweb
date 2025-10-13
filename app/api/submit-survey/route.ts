@@ -51,8 +51,12 @@ export async function POST(request: NextRequest) {
     // Check if IP blocking is disabled (for testing)
     const ipBlockingDisabled = process.env.DISABLE_IP_BLOCKING === 'true'
 
+    // Exempt test phone numbers from duplicate checks
+    const exemptPhones = (process.env.EXEMPT_PHONE_NUMBERS || '').split(',').map(p => p.trim())
+    const isExemptPhone = exemptPhones.includes(validated.phone)
+
     // For non-admin submissions, check for duplicates by IP OR phone number
-    if (!isAdminSubmission && !ipBlockingDisabled) {
+    if (!isAdminSubmission && !ipBlockingDisabled && !isExemptPhone) {
       const conditions = []
 
       // Add IP check if available
