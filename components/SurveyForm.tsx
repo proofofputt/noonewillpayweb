@@ -299,7 +299,7 @@ export default function SurveyForm() {
 
           <div>
             <label className="block text-sm font-medium mb-2 text-white">
-              Email <span className="text-gray-400 text-xs">(Optional)</span>
+              Email <span className="text-gray-400 text-xs">(Optional - subscribe to newsletter)</span>
             </label>
             <input
               {...contactForm.register('email')}
