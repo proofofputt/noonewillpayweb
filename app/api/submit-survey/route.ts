@@ -117,59 +117,73 @@ export async function POST(request: NextRequest) {
     // Check if user account exists by phone or email
     let userRecord = null
 
-    // First try to find by phone (primary identifier)
-    const [existingUserByPhone] = await db
-      .select()
-      .from(users)
-      .where(eq(users.phone, validated.phone))
-      .limit(1)
+    try {
+      console.log(`[Survey Submit] Checking for existing user with phone: ${validated.phone}`)
 
-    if (existingUserByPhone) {
-      userRecord = existingUserByPhone
-    } else if (validated.email) {
-      // Fallback: try to find by email
-      const [existingUserByEmail] = await db
+      // First try to find by phone (primary identifier)
+      const [existingUserByPhone] = await db
         .select()
         .from(users)
-        .where(eq(users.email, validated.email))
+        .where(eq(users.phone, validated.phone))
         .limit(1)
 
-      if (existingUserByEmail) {
-        userRecord = existingUserByEmail
-        // Update phone on existing email-based account
-        await db
-          .update(users)
-          .set({ phone: validated.phone })
-          .where(eq(users.id, existingUserByEmail.id))
+      if (existingUserByPhone) {
+        userRecord = existingUserByPhone
+        console.log(`[Survey Submit] Found existing user by phone: ${existingUserByPhone.id}`)
+      } else if (validated.email) {
+        // Fallback: try to find by email
+        const [existingUserByEmail] = await db
+          .select()
+          .from(users)
+          .where(eq(users.email, validated.email))
+          .limit(1)
+
+        if (existingUserByEmail) {
+          userRecord = existingUserByEmail
+          console.log(`[Survey Submit] Found existing user by email: ${existingUserByEmail.id}`)
+          // Update phone on existing email-based account
+          await db
+            .update(users)
+            .set({ phone: validated.phone })
+            .where(eq(users.id, existingUserByEmail.id))
+        }
       }
-    }
 
-    // If no user account exists, create one automatically
-    if (!userRecord) {
-      const username = validated.email
-        ? validated.email.split('@')[0]
-        : generateUsernameFromPhone(validated.phone)
+      // If no user account exists, create one automatically
+      if (!userRecord) {
+        console.log(`[Survey Submit] No existing user found, creating new account`)
 
-      const userReferralCode = await generateReferralCode()
+        const username = validated.email
+          ? validated.email.split('@')[0]
+          : generateUsernameFromPhone(validated.phone)
 
-      // Generate unique email from phone if email not provided
-      const phoneDigits = validated.phone.replace(/\D/g, '')
-      const userEmail = validated.email || `phone_${phoneDigits}@noonewillpay.app`
+        const userReferralCode = await generateReferralCode()
 
-      const [newUser] = await db.insert(users).values({
-        email: userEmail,
-        username,
-        phone: validated.phone,
-        passwordHash: null, // Passwordless auth
-        referralCode: userReferralCode,
-        referredByCode: validated.referredBy || null,
-        allocationPoints: '0',
-        registrationBonusAwarded: false,
-      }).returning()
+        // Generate unique email from phone if email not provided
+        const phoneDigits = validated.phone.replace(/\D/g, '')
+        const userEmail = validated.email || `phone_${phoneDigits}@noonewillpay.app`
 
-      userRecord = newUser
+        console.log(`[Survey Submit] Creating user with email: ${userEmail}, username: ${username}`)
 
-      console.log(`[Survey Submit] Created new user account for phone ${validated.phone}`)
+        const [newUser] = await db.insert(users).values({
+          email: userEmail,
+          username,
+          phone: validated.phone,
+          passwordHash: null, // Passwordless auth
+          referralCode: userReferralCode,
+          referredByCode: validated.referredBy || null,
+          allocationPoints: '0',
+          registrationBonusAwarded: false,
+        }).returning()
+
+        userRecord = newUser
+
+        console.log(`[Survey Submit] Created new user account: ${newUser.id}`)
+      }
+    } catch (error) {
+      console.error('[Survey Submit] Error in user creation/lookup:', error)
+      console.error('[Survey Submit] Error details:', error instanceof Error ? error.message : String(error))
+      throw error
     }
 
     // Handle sticker codes and regular referrals
@@ -220,24 +234,42 @@ export async function POST(request: NextRequest) {
 
     // Store survey response with Quick Quiz data
     const questionIds = userQuestions.map(q => q.id)
-    const [survey] = await db.insert(surveyResponses).values({
-      email: validated.email || null,
-      phone: validated.phone,
-      region,
-      onCamera: validated.onCamera,
-      newsletter: validated.newsletter,
-      answers: JSON.stringify(scoredQuestions), // Store scored questions with explanations
-      score: totalScore,
-      quickQuizScore: totalScore, // Store Quick Quiz score
-      quickQuizQuestions: JSON.stringify(questionIds), // Store Quick Quiz question IDs
-      referralCode,
-      referredBy,
-      ipAddress,
-      userAgent,
-      userId: userRecord?.id || null, // Link to user if exists
-      submittedBy: adminUser?.userId || null,
-      isAdminSubmission,
-    }).returning()
+    let survey
+
+    try {
+      console.log(`[Survey Submit] Creating survey response with referralCode: ${referralCode}, userId: ${userRecord?.id}`)
+
+      const [createdSurvey] = await db.insert(surveyResponses).values({
+        email: validated.email || null,
+        phone: validated.phone,
+        region,
+        onCamera: validated.onCamera,
+        newsletter: validated.newsletter,
+        answers: JSON.stringify(scoredQuestions), // Store scored questions with explanations
+        score: totalScore,
+        quickQuizScore: totalScore, // Store Quick Quiz score
+        quickQuizQuestions: JSON.stringify(questionIds), // Store Quick Quiz question IDs
+        referralCode,
+        referredBy,
+        ipAddress,
+        userAgent,
+        userId: userRecord?.id || null, // Link to user if exists
+        submittedBy: adminUser?.userId || null,
+        isAdminSubmission,
+      }).returning()
+
+      survey = createdSurvey
+      console.log(`[Survey Submit] Successfully created survey response: ${survey.id}`)
+    } catch (error) {
+      console.error('[Survey Submit] Error creating survey response:', error)
+      console.error('[Survey Submit] Survey data:', {
+        phone: validated.phone,
+        referralCode,
+        referredBy,
+        userId: userRecord?.id
+      })
+      throw error
+    }
 
     // If this user claimed a sticker code, update it
     if (claimedStickerCode) {
