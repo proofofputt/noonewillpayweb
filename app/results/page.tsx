@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ResultsFilter, type ResultsFilters } from '@/components/ResultsFilter'
-import { BIRTH_DECADES } from '@/lib/auth-helpers'
+import { BIRTH_DECADES } from '@/lib/constants'
 
 interface AggregateResults {
   totalResponses: number
