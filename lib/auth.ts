@@ -48,3 +48,22 @@ export function generateReferralCode(email: string): string {
   const random = randomBytes(4).toString('hex').toUpperCase()
   return `${emailPrefix}${random}`
 }
+
+/**
+ * Generate a secure magic link token
+ * @returns 64-character hex string
+ */
+export function generateMagicLinkToken(): string {
+  return randomBytes(32).toString('hex')
+}
+
+/**
+ * Generate a username from phone number
+ * Format: user_{last4digits}_{random}
+ */
+export function generateUsernameFromPhone(phone: string): string {
+  const digits = phone.replace(/\D/g, '')
+  const last4 = digits.slice(-4)
+  const random = randomBytes(2).toString('hex')
+  return `user_${last4}_${random}`
+}

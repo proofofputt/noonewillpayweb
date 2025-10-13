@@ -121,9 +121,9 @@ export default function SurveyForm() {
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="text-center py-16 container-card p-12 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-3xl mx-auto"
+        className="text-center py-8 md:py-16 container-card p-6 md:p-12 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-3xl mx-auto"
       >
-        <h2 className="text-4xl font-bold mb-6 text-black">Thanks for helping us measure common knowledge</h2>
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-black">Thanks for helping us measure common knowledge</h2>
       </motion.div>
     )
   }
@@ -145,39 +145,39 @@ export default function SurveyForm() {
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="py-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-4xl mx-auto space-y-6"
+        className="py-4 md:py-8 container-card p-4 md:p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-4xl mx-auto space-y-4 md:space-y-6"
       >
         {/* Score Display */}
-        <div className="text-center mb-8">
-          <h2 className="text-5xl font-bold mb-2 text-black">Your Score</h2>
-          <div className="text-7xl font-black text-white mb-2">
+        <div className="text-center mb-4 md:mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold mb-2 text-black">Your Score</h2>
+          <div className="text-4xl md:text-5xl font-black text-white mb-2">
             {results.score} / {results.maxScore}
           </div>
-          <div className="text-3xl font-bold text-black">
+          <div className="text-xl md:text-2xl font-bold text-black">
             {results.percentage}%
           </div>
         </div>
 
         {/* Answer Explanations */}
-        <div className="bg-black/30 rounded-lg p-6 border border-white/40">
-          <h3 className="text-2xl font-bold mb-4 text-white">Answer Breakdown</h3>
-          <p className="text-sm text-orange-light mb-4">
+        <div className="bg-black/30 rounded-lg p-4 md:p-6 border border-white/40">
+          <h3 className="text-lg md:text-xl font-bold mb-3 md:mb-4 text-white">Answer Breakdown</h3>
+          <p className="text-xs md:text-sm text-orange-light mb-3 md:mb-4">
             ⚠️ Please don't share these answers online to preserve the longevity of this Common Knowledge Research project.
           </p>
-          <div className="space-y-4">
+          <div className="space-y-3 md:space-y-4">
             {results.scoredQuestions.map((q, idx) => (
-              <div key={q.id} className={`p-4 rounded-lg border-2 ${
+              <div key={q.id} className={`p-3 md:p-4 rounded-lg border-2 ${
                 q.isCorrect ? 'bg-green-900/30 border-green-500' : 'bg-red-900/30 border-red-500'
               }`}>
-                <div className="flex items-start justify-between mb-2">
-                  <p className="font-bold text-white flex-1">Q{idx + 1}: {q.question}</p>
-                  <span className={`px-3 py-1 rounded font-bold ${
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
+                  <p className="text-sm md:text-base font-bold text-white flex-1">Q{idx + 1}: {q.question}</p>
+                  <span className={`px-2 py-1 rounded text-xs md:text-sm font-bold self-start ${
                     q.isCorrect ? 'bg-green-600 text-white' : 'bg-red-600 text-white'
                   }`}>
                     {q.isCorrect ? '✓ Correct' : '✗ Wrong'}
                   </span>
                 </div>
-                <p className="text-sm text-gray-300 mb-2">
+                <p className="text-xs md:text-sm text-gray-300 mb-2">
                   Your answer: <strong>{q.userAnswer}</strong>
                   {!q.isCorrect && q.correctOption && (
                     <span className="ml-2 text-green-400">
@@ -186,7 +186,7 @@ export default function SurveyForm() {
                   )}
                 </p>
                 {(q as any).explanation && (
-                  <p className="text-sm text-white bg-black/30 p-3 rounded mt-2">
+                  <p className="text-xs md:text-sm text-white bg-black/30 p-2 md:p-3 rounded mt-2">
                     💡 {(q as any).explanation}
                   </p>
                 )}
@@ -196,47 +196,47 @@ export default function SurveyForm() {
         </div>
 
         {/* Full Assessment CTA */}
-        <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg p-6 text-center border-2 border-purple-400">
-          <div className="text-4xl mb-2">🎓</div>
-          <h3 className="text-3xl font-bold text-white mb-3">Unlock Full Assessment</h3>
-          <p className="text-white text-lg mb-2">You've completed 3 of 21 questions!</p>
-          <div className="bg-white/20 rounded-lg p-4 mb-4 inline-block">
-            <div className="text-sm text-purple-200 mb-1">Potential Earnings</div>
-            <div className="text-4xl font-black text-white">195 Points</div>
-            <div className="text-sm text-purple-200 mt-1">From 18 remaining questions</div>
+        <div className="bg-gradient-to-r from-gray-300 via-yellow-200 to-yellow-400 rounded-lg p-4 md:p-6 text-center border-2 border-yellow-500">
+          <div className="text-2xl md:text-3xl mb-2">🎓</div>
+          <h3 className="text-xl md:text-2xl font-bold text-black mb-2 md:mb-3">Full Assessment Unlocked</h3>
+          <p className="text-gray-900 text-sm md:text-base mb-2">You've completed 3 of 21 questions!</p>
+          <div className="bg-black/10 rounded-lg p-3 md:p-4 mb-3 md:mb-4 inline-block border border-yellow-600">
+            <div className="text-xs md:text-sm text-gray-700 mb-1">Potential Earnings</div>
+            <div className="text-2xl md:text-3xl font-black text-black">195 Points</div>
+            <div className="text-xs md:text-sm text-gray-700 mt-1">From 18 remaining questions</div>
           </div>
-          <p className="text-white mb-4">
+          <p className="text-gray-900 text-sm md:text-base mb-3 md:mb-4">
             Complete the full assessment to earn maximum allocation points and deepen your Bitcoin knowledge!
           </p>
           <Link
             href={`/full-assessment?ref=${results.referralCode}`}
-            className="inline-block px-8 py-4 bg-white text-purple-700 font-bold text-xl rounded-lg hover:bg-gray-100 transition-colors shadow-lg border-2 border-purple-300"
+            className="inline-block px-6 md:px-8 py-3 md:py-4 bg-black text-yellow-400 font-bold text-base md:text-lg rounded-lg hover:bg-gray-900 transition-colors shadow-lg border-2 border-yellow-500"
           >
             Start Full Assessment →
           </Link>
         </div>
 
         {/* Referral Section */}
-        <div className="bg-black/40 rounded-lg p-6 border-2 border-orange">
-          <h3 className="text-2xl font-bold text-white mb-3 text-center">
+        <div className="bg-black/40 rounded-lg p-4 md:p-6 border-2 border-orange">
+          <h3 className="text-lg md:text-xl font-bold text-white mb-2 md:mb-3 text-center">
             🎁 Share & Earn 50 Points Per Signup
           </h3>
-          <p className="text-white text-center mb-4">
+          <p className="text-sm md:text-base text-white text-center mb-3 md:mb-4">
             Your unique referral link:
           </p>
-          <div className="bg-white rounded-lg p-4 mb-4 break-all text-center">
-            <code className="text-sm font-mono text-black">{referralUrl}</code>
+          <div className="bg-white rounded-lg p-3 md:p-4 mb-3 md:mb-4 break-all text-center">
+            <code className="text-xs md:text-sm font-mono text-black">{referralUrl}</code>
           </div>
-          <div className="flex gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
               onClick={copyReferralLink}
-              className="px-6 py-3 bg-orange text-white font-bold rounded-lg hover:bg-orange-dark transition-colors border-2 border-orange-darker"
+              className="px-4 md:px-6 py-2 md:py-3 bg-orange text-white font-bold text-sm md:text-base rounded-lg hover:bg-orange-dark transition-colors border-2 border-orange-darker"
             >
               📋 Copy Link
             </button>
             <button
               onClick={shareViaSMS}
-              className="px-6 py-3 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition-colors border-2 border-green-800"
+              className="px-4 md:px-6 py-2 md:py-3 bg-green-600 text-white font-bold text-sm md:text-base rounded-lg hover:bg-green-700 transition-colors border-2 border-green-800"
             >
               💬 Text to Friend
             </button>
@@ -244,9 +244,9 @@ export default function SurveyForm() {
         </div>
 
         {/* Next Steps */}
-        <div className="bg-black/20 rounded-lg p-6 border border-white/30">
-          <h3 className="font-bold mb-3 text-white text-xl">Next Steps:</h3>
-          <ul className="text-left text-sm text-white space-y-2">
+        <div className="bg-black/20 rounded-lg p-4 md:p-6 border border-white/30">
+          <h3 className="font-bold mb-3 text-white text-base md:text-lg">Next Steps:</h3>
+          <ul className="text-left text-xs md:text-sm text-white space-y-2">
             <li>✓ Check your email for welcome message</li>
             <li>✓ Complete the Full Assessment to earn 195 more points</li>
             <li>✓ Share your referral link to earn 21 points per signup</li>
@@ -266,10 +266,10 @@ export default function SurveyForm() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         onSubmit={contactForm.handleSubmit(onContactSubmit)}
-        className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
+        className="max-w-3xl mx-auto space-y-6 md:space-y-8 container-card p-4 md:p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
       >
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-black">Sign Up For Score and Resources</h2>
+        <div className="text-center mb-6 md:mb-12">
+          <h2 className="text-xl md:text-2xl font-bold mb-4 text-black">Sign Up For Score and Resources</h2>
         </div>
 
         {/* Contact Information */}
@@ -372,11 +372,11 @@ export default function SurveyForm() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       onSubmit={answersForm.handleSubmit(onAnswersSubmit)}
-      className="max-w-3xl mx-auto space-y-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
+      className="max-w-3xl mx-auto space-y-6 md:space-y-8 container-card p-4 md:p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800"
     >
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-black">Common Knowledge Survey</h2>
-        <p className="text-white">
+      <div className="text-center mb-6 md:mb-12">
+        <h2 className="text-xl md:text-2xl font-bold mb-4 text-black">Common Knowledge Survey</h2>
+        <p className="text-sm md:text-base text-white">
           Three things that aught to be, but often are not known.
         </p>
       </div>

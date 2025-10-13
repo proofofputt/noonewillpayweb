@@ -5,7 +5,8 @@ export const users = pgTable('users', {
   id: uuid('id').defaultRandom().primaryKey(),
   email: varchar('email', { length: 255 }).notNull().unique(),
   username: varchar('username', { length: 100 }).notNull(),
-  passwordHash: text('password_hash').notNull(),
+  phone: varchar('phone', { length: 50 }), // Phone number for magic link auth
+  passwordHash: text('password_hash'), // Nullable for passwordless auth
   isAdmin: boolean('is_admin').default(false).notNull(),
   referralCode: varchar('referral_code', { length: 20 }).notNull().unique(),
   referredByCode: varchar('referred_by_code', { length: 20 }),
@@ -430,4 +431,17 @@ export const pizzeriaAffiliates = pgTable('pizzeria_affiliates', {
 
   createdAt: timestamp('created_at').defaultNow().notNull(),
   updatedAt: timestamp('updated_at').defaultNow().notNull(),
+})
+
+// Magic links - Passwordless authentication via SMS
+export const magicLinks = pgTable('magic_links', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  phone: varchar('phone', { length: 50 }).notNull(), // Phone number requesting auth
+  token: varchar('token', { length: 64 }).notNull().unique(), // Unique token for verification
+  expiresAt: timestamp('expires_at').notNull(), // Token expiration (typically 10 minutes)
+  used: boolean('used').default(false).notNull(), // Has token been used?
+  usedAt: timestamp('used_at'), // When was it used?
+  ipAddress: varchar('ip_address', { length: 45 }), // IP that requested the link
+  userAgent: text('user_agent'), // Browser/device info
+  createdAt: timestamp('created_at').defaultNow().notNull(),
 })

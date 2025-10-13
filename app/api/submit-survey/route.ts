@@ -6,6 +6,7 @@ import { getClientIP } from '@/lib/ip'
 import { verifyAdminRequest } from '@/lib/admin-auth'
 import { detectRegionFromPhone } from '@/lib/phone-validation'
 import { generateReferralCode, isValidReferralCode } from '@/lib/referral'
+import { generateUsernameFromPhone, createToken } from '@/lib/auth'
 import { getAllQuestions, scoreQuestions, type Question } from '@/lib/questions'
 import { awardMultiLevelReferralPoints } from '@/lib/multi-level-referrals'
 import { recordQuickQuizPoints } from '@/lib/points/quiz-points'
@@ -110,14 +111,62 @@ export async function POST(request: NextRequest) {
     const scoringResult = scoreQuestions(userQuestions, validated.answers)
     const { totalScore, maxScore, percentage, scoredQuestions } = scoringResult
 
-    // Generate unique referral code for this user
+    // Generate unique referral code for this survey response
     const referralCode = await generateReferralCode()
 
-    // Check if user exists early (for sticker claiming)
-    const existingUser = validated.email
-      ? await db.select().from(users).where(eq(users.email, validated.email)).limit(1)
-      : []
-    const [userRecord] = existingUser
+    // Check if user account exists by phone or email
+    let userRecord = null
+
+    // First try to find by phone (primary identifier)
+    const [existingUserByPhone] = await db
+      .select()
+      .from(users)
+      .where(eq(users.phone, validated.phone))
+      .limit(1)
+
+    if (existingUserByPhone) {
+      userRecord = existingUserByPhone
+    } else if (validated.email) {
+      // Fallback: try to find by email
+      const [existingUserByEmail] = await db
+        .select()
+        .from(users)
+        .where(eq(users.email, validated.email))
+        .limit(1)
+
+      if (existingUserByEmail) {
+        userRecord = existingUserByEmail
+        // Update phone on existing email-based account
+        await db
+          .update(users)
+          .set({ phone: validated.phone })
+          .where(eq(users.id, existingUserByEmail.id))
+      }
+    }
+
+    // If no user account exists, create one automatically
+    if (!userRecord) {
+      const username = validated.email
+        ? validated.email.split('@')[0]
+        : generateUsernameFromPhone(validated.phone)
+
+      const userReferralCode = await generateReferralCode()
+
+      const [newUser] = await db.insert(users).values({
+        email: validated.email || `user_${Date.now()}@noonewillpay.temp`, // Temp email if not provided
+        username,
+        phone: validated.phone,
+        passwordHash: null, // Passwordless auth
+        referralCode: userReferralCode,
+        referredByCode: validated.referredBy || null,
+        allocationPoints: '0',
+        registrationBonusAwarded: false,
+      }).returning()
+
+      userRecord = newUser
+
+      console.log(`[Survey Submit] Created new user account for phone ${validated.phone}`)
+    }
 
     // Handle sticker codes and regular referrals
     let referredBy: string | null = null
@@ -234,7 +283,15 @@ export async function POST(request: NextRequest) {
       // Note: PointsService handles both points history recording and user total update
     }
 
-    return NextResponse.json({
+    // Create session token for auto-login
+    const sessionToken = await createToken({
+      id: userRecord.id,
+      email: userRecord.email,
+      username: userRecord.username,
+      referralCode: userRecord.referralCode,
+    })
+
+    const response = NextResponse.json({
       success: true,
       message: 'Survey submitted successfully',
       surveyId: survey.id,
@@ -244,7 +301,25 @@ export async function POST(request: NextRequest) {
       referralCode,
       scoredQuestions, // Include for results page
       region,
+      // Return user info for client
+      user: {
+        id: userRecord.id,
+        email: userRecord.email,
+        username: userRecord.username,
+        referralCode: userRecord.referralCode,
+      }
     })
+
+    // Set secure cookie for auto-login
+    response.cookies.set('auth-token', sessionToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: 60 * 60 * 24 * 7, // 7 days
+      path: '/',
+    })
+
+    return response
   } catch (error) {
     if (error instanceof z.ZodError) {
       return NextResponse.json(
