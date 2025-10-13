@@ -6,7 +6,8 @@ import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import Link from 'next/link'
-import { getRandomQuestions } from '@/lib/questions'
+import { useSearchParams } from 'next/navigation'
+import { getRandomQuestions, type ScoredQuestion } from '@/lib/questions'
 import { detectRegionFromPhone, getRegionName, type RegionCode } from '@/lib/phone-validation'
 
 const answersSchema = z.object({
@@ -31,12 +32,22 @@ type AnswersFormData = z.infer<typeof answersSchema>
 type ContactFormData = z.infer<typeof contactSchema>
 
 export default function SurveyForm() {
+  const searchParams = useSearchParams()
+  const referralCode = searchParams?.get('ref')
+
   const [questions, setQuestions] = useState<any[]>([])
   const [answersSubmitted, setAnswersSubmitted] = useState(false)
   const [surveyAnswers, setSurveyAnswers] = useState<AnswersFormData | null>(null)
   const [finalSubmitted, setFinalSubmitted] = useState(false)
   const [noThanks, setNoThanks] = useState(false)
   const [detectedRegion, setDetectedRegion] = useState<RegionCode | null>(null)
+  const [results, setResults] = useState<{
+    score: number
+    maxScore: number
+    percentage: number
+    referralCode: string
+    scoredQuestions: ScoredQuestion[]
+  } | null>(null)
 
   const answersForm = useForm<AnswersFormData>({
     resolver: zodResolver(answersSchema),
@@ -80,11 +91,20 @@ export default function SurveyForm() {
             question: q.question,
             answer: surveyAnswers?.answers[`question${i + 1}` as keyof typeof surveyAnswers.answers]
           })),
+          referredBy: referralCode || undefined,
           timestamp: new Date().toISOString(),
         }),
       })
 
       if (response.ok) {
+        const resultData = await response.json()
+        setResults({
+          score: resultData.score,
+          maxScore: resultData.maxScore,
+          percentage: resultData.percentage,
+          referralCode: resultData.referralCode,
+          scoredQuestions: resultData.scoredQuestions
+        })
         setFinalSubmitted(true)
       }
     } catch (error) {
@@ -108,30 +128,132 @@ export default function SurveyForm() {
     )
   }
 
-  if (finalSubmitted) {
+  if (finalSubmitted && results) {
+    const referralUrl = `${window.location.origin}/?ref=${results.referralCode}`
+
+    const copyReferralLink = () => {
+      navigator.clipboard.writeText(referralUrl)
+      alert('Referral link copied! Share it to earn 50 points per signup.')
+    }
+
+    const shareViaSMS = () => {
+      const message = encodeURIComponent(`I just took this Bitcoin Common Knowledge quiz! Take it yourself: ${referralUrl}`)
+      window.location.href = `sms:?&body=${message}`
+    }
+
     return (
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        className="text-center py-16 container-card p-12 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-3xl mx-auto"
+        className="py-8 container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800 max-w-4xl mx-auto space-y-6"
       >
-        <h2 className="text-4xl font-bold mb-6 text-black">Thank You!</h2>
-        <p className="text-xl text-white mb-4">
-          Your survey has been submitted successfully.
-        </p>
-        <p className="text-gray-200 mb-8">
-          Check your email for the welcome sequence and GitBook access.
-        </p>
-        <div className="space-y-4">
-          <div className="p-6 bg-black/20 rounded-lg border border-orange max-w-md mx-auto">
-            <h3 className="font-bold mb-3 text-white">Next Steps:</h3>
-            <ul className="text-left text-sm text-white space-y-2">
-              <li>✓ Check your email for welcome message</li>
-              <li>✓ Set up your Xverse wallet</li>
-              <li>✓ Access the GitBook education platform</li>
-              <li>✓ Join the Bitcoin community</li>
-            </ul>
+        {/* Score Display */}
+        <div className="text-center mb-8">
+          <h2 className="text-5xl font-bold mb-2 text-black">Your Score</h2>
+          <div className="text-7xl font-black text-white mb-2">
+            {results.score} / {results.maxScore}
           </div>
+          <div className="text-3xl font-bold text-black">
+            {results.percentage}%
+          </div>
+        </div>
+
+        {/* Answer Explanations */}
+        <div className="bg-black/30 rounded-lg p-6 border border-white/40">
+          <h3 className="text-2xl font-bold mb-4 text-white">Answer Breakdown</h3>
+          <p className="text-sm text-orange-light mb-4">
+            ⚠️ Please don't share these answers online to preserve the longevity of this Common Knowledge Research project.
+          </p>
+          <div className="space-y-4">
+            {results.scoredQuestions.map((q, idx) => (
+              <div key={q.id} className={`p-4 rounded-lg border-2 ${
+                q.isCorrect ? 'bg-green-900/30 border-green-500' : 'bg-red-900/30 border-red-500'
+              }`}>
+                <div className="flex items-start justify-between mb-2">
+                  <p className="font-bold text-white flex-1">Q{idx + 1}: {q.question}</p>
+                  <span className={`px-3 py-1 rounded font-bold ${
+                    q.isCorrect ? 'bg-green-600 text-white' : 'bg-red-600 text-white'
+                  }`}>
+                    {q.isCorrect ? '✓ Correct' : '✗ Wrong'}
+                  </span>
+                </div>
+                <p className="text-sm text-gray-300 mb-2">
+                  Your answer: <strong>{q.userAnswer}</strong>
+                  {!q.isCorrect && q.correctOption && (
+                    <span className="ml-2 text-green-400">
+                      (Correct: {q.correctOption})
+                    </span>
+                  )}
+                </p>
+                {(q as any).explanation && (
+                  <p className="text-sm text-white bg-black/30 p-3 rounded mt-2">
+                    💡 {(q as any).explanation}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Full Assessment CTA */}
+        <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg p-6 text-center border-2 border-purple-400">
+          <div className="text-4xl mb-2">🎓</div>
+          <h3 className="text-3xl font-bold text-white mb-3">Unlock Full Assessment</h3>
+          <p className="text-white text-lg mb-2">You've completed 3 of 21 questions!</p>
+          <div className="bg-white/20 rounded-lg p-4 mb-4 inline-block">
+            <div className="text-sm text-purple-200 mb-1">Potential Earnings</div>
+            <div className="text-4xl font-black text-white">195 Points</div>
+            <div className="text-sm text-purple-200 mt-1">From 18 remaining questions</div>
+          </div>
+          <p className="text-white mb-4">
+            Complete the full assessment to earn maximum allocation points and deepen your Bitcoin knowledge!
+          </p>
+          <Link
+            href={`/full-assessment?ref=${results.referralCode}`}
+            className="inline-block px-8 py-4 bg-white text-purple-700 font-bold text-xl rounded-lg hover:bg-gray-100 transition-colors shadow-lg border-2 border-purple-300"
+          >
+            Start Full Assessment →
+          </Link>
+        </div>
+
+        {/* Referral Section */}
+        <div className="bg-black/40 rounded-lg p-6 border-2 border-orange">
+          <h3 className="text-2xl font-bold text-white mb-3 text-center">
+            🎁 Share & Earn 50 Points Per Signup
+          </h3>
+          <p className="text-white text-center mb-4">
+            Your unique referral link:
+          </p>
+          <div className="bg-white rounded-lg p-4 mb-4 break-all text-center">
+            <code className="text-sm font-mono text-black">{referralUrl}</code>
+          </div>
+          <div className="flex gap-3 justify-center">
+            <button
+              onClick={copyReferralLink}
+              className="px-6 py-3 bg-orange text-white font-bold rounded-lg hover:bg-orange-dark transition-colors border-2 border-orange-darker"
+            >
+              📋 Copy Link
+            </button>
+            <button
+              onClick={shareViaSMS}
+              className="px-6 py-3 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition-colors border-2 border-green-800"
+            >
+              💬 Text to Friend
+            </button>
+          </div>
+        </div>
+
+        {/* Next Steps */}
+        <div className="bg-black/20 rounded-lg p-6 border border-white/30">
+          <h3 className="font-bold mb-3 text-white text-xl">Next Steps:</h3>
+          <ul className="text-left text-sm text-white space-y-2">
+            <li>✓ Check your email for welcome message</li>
+            <li>✓ Complete the Full Assessment to earn 195 more points</li>
+            <li>✓ Share your referral link to earn 21 points per signup</li>
+            <li>✓ Set up your Xverse wallet</li>
+            <li>✓ Access the GitBook education platform</li>
+            <li>✓ Join the Bitcoin community</li>
+          </ul>
         </div>
       </motion.div>
     )

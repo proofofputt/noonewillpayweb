@@ -1,0 +1,403 @@
+{
+  "questions": [
+    {
+      "id": "01",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "medium",
+      "question": "How many Bitcoins have been mined?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 21,
+      "tolerance": 0,
+      "correctOption": "B",
+      "options": [
+        "A) 18 million",
+        "B) 19 million",
+        "C) 20 million",
+        "D) 21 million"
+      ],
+      "explanation": "Less than 21 million Bitcoin will ever exist due to the halving schedule and fixed supply cap. As of today, over 19,931,234 Bitcoins have been mined.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "02",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "easy",
+      "question": "In what year was the Bitcoin Genesis Block mined?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 2009,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 2007",
+        "B) 2008",
+        "C) 2009",
+        "D) 2010"
+      ],
+      "explanation": "January 3, 2009. Satoshi embedded 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks' in the genesis block.",
+      "pillSignSide": "green",
+      "pointValue": 1
+    },
+    {
+      "id": "03",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "Hard",
+      "question": "How many Bitcoin halvings will there be before the maximum supply is reached?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 34,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 21",
+        "B) 71",
+        "C) 34",
+        "D) 27"
+      ],
+      "explanation": "Halvings reduce the block reward by half every 210,000 blocks (approximately every 4 years). There will be 34 halvings total before the last Bitcoin is mined around 2140.",
+      "pillSignSide": "orange",
+      "pointValue": 3
+    },
+    {
+      "id": "04",
+      "category": "Bitcoin Mining & Energy",
+      "difficulty": "medium",
+      "question": "What percentage (approximately) of reporting public Bitcoin mining uses renewable energy?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 55,
+      "tolerance": 10,
+      "correctOption": "D",
+      "options": [
+        "A) 21%",
+        "B) 45%",
+        "C) 35%",
+        "D) 55%"
+      ],
+      "explanation": "Studies estimate 50-60% of Bitcoin mining uses renewable sources of energy, hydro, geothermal, stranded solar, wind, and natural gas mitigation as miners seek the cheapest power sources globally.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "05",
+      "category": "Monetary History & Fiat",
+      "difficulty": "easy",
+      "question": "In what year did President Nixon end the Gold Standard (ended the convertability of US dollars into Gold)?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 1971,
+      "tolerance": 0,
+      "correctOption": "B",
+      "options": [
+        "A) 1944",
+        "B) 1971",
+        "C) 1921",
+        "D) 1989"
+      ],
+      "explanation": "On August 15, 1971, Nixon closed the gold window, ending Bretton Woods and ushering in the pure fiat era.",
+      "pillSignSide": "green",
+      "pointValue": 1
+    },
+    {
+      "id": "06",
+      "category": "Energy",
+      "difficulty": "medium",
+      "question": "How much higher are average residential electricity prices than 10 years ago?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 23,
+      "tolerance": 0,
+      "correctOption": "D",
+      "options": [
+        "A) 36%",
+        "B) 10%",
+        "C) 15%",
+        "D) 23%"
+      ],
+      "explanation": "The Fed targets 2% annual inflation, meaning your money loses purchasing power by design. Bitcoin has zero inflation after all are mined.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "07",
+      "category": "Monetary History & Fiat",
+      "difficulty": "hard",
+      "question": "Approximately how many government backed currencies exist in the world today?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 130,
+      "tolerance": 20,
+      "correctOption": "C",
+      "options": [
+        "A) 84",
+        "B) 107",
+        "C) 130",
+        "D) 210"
+      ],
+      "explanation": "There are approximately 180 fiat currencies globally, some have a pegged exchange rate to OTHERS! All subject to inflation and government control.",
+      "pillSignSide": "orange",
+      "pointValue": 3
+    },
+    {
+      "id": "08",
+      "category": "Economic Metrics",
+      "difficulty": "hard",
+      "question": "The gensis block was the first of 210,000 blocks in the first Bitcoin halving cycle. Because the timestamping message (The Times 03/Jan/2009 Chancellor on brink of second bailout for banks) was included in the coinbase transaction, the bitcoin assigned to it are unspendable. How many bitcoins were burned in the process of starting the Bitcoin blockchain?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 50,
+      "tolerance": 1,
+      "correctOption": "C",
+      "options": [
+        "A) 21",
+        "B) 25",
+        "C) 50",
+        "D) 10"
+      ],
+      "explanation": "U.S. inflation peaked around 9% in mid-2022, the highest since the early 1980s, driving Bitcoin interest as a hedge.",
+      "pillSignSide": "orange",
+      "pointValue": 3
+    },
+    {
+      "id": "09",
+      "category": "Economic Metrics",
+      "difficulty": "easy",
+      "question": "What is the approximate average price in cents per kilowatt-hour (kWh) for electricity in the DMV area?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 17,
+      "tolerance": 5,
+      "correctOption": "D",
+      "options": [
+        "A) 13 cents",
+        "B) 21 cents",
+        "C) 24 cents",
+        "D) 17 cents"
+      ],
+      "explanation": "DMV electricity costs approximately 13-17 cents per kWh, varying by state and provider. This affects home mining profitability.",
+      "pillSignSide": "orange",
+      "pointValue": 1
+    },
+    {
+      "id": "10",
+      "category": "Energy Regulation",
+      "difficulty": "easy",
+      "question": "How many kilowatt-hours (kWh) of renewable energy are needed to earn one SREC (Solar Renewable Energy Credit)?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 1000,
+      "tolerance": 0,
+      "correctOption": "D",
+      "options": [
+        "A) 500 kWh",
+        "B) 2000 kWh",
+        "C) 100 kWh",
+        "D) 1000 kWh"
+      ],
+      "explanation": "1,000 kWh (1 MWh) of solar energy generation earns one SREC, which can be sold to utilities meeting renewable portfolio standards.",
+      "pillSignSide": "green",
+      "pointValue": 1
+    },
+    {
+      "id": "11",
+      "category": "Energy Regulation",
+      "difficulty": "medium",
+      "question": "In what year does the Clean Energy DC Omnibus Act aim for 100% renewable energy supply?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 2032,
+      "tolerance": 0,
+      "correctOption": "B",
+      "options": [
+        "A) 2038",
+        "B) 2032",
+        "C) 2045",
+        "D) 2040"
+      ],
+      "explanation": "The Clean Energy DC Omnibus Act of 2018 sets a goal of 100% renewable electricity by 2032 for the District of Columbia.",
+      "pillSignSide": "green",
+      "pointValue": 2
+    },
+    {
+      "id": "12",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "Hard",
+      "question": "Bitcoin's blockchain get's it's name due to the linking of blocks of transactions, protected by the proof of work mining process.  On average, how many blocks are found each day?",
+      "answerType": "multipleChoice",
+      "correctAnswer": "144 blocks",
+      "tolerance": 50,
+      "correctOption": "D",
+      "options": [
+        "A) 10 blocks",
+        "B) 100 blocks",
+        "C) 240 blocks",
+        "D) 144 blocks"
+      ],
+      "explanation": "Block times are probablistic, varying based on network hashrate and natural randomness. The difficulty adjustment targets an average of 10 minute block times based on the previous two weeks of actual block times. That's 6 blocks an hour, or 144 blocks each day.",
+      "pillSignSide": "orange",
+      "pointValue": 3
+    },
+    {
+      "id": "13",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "hard",
+      "question": "What percentage of mining nodes need to collude to filter transactions from getting to blocks?",
+      "answerType": "multipleChoice",
+      "correctAnswer": "98%",
+      "tolerance": 30,
+      "correctOption": "D",
+      "options": [
+        "A) 51%",
+        "B) 42%",
+        "C) 84%",
+        "D) 98%"
+      ],
+      "explanation": "The average U.S. household electricity bill is approximately $110-$140/month, varying by region and usage.",
+      "pillSignSide": "orange",
+      "pointValue": 3
+    },
+    {
+      "id": "14",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "easy",
+      "question": "How many minutes on average does it take to mine one Bitcoin block?",
+      "answerType": "multipleChoice",
+      "correctAnswer": "10 minutes",
+      "tolerance": 0,
+      "correctOption": "B",
+      "options": [
+        "A) 21 minutes",
+        "B) 10 minutes",
+        "C) 15 minutes",
+        "D) 30 minutes"
+      ],
+      "explanation": "Bitcoin is designed to produce blocks every 10 minutes on average. This timing is maintained through difficulty adjustments every 2,016 blocks.",
+      "pillSignSide": "orange",
+      "pointValue": 1
+    },
+    {
+      "id": "15",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "hard",
+      "question": "Segregated Witness (SegWit) changed the Bitcoin protocol in 2017. It did not increase the 1,000 kilobyteblock size limit, but it introduced a new metric called block weight units.  This change allowed for larger blocks in practice, due to the witness discount, with a theoretical maximum of how many kilobytes?",
+      "answerType": "multipleChoice",
+      "correctAnswer": "4,000",
+      "tolerance": 0,
+      "correctOption": "D",
+      "options": [
+        "A) 3,000",
+        "B) 1,400",
+        "C) 2,100",
+        "D) 4,000"
+      ],
+      "explanation": "The original maximum block size was 1 MB, or 1000 KB",
+      "pillSignSide": "green",
+      "pointValue": 3
+    },
+    {
+      "id": "16",
+      "category": "History",
+      "difficulty": "medium",
+      "question": "How many electoral college votes are needed to win the U.S. presidency?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 270,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 230",
+        "B) 250",
+        "C) 270",
+        "D) 300"
+      ],
+      "explanation": "270 electoral votes are required to win. This number symbolizes political power and appears throughout the Nobody•Will•Pay project.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "17",
+      "category": "Technology & Internet",
+      "difficulty": "hard",
+      "question": "The bitcoin difficulty adjustment occurs approximately every two weeks, how many blocks are mined in each difficulty adjustment period?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 2016,
+      "tolerance": 0,
+      "correctOption": "D",
+      "options": [
+        "A) 1000",
+        "B) 2100",
+        "C) 1971",
+        "D) 2016"
+      ],
+      "explanation": "Each block takes 10 minutes on average, so there are 6 blocks per hour, 144 blocks per day, and 2016 blocks in a two week period.",
+      "pillSignSide": "green",
+      "pointValue": 3
+    },
+    {
+      "id": "18",
+      "category": "Technology & Internet",
+      "difficulty": "medium",
+      "question": "The Howey test was established following a U.S. Supreme Court case, SEC v. W.J. Howey Co., which involved the sale of citrus groves in Florida. The case set forth criteria to determine if a transaction is an investment contract, and therefore a security.",
+      "answerType": "multipleChoice",
+      "correctAnswer": 1946,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 1971",
+        "B) 1928",
+        "C) 1946",
+        "D) 1984"
+      ],
+      "explanation": "HTTP 404 means 'Not Found' - a page doesn't exist. It's internet culture at this point.",
+      "pillSignSide": "green",
+      "pointValue": 2
+    },
+    {
+      "id": "19",
+      "category": "Technology & Internet",
+      "difficulty": "medium",
+      "question": "How many bits are there in a bitcoin private key?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 256,
+      "tolerance": 0,
+      "correctOption": "A",
+      "options": [
+        "A) 256 bits",
+        "B) 32 bits",
+        "C) 64 bits",
+        "D) 128 bits"
+      ],
+      "explanation": "While both are unimaginably large numbers, A 256-bit number is on the scale of 10^77. * Scientists estimate there are about 10^80 atoms in the universe.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "20",
+      "category": "Technology & Internet",
+      "difficulty": "medium",
+      "question": "On bitcoin pizza day, May 22, 2010, Laszlo Hanyecz paid how much for each of the two pizzas ordered over the BitcoinTalk forum?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 5000,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 9000",
+        "B) 1000",
+        "C) 5000",
+        "D) 2100"
+      ],
+      "explanation": "Laszlo paid 10,000 BTC for two pizzas, or 5,000 BTC each. This transaction became known as Bitcoin Pizza Day.",
+      "pillSignSide": "orange",
+      "pointValue": 2
+    },
+    {
+      "id": "21",
+      "category": "Bitcoin Fundamentals",
+      "difficulty": "hard",
+      "question": "Each bitcoin can be divided into 100 million smaller units called satoshis. In total there will be about 2.1 quadrillion satoshis, how many zeros does 1 quadrillian have?",
+      "answerType": "multipleChoice",
+      "correctAnswer": 15,
+      "tolerance": 0,
+      "correctOption": "C",
+      "options": [
+        "A) 11",
+        "B) 21",
+        "C) 15",
+        "D) 18"
+      ],
+      "explanation": "21 million bitcoin is the same as saying 2.1 quadrillion satoshis (2,100,000,000,000,000). 1 quadrillion has 15 zeros.",
+      "pillSignSide": "green",
+      "pointValue": 3
+    }
+  ]
+}

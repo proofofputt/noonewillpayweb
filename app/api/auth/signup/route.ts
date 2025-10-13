@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { hashPassword, createToken, generateReferralCode } from '@/lib/auth'
 import db, { users, referrals } from '@/lib/db'
 import { eq } from 'drizzle-orm'
+import { getClientIP } from '@/lib/ip'
+import { recordRegistrationBonus } from '@/lib/points/quiz-points'
 
 export async function POST(request: NextRequest) {
   try {
@@ -60,8 +62,19 @@ export async function POST(request: NextRequest) {
       passwordHash,
       referralCode,
       referredByCode: referredByCode || null,
-      allocationPoints: 0,
+      allocationPoints: '0',
+      registrationBonusAwarded: false,
     }).returning()
+
+    // Award registration bonus (10 points)
+    const ipAddress = getClientIP(request)
+    const userAgent = request.headers.get('user-agent')
+    await recordRegistrationBonus(newUser.id, ipAddress || undefined, userAgent || undefined)
+
+    // Mark bonus as awarded
+    await db.update(users)
+      .set({ registrationBonusAwarded: true })
+      .where(eq(users.id, newUser.id))
 
     // If referred by someone, create referral record
     if (referredByCode) {
@@ -72,13 +85,14 @@ export async function POST(request: NextRequest) {
         await db.insert(referrals).values({
           referrerId: referrer.id,
           referredId: newUser.id,
-          pointsEarned: 50,
+          pointsEarned: '50',
           status: 'active',
         })
 
         // Award points to referrer
+        const referrerPoints = parseFloat(referrer.allocationPoints as any) || 0
         await db.update(users)
-          .set({ allocationPoints: referrer.allocationPoints + 50 })
+          .set({ allocationPoints: (referrerPoints + 50).toFixed(3) })
           .where(eq(users.id, referrer.id))
       }
     }

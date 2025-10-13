@@ -76,14 +76,15 @@ export async function POST(request: NextRequest) {
     const [user] = await db.select().from(users).where(eq(users.id, session.id)).limit(1)
 
     if (user) {
+      const currentPoints = parseFloat(user.allocationPoints as any) || 0
       await db.update(users)
-        .set({ allocationPoints: user.allocationPoints + 25 })
+        .set({ allocationPoints: (currentPoints + 25).toFixed(3) })
         .where(eq(users.id, session.id))
 
       // Record points history
       await db.insert(allocationPointsHistory).values({
         userId: session.id,
-        points: 25,
+        points: '25',
         source: 'purchase',
         sourceId: purchase.id,
         description: `Package purchase: ${pkg.packageName}`,

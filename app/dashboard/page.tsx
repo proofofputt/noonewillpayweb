@@ -3,6 +3,9 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { QRCodeSVG } from 'qrcode.react'
+import { useSearchParams } from 'next/navigation'
+import { PointsHistory } from '@/components/PointsHistory'
+import { PointsBreakdown } from '@/components/PointsBreakdown'
 
 interface UserStats {
   referralCode: string
@@ -18,27 +21,107 @@ interface UserStats {
   }>
 }
 
-export default function DashboardPage() {
-  const [stats, setStats] = useState<UserStats>({
-    referralCode: 'ABCD123456',
-    referralCount: 12,
-    totalScore: 250,
-    allocationPoints: 1450,
-    rank: 23,
-    referrals: []
-  })
+interface StickerInfo {
+  stickers: Array<{
+    code: string
+    claimedAt: string | null
+    usageCount: number
+    batchId: string | null
+  }>
+  totalStickerReferrals: number
+}
 
+export default function DashboardPage() {
+  const searchParams = useSearchParams()
+  const referralCodeParam = searchParams?.get('code')
+  const phoneParam = searchParams?.get('phone')
+  const emailParam = searchParams?.get('email')
+
+  const [stats, setStats] = useState<UserStats | null>(null)
+  const [stickerInfo, setStickerInfo] = useState<StickerInfo | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   const [copied, setCopied] = useState(false)
   const [referralUrl, setReferralUrl] = useState('')
 
   useEffect(() => {
-    setReferralUrl(`${window.location.origin}/?ref=${stats.referralCode}`)
-  }, [stats.referralCode])
+    const fetchStats = async () => {
+      try {
+        setLoading(true)
+
+        // Build query params
+        const params = new URLSearchParams()
+        if (referralCodeParam) params.append('referralCode', referralCodeParam)
+        if (phoneParam) params.append('phone', phoneParam)
+        if (emailParam) params.append('email', emailParam)
+
+        const response = await fetch(`/api/profile/stats?${params}`)
+
+        if (!response.ok) {
+          throw new Error('Failed to load profile data')
+        }
+
+        const data = await response.json()
+
+        if (data.success) {
+          setStats(data.stats)
+          setStickerInfo(data.stickerCodes)
+          setError(null)
+        } else {
+          setError(data.error || 'Unknown error')
+        }
+      } catch (err) {
+        console.error('Error fetching stats:', err)
+        setError('Could not load dashboard data. Please check your URL parameters.')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    if (referralCodeParam || phoneParam || emailParam) {
+      fetchStats()
+    } else {
+      setError('Please provide a referral code, phone, or email in the URL. Example: /dashboard?code=ABCD-1234')
+      setLoading(false)
+    }
+  }, [referralCodeParam, phoneParam, emailParam])
+
+  useEffect(() => {
+    if (stats) {
+      setReferralUrl(`${window.location.origin}/?ref=${stats.referralCode}`)
+    }
+  }, [stats])
 
   const copyReferralLink = () => {
     navigator.clipboard.writeText(referralUrl)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-black text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-4xl mb-4">Loading...</div>
+          <p className="text-gray-400">Fetching your dashboard data</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (error || !stats) {
+    return (
+      <div className="min-h-screen bg-black text-white flex items-center justify-center p-8">
+        <div className="text-center max-w-md">
+          <div className="text-4xl mb-4 text-red-500">⚠️</div>
+          <h2 className="text-2xl font-bold mb-4">Error Loading Dashboard</h2>
+          <p className="text-gray-400 mb-4">{error || 'Unknown error occurred'}</p>
+          <p className="text-sm text-gray-500">
+            Please make sure you have a valid referral code, phone number, or email in the URL.
+          </p>
+        </div>
+      </div>
+    )
   }
 
   const allocationBreakdown = {
@@ -174,43 +257,37 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Allocation Breakdown */}
+        {/* Sticker Codes Section */}
+        {stickerInfo && stickerInfo.stickers.length > 0 && (
+          <div className="bg-gradient-to-br from-purple-900/20 to-blue-900/20 p-6 rounded-lg border border-purple-500 mb-8">
+            <h2 className="text-2xl font-bold mb-4 text-purple-300">🎫 Your Claimed Sticker Codes</h2>
+            <p className="text-sm text-gray-300 mb-4">
+              You claimed {stickerInfo.stickers.length} sticker code(s) which generated {stickerInfo.totalStickerReferrals} referral(s)
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {stickerInfo.stickers.map((sticker, idx) => (
+                <div key={idx} className="bg-black/40 p-4 rounded border border-purple-400">
+                  <div className="text-xl font-bold font-mono text-purple-300 mb-2">
+                    {sticker.code}
+                  </div>
+                  <div className="text-sm text-gray-400 space-y-1">
+                    <div>Claimed: {sticker.claimedAt ? new Date(sticker.claimedAt).toLocaleDateString() : 'N/A'}</div>
+                    <div>Referrals: {sticker.usageCount}</div>
+                    {sticker.batchId && <div className="text-xs">Batch: {sticker.batchId}</div>}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Detailed Points Breakdown */}
         <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 mb-8">
-          <h2 className="text-2xl font-bold mb-6">Allocation Breakdown</h2>
-
-          <div className="space-y-4">
-            <AllocationBar
-              label="Personal Score"
-              points={allocationBreakdown.basePoints}
-              total={stats.allocationPoints}
-              color="bitcoin"
-            />
-            <AllocationBar
-              label="Referral Bonus"
-              points={allocationBreakdown.referralBonus}
-              total={stats.allocationPoints}
-              color="ordinal"
-              subtitle={`${stats.referralCount} referrals × 50 points`}
-            />
-            <AllocationBar
-              label="Quality Bonus"
-              points={allocationBreakdown.scoreBonus}
-              total={stats.allocationPoints}
-              color="runes"
-              subtitle="10% of referral scores"
-            />
-          </div>
-
-          <div className="mt-6 p-4 bg-gray-950 rounded border border-gray-800 flex justify-between items-center">
-            <span className="font-bold">Total Allocation Points</span>
-            <span className="text-2xl font-bold text-bitcoin">
-              {stats.allocationPoints.toLocaleString()}
-            </span>
-          </div>
+          <PointsBreakdown referralCode={stats.referralCode} />
         </div>
 
         {/* Referral List */}
-        <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+        <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 mb-8">
           <h2 className="text-2xl font-bold mb-6">Your Referrals</h2>
 
           {stats.referrals.length === 0 ? (
@@ -251,6 +328,11 @@ export default function DashboardPage() {
               ))}
             </div>
           )}
+        </div>
+
+        {/* Points Transaction History */}
+        <div className="bg-gray-900 p-6 rounded-lg border border-gray-800">
+          <PointsHistory referralCode={stats.referralCode} />
         </div>
       </div>
     </div>

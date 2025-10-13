@@ -59,3 +59,41 @@ export function validateAnswer(question: Question, answer: string): boolean {
   // For questions without a correct answer (personal questions), any number is valid
   return true
 }
+
+export interface ScoredQuestion extends Question {
+  userAnswer: string
+  isCorrect: boolean
+  pointsEarned: number
+}
+
+export function scoreQuestions(questions: Question[], answers: { [key: string]: string }): {
+  scoredQuestions: ScoredQuestion[]
+  totalScore: number
+  maxScore: number
+  percentage: number
+} {
+  const scoredQuestions: ScoredQuestion[] = questions.map((q, index) => {
+    const answerKey = `question${index + 1}`
+    const userAnswer = answers[answerKey] || ''
+    const isCorrect = validateAnswer(q, userAnswer)
+    const pointValue = (q as any).pointValue || 1 // Default to 1 point if not specified
+
+    return {
+      ...q,
+      userAnswer,
+      isCorrect,
+      pointsEarned: isCorrect ? pointValue : 0
+    }
+  })
+
+  const totalScore = scoredQuestions.reduce((sum, q) => sum + q.pointsEarned, 0)
+  const maxScore = scoredQuestions.reduce((sum, q) => sum + ((q as any).pointValue || 1), 0)
+  const percentage = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0
+
+  return {
+    scoredQuestions,
+    totalScore,
+    maxScore,
+    percentage
+  }
+}

@@ -1,10 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import db, { surveyResponses, users, allocationPointsHistory } from '@/lib/db'
-import { eq } from 'drizzle-orm'
+import db, { surveyResponses, users, allocationPointsHistory, stickerCodes } from '@/lib/db'
+import { eq, or } from 'drizzle-orm'
 import { getClientIP } from '@/lib/ip'
 import { verifyAdminRequest } from '@/lib/admin-auth'
 import { detectRegionFromPhone } from '@/lib/phone-validation'
+import { generateReferralCode, isValidReferralCode } from '@/lib/referral'
+import { getAllQuestions, scoreQuestions, type Question } from '@/lib/questions'
+import { awardMultiLevelReferralPoints } from '@/lib/multi-level-referrals'
+import { recordQuickQuizPoints } from '@/lib/points/quiz-points'
 
 // Validation schema
 const SurveySchema = z.object({
@@ -17,6 +21,12 @@ const SurveySchema = z.object({
     question: z.string(),
     answer: z.string(),
   })),
+  answers: z.object({
+    question1: z.string(),
+    question2: z.string(),
+    question3: z.string(),
+  }),
+  referredBy: z.string().optional(), // Referral code from URL
   timestamp: z.string(),
 })
 
@@ -41,70 +51,194 @@ export async function POST(request: NextRequest) {
     // Check if IP blocking is disabled (for testing)
     const ipBlockingDisabled = process.env.DISABLE_IP_BLOCKING === 'true'
 
-    // For non-admin submissions, check for duplicates by IP (unless disabled for testing)
-    if (!isAdminSubmission && ipAddress && !ipBlockingDisabled) {
+    // For non-admin submissions, check for duplicates by IP OR phone number
+    if (!isAdminSubmission && !ipBlockingDisabled) {
+      const conditions = []
+
+      // Add IP check if available
+      if (ipAddress) {
+        conditions.push(eq(surveyResponses.ipAddress, ipAddress))
+      }
+
+      // Always check phone number (required field)
+      conditions.push(eq(surveyResponses.phone, validated.phone))
+
+      // Query for existing submission with same IP or phone
       const [existingSubmission] = await db
         .select()
         .from(surveyResponses)
-        .where(eq(surveyResponses.ipAddress, ipAddress))
+        .where(or(...conditions))
         .limit(1)
 
       if (existingSubmission) {
+        // Determine which field matched
+        const matchedByIP = existingSubmission.ipAddress === ipAddress
+        const matchedByPhone = existingSubmission.phone === validated.phone
+
+        let errorMessage = 'Survey already submitted'
+        if (matchedByPhone && matchedByIP) {
+          errorMessage = 'Survey already submitted from this device and phone number'
+        } else if (matchedByPhone) {
+          errorMessage = 'Survey already submitted with this phone number'
+        } else if (matchedByIP) {
+          errorMessage = 'Survey already submitted from this device'
+        }
+
         return NextResponse.json(
           {
             success: false,
-            error: 'Survey already submitted from this device',
-            alreadySubmitted: true
+            error: errorMessage,
+            alreadySubmitted: true,
+            matchedByIP,
+            matchedByPhone
           },
           { status: 409 }
         )
       }
     }
 
-    // Calculate score (simple scoring for now)
-    const score = validated.questions.length * 100 // 100 points per question
+    // Calculate proper score based on correct answers
+    const allQuestions = getAllQuestions()
+    const userQuestions = validated.questions.map(q =>
+      allQuestions.find(aq => aq.id === q.id)
+    ).filter(Boolean) as Question[]
 
-    // Store survey response
+    const scoringResult = scoreQuestions(userQuestions, validated.answers)
+    const { totalScore, maxScore, percentage, scoredQuestions } = scoringResult
+
+    // Generate unique referral code for this user
+    const referralCode = await generateReferralCode()
+
+    // Check if user exists early (for sticker claiming)
+    const existingUser = validated.email
+      ? await db.select().from(users).where(eq(users.email, validated.email)).limit(1)
+      : []
+    const [userRecord] = existingUser
+
+    // Handle sticker codes and regular referrals
+    let referredBy: string | null = null
+    let claimedStickerCode: string | null = null
+
+    if (validated.referredBy && isValidReferralCode(validated.referredBy)) {
+      const providedCode = validated.referredBy
+
+      // Check if it's a sticker code
+      const [stickerCode] = await db
+        .select()
+        .from(stickerCodes)
+        .where(eq(stickerCodes.code, providedCode))
+        .limit(1)
+
+      if (stickerCode && stickerCode.active) {
+        // This is a sticker code!
+        if (!stickerCode.claimed) {
+          // FIRST USER - Claim this sticker code
+          claimedStickerCode = stickerCode.code
+          // Will update sticker after survey is created
+        } else {
+          // SUBSEQUENT USERS - Referred by the person who claimed the sticker
+          // Find the survey that claimed this sticker to get their referral code
+          if (stickerCode.claimedBySurvey) {
+            const [claimerSurvey] = await db
+              .select()
+              .from(surveyResponses)
+              .where(eq(surveyResponses.id, stickerCode.claimedBySurvey))
+              .limit(1)
+
+            if (claimerSurvey) {
+              referredBy = claimerSurvey.referralCode
+              // Increment usage count on sticker code
+              await db
+                .update(stickerCodes)
+                .set({ usageCount: stickerCode.usageCount + 1 })
+                .where(eq(stickerCodes.id, stickerCode.id))
+            }
+          }
+        }
+      } else {
+        // Regular referral code (from another survey response)
+        referredBy = providedCode
+      }
+    }
+
+    // Store survey response with Quick Quiz data
+    const questionIds = userQuestions.map(q => q.id)
     const [survey] = await db.insert(surveyResponses).values({
       email: validated.email || null,
       phone: validated.phone,
       region,
       onCamera: validated.onCamera,
       newsletter: validated.newsletter,
-      answers: JSON.stringify(validated.questions),
-      score,
+      answers: JSON.stringify(scoredQuestions), // Store scored questions with explanations
+      score: totalScore,
+      quickQuizScore: totalScore, // Store Quick Quiz score
+      quickQuizQuestions: JSON.stringify(questionIds), // Store Quick Quiz question IDs
+      referralCode,
+      referredBy,
       ipAddress,
       userAgent,
+      userId: userRecord?.id || null, // Link to user if exists
       submittedBy: adminUser?.userId || null,
       isAdminSubmission,
     }).returning()
 
-    // If user exists, update their points (only if email provided)
-    const existingUser = validated.email
-      ? await db.select().from(users).where(eq(users.email, validated.email)).limit(1)
-      : []
-    const [userRecord] = existingUser
+    // If this user claimed a sticker code, update it
+    if (claimedStickerCode) {
+      await db
+        .update(stickerCodes)
+        .set({
+          claimed: true,
+          claimedBySurvey: survey.id,
+          claimedBy: userRecord?.id || null,
+          claimedAt: new Date(),
+        })
+        .where(eq(stickerCodes.code, claimedStickerCode))
+    }
 
+    // Award multi-level referral points to the entire chain
+    let multiLevelResults = null
+    if (referredBy) {
+      console.log(`[Survey Submit] Awarding multi-level referral points for survey ${survey.id}, referred by ${referredBy}`)
+
+      multiLevelResults = await awardMultiLevelReferralPoints(survey.id, referredBy)
+
+      console.log(`[Survey Submit] Multi-level results: ${multiLevelResults.levelsAwarded} levels, ${multiLevelResults.totalPoints} total points`)
+
+      if (multiLevelResults.errors.length > 0) {
+        console.error(`[Survey Submit] Multi-level referral errors:`, multiLevelResults.errors)
+      }
+    }
+
+    // If user exists, award Quick Quiz points via PointsService
     if (userRecord) {
-      await db.update(users)
-        .set({ allocationPoints: userRecord.allocationPoints + score })
-        .where(eq(users.id, userRecord.id))
+      // Prepare questions data for points recording
+      const questionsForPoints = scoredQuestions.map(sq => ({
+        id: sq.id,
+        correct: sq.isCorrect,
+        points: sq.pointsEarned
+      }))
 
-      // Record points history
-      await db.insert(allocationPointsHistory).values({
-        userId: userRecord.id,
-        points: score,
-        source: 'survey',
-        sourceId: survey.id,
-        description: `Survey completed with score: ${score}`,
-      })
+      // Award points through PointsService with full audit trail
+      await recordQuickQuizPoints(
+        userRecord.id,
+        questionsForPoints,
+        totalScore,
+        ipAddress || undefined,
+        userAgent || undefined
+      )
+
+      // Note: PointsService handles both points history recording and user total update
     }
 
     return NextResponse.json({
       success: true,
       message: 'Survey submitted successfully',
       surveyId: survey.id,
-      score,
+      score: totalScore,
+      maxScore,
+      percentage,
+      referralCode,
+      scoredQuestions, // Include for results page
       region,
     })
   } catch (error) {

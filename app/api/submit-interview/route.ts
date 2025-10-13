@@ -3,6 +3,7 @@ import { z } from 'zod'
 import db, { surveyResponses } from '@/lib/db'
 import { getClientIP } from '@/lib/ip'
 import { verifyAdminRequest } from '@/lib/admin-auth'
+import { generateReferralCode } from '@/lib/referral'
 
 const InterviewSchema = z.object({
   sessionId: z.string(),
@@ -42,6 +43,9 @@ export async function POST(request: NextRequest) {
     // Calculate score
     const score = validated.questions.length * 100
 
+    // Generate unique referral code for this interview participant
+    const referralCode = await generateReferralCode()
+
     // Store interview submission
     const [survey] = await db.insert(surveyResponses).values({
       email: validated.participantInfo?.email || null,
@@ -51,6 +55,8 @@ export async function POST(request: NextRequest) {
       newsletter: false, // Street interviews don't opt into newsletter by default
       answers: JSON.stringify(validated.questions),
       score,
+      referralCode,
+      referredBy: null, // Interviews are not referrals
       ipAddress,
       userAgent,
       submittedBy: adminUser.userId,

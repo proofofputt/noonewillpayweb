@@ -8,6 +8,20 @@
       "when": 1759798600857,
       "tag": "0000_cloudy_blue_marvel",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760285490061,
+      "tag": "0001_brave_night_nurse",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1760289532652,
+      "tag": "0002_daily_jubilee",
+      "breakpoints": true
     }
   ]
 }
