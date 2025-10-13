@@ -345,15 +345,6 @@ export default function SurveyForm() {
           {contactForm.formState.errors.agreeToTerms && (
             <p className="text-red-300 text-sm mt-2 ml-8">{contactForm.formState.errors.agreeToTerms.message}</p>
           )}
-          <div className="mt-4 text-xs text-gray-300 ml-8">
-            <p className="mb-1">By submitting this survey:</p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li>Your IP address will be collected to prevent duplicate submissions</li>
-              <li>Your responses and contact info will be used for research and education</li>
-              <li>You may receive allocation points based on your performance</li>
-              <li>If you consent to camera recording, your image may be used publicly</li>
-            </ul>
-          </div>
         </div>
 
         <div className="flex gap-4">
