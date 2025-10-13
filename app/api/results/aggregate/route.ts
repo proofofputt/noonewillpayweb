@@ -126,11 +126,19 @@ export async function GET(request: NextRequest) {
       }
 
       if (totalAnswers > 0) {
+        // Get correct answer as string (handle both numeric and multiple choice)
+        let correctAnswerStr = 'N/A'
+        if (question.answerType === 'multipleChoice' && question.correctOption) {
+          correctAnswerStr = question.correctOption
+        } else if (question.correctAnswer !== undefined) {
+          correctAnswerStr = question.correctAnswer.toString()
+        }
+
         questionStats.push({
           id: question.id,
           question: question.question,
           difficulty: question.difficulty,
-          correctAnswer: question.correctAnswer,
+          correctAnswer: correctAnswerStr,
           totalAnswers,
           correctAnswers,
           correctPercentage: (correctAnswers / totalAnswers) * 100,

@@ -11,10 +11,12 @@ if (!process.env.DATABASE_URL) {
   throw new Error('DATABASE_URL environment variable is required')
 }
 
+const databaseUrl = process.env.DATABASE_URL
+
 async function runMigrations() {
   console.log('Running database migrations...')
 
-  const sql = neon(process.env.DATABASE_URL)
+  const sql = neon(databaseUrl)
   const db = drizzle(sql)
 
   try {
