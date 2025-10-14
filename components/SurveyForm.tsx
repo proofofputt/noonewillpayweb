@@ -272,6 +272,51 @@ export default function SurveyForm() {
             <li>✓ Educational resources & community access</li>
           </ul>
         </div>
+
+        {/* Educational Videos */}
+        <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-lg p-4 md:p-6 border-2 border-purple-400">
+          <h3 className="font-bold mb-4 text-white text-lg md:text-xl text-center">🎓 Essential Bitcoin Education</h3>
+
+          {/* Bitcoin Whitepaper Readalong */}
+          <div className="mb-6 bg-black/40 rounded-lg p-4 border border-purple-300">
+            <h4 className="font-bold mb-2 text-white text-base md:text-lg">
+              📄 Bitcoin Whitepaper Readalong
+            </h4>
+            <p className="text-sm text-gray-300 mb-3">
+              No excuse not to have read it now!
+            </p>
+            <div className="relative rounded-lg overflow-hidden" style={{ paddingBottom: '56.25%', height: 0 }}>
+              <video
+                controls
+                className="absolute top-0 left-0 w-full h-full"
+                style={{ objectFit: 'contain' }}
+              >
+                <source src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4XM9BNvA8Nab9dzSiIuo%2Fuploads%2FdGZc9971YEEQJiNfAHLf%2FBitcoin%20Whitepaper%20Readalong.compressed.mp4?alt=media&token=d89cfb00-6227-43d2-b194-7b48854c481a" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+          {/* Xverse Wallet Setup */}
+          <div className="bg-black/40 rounded-lg p-4 border border-bitcoin">
+            <h4 className="font-bold mb-2 text-white text-base md:text-lg">
+              🔐 Xverse Wallet Setup & Taproot Address
+            </h4>
+            <p className="text-sm text-gray-300 mb-3">
+              Learn how to set up your Bitcoin wallet and copy your Taproot address
+            </p>
+            <div className="relative rounded-lg overflow-hidden" style={{ paddingBottom: '56.25%', height: 0 }}>
+              <video
+                controls
+                className="absolute top-0 left-0 w-full h-full"
+                style={{ objectFit: 'contain' }}
+              >
+                <source src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4XM9BNvA8Nab9dzSiIuo%2Fuploads%2FrLBtxaTDkJPlRWJNLgnA%2FXversesetup.mp4?alt=media&token=0c274988-88e2-41ce-a964-e78dc79c27e1" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
       </motion.div>
     )
   }
