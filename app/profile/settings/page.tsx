@@ -117,16 +117,16 @@ export default function ProfileSettingsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-steel via-steel-light to-steel-darker py-12 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-steel via-steel-light to-steel-darker py-6 px-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="max-w-4xl mx-auto"
+        className="max-w-3xl mx-auto"
       >
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold text-white mb-2">Profile Settings</h1>
-          <p className="text-gray-300">Manage your account preferences and demographics</p>
+        <div className="mb-4">
+          <h1 className="text-2xl font-bold text-white mb-1">Profile Settings</h1>
+          <p className="text-sm text-gray-300">Manage your account preferences and demographics</p>
         </div>
 
         {/* Success Message */}
@@ -134,7 +134,7 @@ export default function ProfileSettingsPage() {
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mb-6 p-4 bg-green-600 text-white rounded-lg border-2 border-green-700"
+            className="mb-4 p-3 bg-green-600 text-white rounded-lg text-sm"
           >
             ✓ Profile updated successfully!
           </motion.div>
@@ -142,30 +142,30 @@ export default function ProfileSettingsPage() {
 
         {/* Error Message */}
         {error && (
-          <div className="mb-6 p-4 bg-red-600 text-white rounded-lg border-2 border-red-700">
+          <div className="mb-4 p-3 bg-red-600 text-white rounded-lg text-sm">
             {error}
           </div>
         )}
 
         {/* Profile Stats Card */}
-        <div className="container-card p-6 bg-gradient-to-br from-orange via-orange-dark to-steel-800 mb-6">
-          <h2 className="text-2xl font-bold text-white mb-4">Account Overview</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-black/30 rounded-lg p-4">
-              <div className="text-sm text-orange-light mb-1">Email</div>
-              <div className="text-white font-semibold">{profile.email}</div>
+        <div className="container-card p-4 bg-gradient-to-br from-orange via-orange-dark to-steel-800 mb-4">
+          <h2 className="text-lg font-bold text-white mb-3">Account Overview</h2>
+          <div className="grid grid-cols-2 gap-3">
+            <div className="bg-black/30 rounded-lg p-3">
+              <div className="text-xs text-orange-light mb-1">Email</div>
+              <div className="text-white text-sm font-semibold">{profile.email}</div>
             </div>
-            <div className="bg-black/30 rounded-lg p-4">
-              <div className="text-sm text-orange-light mb-1">Referral Code</div>
-              <div className="text-white font-mono font-bold text-lg">{profile.referralCode}</div>
+            <div className="bg-black/30 rounded-lg p-3">
+              <div className="text-xs text-orange-light mb-1">Referral Code</div>
+              <div className="text-white font-mono font-bold text-sm">{profile.referralCode}</div>
             </div>
-            <div className="bg-black/30 rounded-lg p-4">
-              <div className="text-sm text-orange-light mb-1">Allocation Points</div>
-              <div className="text-white font-bold text-2xl">{parseFloat(profile.allocationPoints).toFixed(1)}</div>
+            <div className="bg-black/30 rounded-lg p-3">
+              <div className="text-xs text-orange-light mb-1">Allocation Points</div>
+              <div className="text-white font-bold text-lg">{parseFloat(profile.allocationPoints).toFixed(1)}</div>
             </div>
-            <div className="bg-black/30 rounded-lg p-4">
-              <div className="text-sm text-orange-light mb-1">Member Since</div>
-              <div className="text-white font-semibold">
+            <div className="bg-black/30 rounded-lg p-3">
+              <div className="text-xs text-orange-light mb-1">Member Since</div>
+              <div className="text-white text-sm font-semibold">
                 {new Date(profile.id).toLocaleDateString()}
               </div>
             </div>
@@ -173,24 +173,23 @@ export default function ProfileSettingsPage() {
         </div>
 
         {/* Settings Form */}
-        <form onSubmit={handleSubmit} className="container-card p-8 bg-gradient-to-br from-orange via-orange-dark to-steel-800">
-          <h2 className="text-2xl font-bold text-white mb-6">Update Profile</h2>
+        <form onSubmit={handleSubmit} className="container-card p-4 bg-gradient-to-br from-orange via-orange-dark to-steel-800">
+          <h2 className="text-lg font-bold text-white mb-4">Update Profile</h2>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             {/* Username */}
             <div>
-              <label className="block text-sm font-medium mb-2 text-white">
-                Username
+              <label className="block text-xs font-medium mb-1 text-white">
+                Username (Optional)
               </label>
               <input
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className="w-full px-4 py-3 bg-white/90 text-black border-2 border-white rounded-lg focus:border-orange focus:outline-none font-semibold"
-                placeholder="Your username"
+                className="w-full px-3 py-2 bg-white/90 text-black border border-white rounded text-sm focus:border-orange focus:outline-none"
+                placeholder="Enter username"
                 minLength={3}
                 maxLength={100}
-                required
               />
               <p className="text-xs text-gray-300 mt-1">
                 3-100 characters, displayed publicly
@@ -199,78 +198,72 @@ export default function ProfileSettingsPage() {
 
             {/* Birth Decade */}
             <div>
-              <label className="block text-sm font-medium mb-2 text-white">
+              <label className="block text-xs font-medium mb-2 text-white">
                 Birth Decade (Optional)
               </label>
-              <select
-                value={birthDecade}
-                onChange={(e) => setBirthDecade(e.target.value)}
-                className="w-full px-4 py-3 bg-white/90 text-black border-2 border-white rounded-lg focus:border-orange focus:outline-none font-semibold cursor-pointer"
-              >
-                <option value="">Prefer not to say</option>
+              <div className="space-y-2">
                 {BIRTH_DECADES.map((decade) => (
-                  <option key={decade.value} value={decade.value}>
-                    {decade.label}
-                  </option>
+                  <label key={decade.value} className="flex items-center space-x-2 cursor-pointer">
+                    <input
+                      type="radio"
+                      name="birthDecade"
+                      value={decade.value}
+                      checked={birthDecade === decade.value}
+                      onChange={(e) => setBirthDecade(e.target.value)}
+                      className="w-4 h-4 text-orange focus:ring-orange"
+                    />
+                    <span className="text-sm text-white">{decade.label}</span>
+                  </label>
                 ))}
-              </select>
-              <p className="text-xs text-gray-300 mt-1">
-                Helps us provide better demographics insights and compare your results with your generation
+                <label className="flex items-center space-x-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    name="birthDecade"
+                    value=""
+                    checked={birthDecade === ''}
+                    onChange={(e) => setBirthDecade(e.target.value)}
+                    className="w-4 h-4 text-orange focus:ring-orange"
+                  />
+                  <span className="text-sm text-white">Prefer not to say</span>
+                </label>
+              </div>
+              <p className="text-xs text-gray-300 mt-2">
+                Helps us provide better demographics insights
               </p>
             </div>
 
-            {/* Current Selection Display */}
-            {birthDecade && (
-              <div className="bg-black/30 rounded-lg p-4 border border-orange">
-                <div className="text-sm text-orange-light mb-1">Your Generation</div>
-                <div className="text-white font-bold text-lg">
-                  {BIRTH_DECADES.find(d => d.value === birthDecade)?.label}
-                </div>
-              </div>
-            )}
-
             {/* Bitcoin Taproot Address */}
             <div>
-              <label className="block text-sm font-medium mb-2 text-white">
+              <label className="block text-xs font-medium mb-1 text-white">
                 Bitcoin Taproot Address (Optional)
               </label>
               <input
                 type="text"
                 value={bitcoinAddress}
                 onChange={(e) => setBitcoinAddress(e.target.value)}
-                className="w-full px-4 py-3 bg-white/90 text-black border-2 border-white rounded-lg focus:border-orange focus:outline-none font-mono text-sm"
-                placeholder="bc1p... (Taproot address)"
+                className="w-full px-3 py-2 bg-white/90 text-black border border-white rounded font-mono text-xs focus:border-orange focus:outline-none"
+                placeholder="Starts with bc1p"
                 maxLength={255}
               />
               <p className="text-xs text-gray-300 mt-1">
-                Add your Bitcoin Taproot address (bc1p...) to receive Bitcoin rewards and payments. Make sure you control this address.
+                Starts with bc1p - for receiving Bitcoin rewards
               </p>
             </div>
-
-            {/* Bitcoin Address Display */}
-            {bitcoinAddress && (
-              <div className="bg-gradient-to-br from-bitcoin/20 to-orange/20 rounded-lg p-4 border border-bitcoin">
-                <div className="text-sm text-orange-light mb-1">Your Bitcoin Address</div>
-                <div className="text-white font-mono text-sm break-all">
-                  {bitcoinAddress}
-                </div>
-              </div>
-            )}
           </div>
 
           {/* Action Buttons */}
-          <div className="flex gap-4 mt-8">
+          <div className="flex gap-3 mt-6">
             <button
               type="button"
               onClick={() => router.push('/my-dashboard')}
-              className="px-6 py-3 bg-gray-600 text-white font-bold rounded-lg hover:bg-gray-700 transition-colors"
+              className="px-4 py-2 bg-gray-600 text-white text-sm font-bold rounded-lg hover:bg-gray-700 transition-colors"
             >
               Cancel
             </button>
             <button
               type="submit"
               disabled={saving}
-              className="flex-1 px-6 py-3 bg-green-600 text-white font-bold rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 px-4 py-2 bg-green-600 text-white text-sm font-bold rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {saving ? 'Saving...' : 'Save Changes'}
             </button>
@@ -278,11 +271,10 @@ export default function ProfileSettingsPage() {
         </form>
 
         {/* Privacy Notice */}
-        <div className="mt-6 p-4 bg-black/40 rounded-lg border border-white/20">
-          <h3 className="text-white font-bold mb-2">🔒 Privacy Notice</h3>
-          <p className="text-sm text-gray-300">
+        <div className="mt-4 p-3 bg-black/40 rounded-lg border border-white/20">
+          <h3 className="text-white font-bold text-sm mb-1">🔒 Privacy Notice</h3>
+          <p className="text-xs text-gray-300">
             Your birth decade is used anonymously for demographic analytics and will never be shared publicly.
-            You can view aggregated results filtered by generation on the Results page.
           </p>
         </div>
       </motion.div>
