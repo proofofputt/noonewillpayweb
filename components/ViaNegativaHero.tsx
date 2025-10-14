@@ -80,7 +80,7 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
                 href="/book-club"
                 className="inline-block text-white hover:text-orange-300 transition-colors text-sm font-semibold underline"
               >
-                📚 12 Months of Bitcoin Book Clubs
+                📚 2026 12 Months of Bitcoin Book Clubs
               </a>
             </motion.div>
           </div>

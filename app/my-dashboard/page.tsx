@@ -174,11 +174,11 @@ export default function MyDashboardPage() {
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-5xl">📚</span>
                 <h2 className="text-3xl font-bold text-white">
-                  12 Months of Bitcoin Book Clubs
+                  <span className="text-bitcoin">2026</span> 12 Months of Bitcoin Book Clubs
                 </h2>
               </div>
               <p className="text-lg text-gray-200 mb-4 leading-relaxed">
-                Access your comprehensive guide to running Bitcoin education book clubs. Includes book notes, discussion guides, and 21 professionally designed slide presentations.
+                Access your comprehensive guide to running Bitcoin education book clubs throughout 2026. Includes book notes, discussion guides, and 21 professionally designed slide presentations.
               </p>
               <div className="flex flex-wrap gap-3 mb-6">
                 <div className="bg-black/30 px-4 py-2 rounded-lg border border-purple-300">

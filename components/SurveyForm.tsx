@@ -264,7 +264,7 @@ export default function SurveyForm() {
         <div className="bg-black/20 rounded-lg p-4 md:p-6 border border-white/30">
           <h3 className="font-bold mb-3 text-white text-base md:text-lg">📚 Resources in Your Dashboard:</h3>
           <ul className="text-left text-xs md:text-sm text-white space-y-2">
-            <li>✓ 12 Months of Bitcoin Book Clubs (GitBook)</li>
+            <li>✓ 2026 12 Months of Bitcoin Book Clubs (GitBook)</li>
             <li>✓ Complete the Full Assessment (195 more points)</li>
             <li>✓ Your referral link & QR code</li>
             <li>✓ Points history & breakdown</li>
