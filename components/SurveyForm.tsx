@@ -291,7 +291,7 @@ export default function SurveyForm() {
                 className="absolute top-0 left-0 w-full h-full"
                 style={{ objectFit: 'contain' }}
               >
-                <source src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4XM9BNvA8Nab9dzSiIuo%2Fuploads%2FdGZc9971YEEQJiNfAHLf%2FBitcoin%20Whitepaper%20Readalong.compressed.mp4?alt=media&token=d89cfb00-6227-43d2-b194-7b48854c481a" type="video/mp4" />
+                <source src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F4XM9BNvA8Nab9dzSiIuo%2Fuploads%2FLJ3ZhVmxNh57OCQrtrR9%2FBitcoin%20Whitepaper%20Readalong.compressed.mp4?alt=media&token=6d5a8e55-c408-4a69-8b61-8fb4ec0d6031" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

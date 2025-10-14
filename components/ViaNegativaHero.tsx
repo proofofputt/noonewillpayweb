@@ -70,19 +70,6 @@ export default function ViaNegativaHero({ onBeginSurvey }: ViaNegativaHeroProps)
             >
               Begin Survey
             </motion.button>
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.1, duration: 0.5 }}
-            >
-              <a
-                href="/book-club"
-                className="inline-block text-white hover:text-orange-300 transition-colors text-sm font-semibold underline"
-              >
-                📚 2026 12 Months of Bitcoin Book Clubs
-              </a>
-            </motion.div>
           </div>
         </div>
       </div>
