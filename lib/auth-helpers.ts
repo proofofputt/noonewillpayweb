@@ -10,6 +10,7 @@ export interface CurrentUser {
   referralCode: string
   allocationPoints: string
   birthDecade: string | null
+  bitcoinAddress: string | null
   registrationBonusAwarded: boolean
   isAdmin: boolean
   createdAt: Date
@@ -52,6 +53,7 @@ export async function getCurrentUser(): Promise<CurrentUser | null> {
       referralCode: user.referralCode,
       allocationPoints: user.allocationPoints,
       birthDecade: user.birthDecade,
+      bitcoinAddress: user.bitcoinAddress,
       registrationBonusAwarded: user.registrationBonusAwarded,
       isAdmin: user.isAdmin,
       createdAt: user.createdAt,
